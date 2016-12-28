@@ -1,0 +1,19 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>{{ site.name }}</title>
+<link>{{ site.url }}</link>
+{% for post in site.posts %}
+<item>
+<title>{{ post.title }}</title>
+<link>{{ site.url }}{{ post.id }}</link>
+<description>{% if post.teaser %}{{ post.teaser | xml_escape }}{% endif %}</description>
+<category>{{ post.category }}</category>
+<guid>{{ site.url }}{{ post.id }}</guid>
+<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+</item>
+{% endfor %}
+</channel>
+</rss>

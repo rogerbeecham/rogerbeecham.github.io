@@ -1,0 +1,273 @@
+/* Author: Eric Meyer, with modifications by Iain Dillingham and Roger Beecham via http://www.mjskay.com
+ * Version: 2016-09-05 (Roger Beecham via http://www.mjskay.com)
+ * Version: 2014-05-25 (Iain Dillingham)
+ * Version: 2011-01-26 (Eric Meyer)
+ * http://meyerweb.com/eric/tools/css/reset/
+*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600);
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  max-width: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+  display: block;
+}
+
+html, body, div#content {
+  height: 100%;
+}
+
+body {
+  color: rgb(37, 37, 37);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+div#content {
+  margin-right: auto;
+  margin-left: auto;
+  width: 51em;
+}
+
+div#left-column {
+  position: absolute;
+  top: 0;
+  padding-right: 1em;
+  width: 14em;
+  border-right-color: rgb(150, 150, 150);
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+img#roger_beecham {
+  margin-bottom: 0.8em;
+  margin-top: 0.6em;
+}
+
+div#right-column {
+  margin-left: 15em;
+  padding-left: 1em;
+  width: 35em;
+  min-height: 100%;
+  border-left-color: rgb(150, 150, 150);
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+div#right-column {
+  margin-left: 15em;
+  padding-left: 1em;
+  width: 35em;
+  min-height: 100%;
+  border-left-color: rgb(150, 150, 150);
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.3em;
+  margin-top: 0.8em;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p {
+  line-height: 1.4em;
+  padding-bottom: 0.7em;
+}
+
+
+code, pre {
+  background-color: rgb(240, 240, 240);
+  border-color: rgb(189, 189, 189);
+  border-style: solid;
+  border-width: 1px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+pre {
+  line-height: 1.6em;
+  margin-bottom: 0.6em;
+  padding: 0.2em 0.6em;
+}
+figure {
+  line-height: 1.2em;
+  margin-bottom: 0.8em;
+}
+
+figcaption {
+  color: rgb(150, 150, 150);
+  font-size: 0.8em;
+  text-align: center;
+}
+
+a {
+  color: rgb(8, 81, 156);
+  text-decoration: none;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  border-bottom: 0.1em dotted;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ol, ul {
+  list-style: circle;
+  margin-left: 1.6em;
+}
+
+li {
+  line-height: 1.2em;
+  padding-bottom: 0.4em;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+ /*PUBLICATION LISTS  -- via http://www.mjskay.com*/
+/* publication number, title */
+/*ol.publications .title span.bracket {
+  position: relative;
+  top: -0.3px;
+}*/
+ol.publications li p.title {
+  font-size: 1.0em;
+  font-weight: 700;
+  line-height: normal;
+}
+
+ol.publications .title a:link {
+  color: rgb(37, 37, 37);
+}
+ol.publications .title a:visited {
+  color: rgb(37, 37, 37);
+}
+
+ol.publications {
+  position: relative;
+
+}
+ol.publications li {
+  display: block;
+  padding-bottom: 1.0em;
+}
+ol.publications > li.best_paper:before,
+ol.publications > li.best_paper_nominee:before {
+  content: ' \25CF';
+  color: rgb(165,15,21);
+  position: absolute;
+  left: -2em;
+}
+ol.publications > li.best_paper_nominee:before {
+    content: ' \25CB';
+}
+ol.publications li li.best_paper {
+  color: rgb(165,15,21);
+}
+ol.publications .collection {
+  /* title of journal/collection/etc */
+}
+ol.publications li p {
+  padding: 0;
+  margin: 0;
+  text-indent: 0;
+  font-size: 0.9em;
+}
+ol.publications .me {
+  /* my name in the author's list */
+  font-style: italic;
+}
+ol.publications ul {
+  display: block;
+  list-style-image: none;
+  list-style-type: none;
+  text-indent: 0;
+  padding: 0;
+  margin: 0;
+  text-transform: lowercase;
+  font-size: 0.9em;
+  font-style: normal;
+  border: none;
+  letter-spacing: 0.05em;
+}
+ol.publications ul li {
+  list-style-image: none;
+  list-style-type: none;
+  text-indent: 0;
+  padding: 0;
+  margin: 0;
+}
+ol.publications ul li {
+  display: inline;
+}
+ol.publications ul li + li:before {
+  content: "  \2022\00A0";
+}
+ol.publications ul li + li:before {
+  color: rgb(37,37,37);
+  position: relative;
+  top: 0em;
+  /* improve centering of bullet relative to small-caps text */
+
+}
