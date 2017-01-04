@@ -5,4 +5,4 @@ highlighter: rouge
 safe: true
 timezone: Europe/London
 url: http://www.roger-beecham.com
-markdown: redcarpet
+markdown: kramdown
