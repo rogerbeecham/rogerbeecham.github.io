@@ -49,8 +49,8 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
        <li> infovis 2014</li>
          <li><abbr title="paper"><a href="{{ site.url }}/papers/wood_moving_2014.pdf">paper</a></abbr></li>
        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/wood_moving_2014.bib">BibTeX</a></abbr></li>
-    </ul>
-   </li>
+  </ul>
+
 
    <li>
    <p class="title"><a href="{{ site.url }}/papers/beecham_characterising_2014.pdf">Characterising group-cycling journeys using interactive graphics</a></p>
@@ -60,7 +60,6 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
          <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_characterising_2014.pdf">paper</a></abbr></li>
        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_characterising_2014.bib">BibTeX</a></abbr></li>
     </ul>
-   </li>
 
    <li>
    <p class="title"><a href="{{ site.url }}/papers/beecham_studying_2014.pdf">Studying commuting behaviours using collaborative visual analytics</a></p>
@@ -70,7 +69,7 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
          <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_studying_2014.pdf">paper</a></abbr></li>
        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_studying_2014.bib">BibTeX</a></abbr></li>
     </ul>
-   </li>
+
 
    <li class="best_paper_nominee">
    <p class="title"><a href="{{ site.url }}/papers/beecham_exploring_2014.pdf">Exploring gendered cycling behaviours within a large-scale behavioural dataset</a></p>
@@ -81,7 +80,6 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
          <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_exploring_2014.pdf">paper</a></abbr></li>
        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_exploring_2014.bib">BibTeX</a></abbr></li>
     </ul>
-   </li>
 
 <li>
    <p class="title"><a href="{{ site.url }}/papers/beecham_towards_2014.pdf">Towards confirmatory data analysis? Deriving and analysing routing information for an origin-destination bikeshare dataset</a></p>
@@ -91,17 +89,15 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
          <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_towards_2014.pdf">paper</a></abbr></li>
        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_towards_2014.bib">BibTeX</a></abbr></li>
     </ul>
-  </li>
 
   <li class="best_paper_nominee">
   <p class="title"><a href="{{ site.url }}/papers/slingsby_visual_2013.pdf">Visual analysis of social networks in space and time using smartphone logs</a></p>
-  <p class="authors">Aisan&nbsp;Slingsby, <span class="me">Roger&nbsp;Beecham</span> and&nbsp;Jo&nbsp;Wood
+  <p class="authors">Aidan&nbsp;Slingsby, <span class="me">Roger&nbsp;Beecham</span> and&nbsp;Jo&nbsp;Wood
   <ul>
       <li> pervasive 2013</li>
       <li class="best_paper">Nokia Data Challenge (3rd place)</li>
         <li><abbr title="paper"><a href="{{ site.url }}/papers/slingsby_visual_2013.pdf">paper</a></abbr></li>
       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/slingsby_visual_2013.bib">BibTeX</a></abbr></li>
    </ul>
-  </li>
 
-</ol>
+
