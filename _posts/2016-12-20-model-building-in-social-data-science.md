@@ -71,7 +71,7 @@ In order to control for origin (the home locations of bikeshare users), we weigh
 
 ### Early views on the model output
 
-We wish to explore how well our assumptions dataset fits the observed geography of bikesare workplaces. We also want to know _where_ (in which LSOAs) the assumptions data performs  well and not so well, and also _by how much_. We can do this using standardised residuals from the Chi-statistic. Here our observed value is the number of bikeshare jobs in an LSOA and the expected value is derived from a contingency table that assumes independence between the two count distributions for our observed and assumptions dataset:</p>
+We wish to explore how well our assumptions dataset fits the observed geography of bikesare workplaces. We also want to know _where_ (in which LSOAs) the assumptions data performs  well and not so well, and also _by how much_. We can do this using standardised residuals from the Chi-statistic. Here our observed value is the number of bikeshare jobs in an LSOA and the expected value is derived from a contingency table that assumes independence between the two count distributions for our observed and assumptions dataset:
 
 <p><pre>
 std.residual[lsoa_i] = (obs[lsoa_i] - exp[lsoa_i]) / sqrt(exp[lsoa_i])
@@ -101,7 +101,7 @@ First, we use as our assumptions data Census counts for jobs filled in each LSOA
 
 <figure> <img alt="residuals map 1" src="{{ site.url }}/img/posts/residuals_map_1.png" id="residuals_map_1" ><figcaption>Comparison of observed bikeshare jobs with assumptions data (Census jobs given home locations of bikeshare commuters)</figcaption></figure>
 
-<p>This feels like it could be a capacity-limit problem – that there’s so many jobs in LSOAs in the City and other areas that competition for bikes is more likely to limit the number of ‘bikeshare jobs’ that can exist. So we add a bikeshare-infrastructure assumption (or weight) to our expected counts. Notice now that  colour lightness increases -- suggesting there’s less variation between the observed workplaces and our assumptions dataset (the residuals tend more towards zero). This is confirmed by the Cramer’s V (effect size), which was small in any case, but has reduced further. Notice also that the sign on the residuals has reversed in the City -- we now observe a greater number of bikeshare jobs than would be expected when we control for the number of jobs available in those areas and the provision of bikeshare cycling facilities.
+This feels like it could be a capacity-limit problem – that there’s so many jobs in LSOAs in the City and other areas that competition for bikes is more likely to limit the number of ‘bikeshare jobs’ that can exist. So we add a bikeshare-infrastructure assumption (or weight) to our expected counts. Notice now that  colour lightness increases -- suggesting there’s less variation between the observed workplaces and our assumptions dataset (the residuals tend more towards zero). This is confirmed by the Cramer’s V (effect size), which was small in any case, but has reduced further. Notice also that the sign on the residuals has reversed in the City -- we now observe a greater number of bikeshare jobs than would be expected when we control for the number of jobs available in those areas and the provision of bikeshare cycling facilities.
 
 <figure> <img alt="residuals map 2" src="{{ site.url }}/img/posts/residuals_map_2.png" id="residuals_map_2" ><figcaption>Comparison of observed bikeshare jobs with assumptions data (Census jobs given home locations of bikeshare commuters+ bikeshare infrastructure )</figcaption></figure>
 
@@ -111,9 +111,9 @@ At this point it would be great to add a cycle infrastructure weight that allows
 
 One of the main ambitions was to end up with explanations for the geography of observed bikeshare workplaces with _quantified measures of effect_. As well as the visual analysis presented above, we fit log-log models to our bikeshare and assumptions data separately for men and women. Studying how model fit (R&#94;2, prediction intervals) and regression coefficients vary both between men and women, and as we add more assumptions, is instructive and some summary charts are below.
 
-<figure> <img alt="regression output" src="{{ site.url }}/img/posts/regression_output.png" id="regression_output" ><figcaption>Example regression output. Bands around regression line represent prediction intervals.</figcaption></figure>
+<figure> <img alt="regression output" src="{{ site.url }}/img/posts/regression_output.png" id="regression_output" ><figcaption>Example regression output. Bands around regression line represent prediction intervals</figcaption></figure>
 
-I don't want to say too much about these. There are plenty of things to reconcile before progressing much further -- an alternative measure to replace _quietness_, what to do about certain obviously peculiar locations (Canary Wharf) and also whether we can actually use a more suitable geography (e.g. Workplace Zones). However, this initial analysis suggests that our assumptions data do help to explain the observed geography of bikeshare jobs: as we add to the assumptions, model fit improves, the slope tends towards 1 and prediction intervals generally  narrow. It also suggests we can better explain the geography of men’s bikeshare workplaces than we can women's given the explanatory variables available to us. Thus, the geography of women's bikeshare workplaces might be explained by confounders separate to those we've described (and modelled) to date.
+
 
 
 ### Isn't this (model building with repurposed data) all just secondary data analysis?

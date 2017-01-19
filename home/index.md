@@ -23,7 +23,7 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
         <li class="best_paper">best paper honorable mention</li>
         <li><abbr title="website"><a href="http://www.gicentre.net/maplineups" target="_blank">website</a></abbr></li>
         <li><abbr title="code"><a href="https://github.com/rogerbeecham/map-lineups" target="_blank">code</a></abbr></li>
-        <li><abbr title="code"><a href="https://vimeo.com/189390725" target="_blank">talk</a></abbr></li>
+        <li><abbr title="talk"><a href="https://vimeo.com/189390725" target="_blank">talk</a></abbr></li>
         <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_map_2016.pdf">paper</a></abbr></li>
         <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_map_2016.bib">BibTeX</a></abbr></li>
       </ul>
@@ -36,7 +36,8 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
        <li> eurovis 2016</li
        ><li><abbr title="website"><a href="http://www.gicentre.net/favves" target="_blank">website</a></abbr></li>
        <li><abbr title="code"><a href="https://github.com/sebastian-meier/vis-survey" target="_blank">code</a></abbr></li>
-         <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_faceted_2016.pdf">paper</a></abbr></li>
+       <li><abbr title="talk"><a href="https://vimeo.com/groups/eurovis2016/videos/177268318" target="_blank">talk</a></abbr></li>
+       <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_faceted_2016.pdf">paper</a></abbr></li>
        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_faceted_2016.bib">BibTeX</a></abbr></li>
     </ul>
    </li>
