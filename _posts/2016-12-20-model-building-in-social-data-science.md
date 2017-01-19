@@ -71,7 +71,7 @@ In order to control for origin (the home locations of bikeshare users), we weigh
 
 ### Early views on the model output
 
-We wish to explore how well our assumptions dataset fits the observed geography of bikesare workplaces. We also want to know _where_ (in which LSOAs) the assumptions data performs  well and not so well, and also _by how much_. We can do this using standardised residuals from the Chi-statistic. Here our observed value is the number of bikeshare jobs in an LSOA and the expected value is derived from a contingency table that assumes independence between the two count distributions for our observed and assumptions dataset:
+We wish to explore how well our assumptions dataset fits the observed geography of bikesare workplaces. We also want to know _where_ (in which LSOAs) the assumptions data performs  well and not so well, and also _by how much_. We can do this using standardised residuals from the Chi-statistic. Here our observed value is the number of bikeshare jobs in an LSOA and the expected value is derived from a contingency table that assumes independence between the two count distributions for our observed and assumptions dataset:</p>
 
 <p><pre>
 std.residual[lsoa_i] = (obs[lsoa_i] - exp[lsoa_i]) / sqrt(exp[lsoa_i])
@@ -114,7 +114,7 @@ One of the main ambitions was to end up with explanations for the geography of o
 <figure> <img alt="regression output" src="{{ site.url }}/img/posts/regression_output.png" id="regression_output" ><figcaption>Example regression output. Bands around regression line represent prediction intervals</figcaption></figure>
 
 
-
+I don't want to say too much about these. There are plenty of things to reconcile before progressing much further -- an alternative measure to replace _quietness_, what to do about certain obviously peculiar locations (Canary Wharf) and also whether we can actually use a more suitable geography (e.g. Workplace Zones). However, this initial analysis suggests that our assumptions data do help to explain the observed geography of bikeshare jobs: as we add to the assumptions, model fit improves, the slope tends towards 1 and prediction intervals generally  narrow. It also suggests we can better explain the geography of men's bikeshare workplaces than we can women's given the explanatory variables available to us. Thus, the geography of women's bikeshare workplaces might be explained by confounders separate to those we've described (and modelled) to date.
 
 ### Isn't this (model building with repurposed data) all just secondary data analysis?
 
