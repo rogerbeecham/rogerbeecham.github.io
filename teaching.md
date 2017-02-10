@@ -8,7 +8,7 @@ layout: default
 
 * EPM948 Communication & Presentation (City, University of London)
 * INM430 Principles of Data Science (City, University of London)
-* INM433 Visual Analytics [[Practical sessions]](https://github.com/rogerbeecham/data-science-practicals) (City, University of London)
+* INM433 Visual Analytics [[Practical sessions]](http://www.roger-beecham.com/data-science-practicals/) (City, University of London)
 * SG2047 Visualizing Society (City, University of London)
 
 ### 2015/16  
