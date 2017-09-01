@@ -2,11 +2,11 @@
 layout: default
 ---
 
-### I'm a Postdoctoral Research Fellow at the [giCentre](http://www.gicentre.net/): City, University of London. I work in Social and Geographic Data Science.
+### I'm a Lecturer at the [Leeds Institute for Data Analysis](http://lida.leeds.ac.uk). I work in Social and Geographic Data Science.
 
 My research demonstrates how new, passively-collected datasets can be repurposed for social research. As well as technical and statistical issues, I consider the consequences of these data for knowledge production. This spans several disciplinary areas: spatial data analysis, information visualization, geography, transport planning, crime science and market research.
 
-I have a [PhD](http://www.gicentre.net/rogerbeecham/thesis) in Geographic Information Science (City University London), a BA in Geography (Durham University, Robin Mills Award) and a professional background in market research, previously working as a Senior Researcher at [YouGov](https://yougov.co.uk) and Researcher at [Leicestershire County Council](http://www.lsr-online.org/uploads/dasts-finalreport-1810610.pdf).
+Prior to September 2017 I worked as a PostDoc at the [giCentre](https://www.gicentre.net), City, University of London. I have a [PhD](http://www.gicentre.net/rogerbeecham/thesis) in Geographic Information Science (City University London), a BA in Geography (Durham University, Robin Mills Award) and a professional background in market research, previously working as a Senior Researcher at [YouGov](https://yougov.co.uk) and Researcher at [Leicestershire County Council](http://www.lsr-online.org/uploads/dasts-finalreport-1810610.pdf).
 
 
 ### Selected Publications
@@ -14,6 +14,26 @@ I have a [PhD](http://www.gicentre.net/rogerbeecham/thesis) in Geographic Inform
 A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
 
 <ol class="publications">
+
+    <li class="under_review">
+    <p class="title under_review">Statistical Process Control charts for decision-making under uncertainty: a visualization make-over for crime analysis</p>
+    <p class="authors">Chris&nbsp;Rooney, <span class="me">Roger&nbsp;Beecham</span>, Jason&nbsp;Dykes and&nbsp;William&nbsp;Wong</p>
+    <ul>
+        <li class="collection under_review">under review: tvcg ##</li>
+        <li><abbr title="code"><a href="https://github.com/rooch84/spc" target="_blank">code</a></abbr></li>
+      </ul>
+    </li>
+
+    <li class="under_review">
+    <p class="title under_review"><a href="http://www.josis.org/index.php/josis/article/view/377">Locally-varying explanations behind the United Kingdom's vote to leave the European Union </a></p>
+    <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Aidan&nbsp;Slingsby and&nbsp;Chris&nbsp;Brunsdon</p>
+    <ul>
+        <li class="collection">under review: josis ##</li>
+        <li><abbr title="code"><a href="https://github.com/rogerbeecham/brexit-analysis" target="_blank">code</a></abbr></li>
+        <li><abbr title="talk"><a href="http://www.staff.city.ac.uk/%7Esbbm143/gisruk2017_brexit_talk.pdf" target="_blank">talk</a></abbr></li>
+        <li><abbr title="paper"><a href="http://www.josis.org/index.php/josis/article/view/377">paper</a></abbr></li>
+      </ul>
+    </li>
 
     <li class="best_paper_nominee">
     <p class="title"><a href="papers/beecham_map_2016.pdf">Map line-ups: effects of spatial structure on graphical inference </a></p>
@@ -100,5 +120,3 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
         <li><abbr title="paper"><a href="{{ site.url }}/papers/slingsby_visual_2013.pdf">paper</a></abbr></li>
       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/slingsby_visual_2013.bib">BibTeX</a></abbr></li>
    </ul>
-
-
