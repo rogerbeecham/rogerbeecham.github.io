@@ -200,6 +200,15 @@ ol.publications li p.title {
 ol.publications .title a:link {
   color: rgb(37, 37, 37);
 }
+
+ol.publications .title.under_review a:link {
+  color: rgb(115,115,115);
+}
+
+ol.publications .title.under_review a:visited {
+  color: rgb(115,115,115);
+}
+
 ol.publications .title a:visited {
   color: rgb(37, 37, 37);
 }
@@ -225,6 +234,9 @@ ol.publications > li.best_paper_nominee:before {
 ol.publications li li.best_paper {
   color: rgb(165,15,21);
 }
+ol.publications li.under_review {
+  color: rgb(115,115,115);
+}
 ol.publications .collection {
   /* title of journal/collection/etc */
 }
@@ -234,6 +246,7 @@ ol.publications li p {
   text-indent: 0;
   font-size: 0.9em;
 }
+
 ol.publications .me {
   /* my name in the author's list */
   font-style: italic;
