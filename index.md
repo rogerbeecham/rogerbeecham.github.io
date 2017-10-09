@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### I'm a Lecturer at the [Leeds Institute for Data Analysis](http://lida.leeds.ac.uk). I work in Social and Geographic Data Science.
+### I'm a Lecturer at the [University of Leeds](https://www.leeds.ac.uk). I work in Social and Geographic Data Science.
 
 My research demonstrates how new, passively-collected datasets can be repurposed for social research. As well as technical and statistical issues, I consider the consequences of these data for knowledge production. This spans several disciplinary areas: spatial data analysis, information visualization, geography, transport planning, crime science and market research.
 
