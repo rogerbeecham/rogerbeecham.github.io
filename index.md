@@ -24,11 +24,11 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
       </ul>
     </li>
 
-    <li class="under_review">
-    <p class="title under_review"><a href="http://www.josis.org/index.php/josis/article/view/377">Locally-varying explanations behind the United Kingdom's vote to leave the European Union </a></p>
+    <li>
+    <p class="title"><a href="http://www.josis.org/index.php/josis/article/view/377">Locally-varying explanations behind the United Kingdom's vote to leave the European Union </a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Aidan&nbsp;Slingsby and&nbsp;Chris&nbsp;Brunsdon</p>
     <ul>
-        <li class="collection">under review: josis ##</li>
+        <li class="collection">under review: josis in press</li>
         <li><abbr title="code"><a href="https://github.com/rogerbeecham/brexit-analysis" target="_blank">code</a></abbr></li>
         <li><abbr title="talk"><a href="http://www.staff.city.ac.uk/%7Esbbm143/gisruk2017_brexit_talk.pdf" target="_blank">talk</a></abbr></li>
         <li><abbr title="paper"><a href="http://www.josis.org/index.php/josis/article/view/377">paper</a></abbr></li>
@@ -39,82 +39,84 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
     <p class="title"><a href="papers/beecham_map_2016.pdf">Map line-ups: effects of spatial structure on graphical inference </a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Jason&nbsp;Dykes, Wouter&nbsp;Meulemans, Aidan&nbsp;Slingsby, Cagatay&nbsp;Turkay and&nbsp;Jo&nbsp;Wood</p>
     <ul>
-        <li class="collection">infovis 2016</li>
+        <li class="collection">tvcg 2017</li>
         <li class="best_paper">best paper honorable mention</li>
         <li><abbr title="website"><a href="http://www.gicentre.net/maplineups" target="_blank">website</a></abbr></li>
         <li><abbr title="code"><a href="https://github.com/rogerbeecham/map-lineups" target="_blank">code</a></abbr></li>
         <li><abbr title="talk"><a href="https://vimeo.com/189390725" target="_blank">talk</a></abbr></li>
         <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_map_2016.pdf">paper</a></abbr></li>
-        <li><abbr title="BibTeX citation"><a href="papers/beecham_map_2016.bib">BibTeX</a></abbr></li>
+        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_map_2016.bib">BibTeX</a></abbr></li>
       </ul>
     </li>
 
    <li>
-   <p class="title"><a href="papers/beecham_faceted_2016.pdf">Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples</a></p>
+   <p class="title"><a href="{{ site.url }}/papers/beecham_faceted_2016.pdf">Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples</a></p>
    <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Chris&nbsp;Rooney, Sebastian&nbsp;Meier, Jason&nbsp;Dykes, Aidan&nbsp;Slingsby, Cagatay&nbsp;Turkay, Jo&nbsp;Wood and&nbsp;William&nbsp;Wong</p>
    <ul>
-       <li> eurovis 2016</li
+       <li> cgf 2016</li
        ><li><abbr title="website"><a href="http://www.gicentre.net/favves" target="_blank">website</a></abbr></li>
        <li><abbr title="code"><a href="https://github.com/sebastian-meier/vis-survey" target="_blank">code</a></abbr></li>
        <li><abbr title="talk"><a href="https://vimeo.com/groups/eurovis2016/videos/177268318" target="_blank">talk</a></abbr></li>
-       <li><abbr title="paper"><a href="papers/beecham_faceted_2016.pdf">paper</a></abbr></li>
-       <li><abbr title="BibTeX citation"><a href="papers/beecham_faceted_2016.bib">BibTeX</a></abbr></li>
+       <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_faceted_2016.pdf">paper</a></abbr></li>
+       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_faceted_2016.bib">BibTeX</a></abbr></li>
     </ul>
    </li>
 
 
    <li>
-   <p class="title"><a href="papers/wood_moving_2014.pdf">Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization</a></p>
+   <p class="title"><a href="{{ site.url }}/papers/wood_moving_2014.pdf">Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization</a></p>
    <p class="authors"> Jo&nbsp;Wood, <span class="me">Roger&nbsp;Beecham</span> and&nbsp;Jason&nbsp;Dykes
    <ul>
-       <li> infovis 2014</li>
-         <li><abbr title="paper"><a href="papers/wood_moving_2014.pdf">paper</a></abbr></li>
-       <li><abbr title="BibTeX citation"><a href="papers/wood_moving_2014.bib">BibTeX</a></abbr></li>
-    </ul>
+       <li> tvcg 2014</li>
+         <li><abbr title="paper"><a href="{{ site.url }}/papers/wood_moving_2014.pdf">paper</a></abbr></li>
+       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/wood_moving_2014.bib">BibTeX</a></abbr></li>
+  </ul>
+
 
    <li>
-   <p class="title"><a href="papers/beecham_characterising_2014.pdf">Characterising group-cycling journeys using interactive graphics</a></p>
+   <p class="title"><a href="{{ site.url }}/papers/beecham_characterising_2014.pdf">Characterising group-cycling journeys using interactive graphics</a></p>
    <p class="authors"> <span class="me">Roger&nbsp;Beecham</span> and&nbsp;Jo&nbsp;Wood
    <ul>
        <li> trc 2014</li>
-         <li><abbr title="paper"><a href="papers/beecham_characterising_2014.pdf">paper</a></abbr></li>
-       <li><abbr title="BibTeX citation"><a href="papers/beecham_characterising_2014.bib">BibTeX</a></abbr></li>
+         <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_characterising_2014.pdf">paper</a></abbr></li>
+       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_characterising_2014.bib">BibTeX</a></abbr></li>
     </ul>
 
    <li>
-   <p class="title"><a href="papers/beecham_studying_2014.pdf">Studying commuting behaviours using collaborative visual analytics</a></p>
+   <p class="title"><a href="{{ site.url }}/papers/beecham_studying_2014.pdf">Studying commuting behaviours using collaborative visual analytics</a></p>
    <p class="authors"> <span class="me">Roger&nbsp;Beecham</span>,&nbsp;Jo&nbsp;Wood and&nbsp;Audrey&nbsp;Bowerman
    <ul>
        <li> ceus 2014</li>
-         <li><abbr title="paper"><a href="papers/beecham_studying_2014.pdf">paper</a></abbr></li>
-       <li><abbr title="BibTeX citation"><a href="papers/beecham_studying_2014.bib">BibTeX</a></abbr></li>
+         <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_studying_2014.pdf">paper</a></abbr></li>
+       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_studying_2014.bib">BibTeX</a></abbr></li>
     </ul>
 
+
    <li class="best_paper_nominee">
-   <p class="title"><a href="papers/beecham_exploring_2014.pdf">Exploring gendered cycling behaviours within a large-scale behavioural dataset</a></p>
+   <p class="title"><a href="{{ site.url }}/papers/beecham_exploring_2014.pdf">Exploring gendered cycling behaviours within a large-scale behavioural dataset</a></p>
    <p class="authors"> <span class="me">Roger&nbsp;Beecham</span> and&nbsp;Jo&nbsp;Wood
    <ul>
        <li> tpt 2014</li>
         <li class="best_paper">smeed prize (1st place)</li>
-         <li><abbr title="paper"><a href="papers/beecham_exploring_2014.pdf">paper</a></abbr></li>
-       <li><abbr title="BibTeX citation"><a href="papers/beecham_exploring_2014.bib">BibTeX</a></abbr></li>
+         <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_exploring_2014.pdf">paper</a></abbr></li>
+       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_exploring_2014.bib">BibTeX</a></abbr></li>
     </ul>
 
 <li>
-   <p class="title"><a href="papers/beecham_towards_2014.pdf">Towards confirmatory data analysis? Deriving and analysing routing information for an origin-destination bikeshare dataset</a></p>
+   <p class="title"><a href="{{ site.url }}/papers/beecham_towards_2014.pdf">Towards confirmatory data analysis? Deriving and analysing routing information for an origin-destination bikeshare dataset</a></p>
    <p class="authors"> <span class="me">Roger&nbsp;Beecham</span> and&nbsp;Jo&nbsp;Wood
    <ul>
        <li> utsg 2014</li>
-         <li><abbr title="paper"><a href="papers/beecham_towards_2014.pdf">paper</a></abbr></li>
-       <li><abbr title="BibTeX citation"><a href="papers/beecham_towards_2014.bib">BibTeX</a></abbr></li>
+         <li><abbr title="paper"><a href="{{ site.url }}/papers/beecham_towards_2014.pdf">paper</a></abbr></li>
+       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_towards_2014.bib">BibTeX</a></abbr></li>
     </ul>
 
   <li class="best_paper_nominee">
-  <p class="title"><a href="papers/slingsby_visual_2013.pdf">Visual analysis of social networks in space and time using smartphone logs</a></p>
+  <p class="title"><a href="{{ site.url }}/papers/slingsby_visual_2013.pdf">Visual analysis of social networks in space and time using smartphone logs</a></p>
   <p class="authors">Aidan&nbsp;Slingsby, <span class="me">Roger&nbsp;Beecham</span> and&nbsp;Jo&nbsp;Wood
   <ul>
       <li> pervasive 2013</li>
       <li class="best_paper">Nokia Data Challenge (3rd place)</li>
-        <li><abbr title="paper"><a href="papers/slingsby_visual_2013.pdf">paper</a></abbr></li>
-      <li><abbr title="BibTeX citation"><a href="papers/slingsby_visual_2013.bib">BibTeX</a></abbr></li>
+        <li><abbr title="paper"><a href="{{ site.url }}/papers/slingsby_visual_2013.pdf">paper</a></abbr></li>
+      <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/slingsby_visual_2013.bib">BibTeX</a></abbr></li>
    </ul>
