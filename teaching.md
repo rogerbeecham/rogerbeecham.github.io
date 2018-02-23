@@ -4,6 +4,13 @@ layout: default
 
 ## Teaching activities
 
+### 2017/18  
+
+* MM7255 Data Visualization & Analysis (University of Leeds)
+* GEOG5927M Predictive Analytics (University of Leeds)
+* GEOG5022M Professional & Personal Development [Resources - Intro to data analysis](http://www.roger-beecham.com/intro-visual-data-analysis/) (University of Leeds)
+* GEOG5870M Web-based GIS [Resources](http://www.roger-beecham.com/intro-visual-data-analysis/sessions/session_datavis.html/) (University of Leeds)
+
 ### 2016/17  
 
 * EPM948 Communication & Presentation (City, University of London)
