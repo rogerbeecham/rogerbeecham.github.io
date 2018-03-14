@@ -48,9 +48,7 @@ A more prosaic observation, but nevertheless one that is supported by the data: 
 
 #### Explanatory variable #4: cycling infrastructure (general)
 
-Finally, the provision of cycle infrastructure or ‘agreeableness’ of possible routes between bikeshare stations may, to an extent, explain observed spatial cycle behaviours. Modelling for this infrastructure needs a little more thought than I have given it. Previously we extracted estimated routes for every cycled journey in the bikeshare dataset using the [cyclestreets](https://www.cyclestreets.net) algorithm. As well as extracting coordinates representing the routes, we stored meta-data describing the _nature_ of routes. As an initial attempt, we use [route quietness](https://www.cyclestreets.net/journey/help/howitworks/#quietness), a single score based on a subjective classification, as our measure of general cycle infrastructure<sup>*</sup>.
-
-<p style=font-size:0.7em>*Unfortunately, <em>quietness</em> doesn't necessarily capture what we want -- shared use facilities, not always suitable for cycling, are rewarded with a very high quietness score -- and this is reflected in our analysis results.</p>
+Finally, the provision of cycle infrastructure or ‘agreeableness’ of possible routes between bikeshare stations may, to an extent, explain observed spatial cycle behaviours. Modelling for this infrastructure needs a little more thought than I have given it. Previously we extracted estimated routes for every cycled journey in the bikeshare dataset using the [cyclestreets](https://www.cyclestreets.net) algorithm. As well as extracting coordinates representing the routes, we stored meta-data describing the _nature_ of routes. As an initial attempt, we use [route quietness](https://www.cyclestreets.net/journey/help/howitworks/#quietness), a single score based on a subjective classification, as our measure of general cycle infrastructure.
 
 #### Model specification (and redefined outcome)
 
@@ -105,7 +103,7 @@ This feels like it could be a capacity-limit problem – that there’s so many 
 
 <figure> <img alt="residuals map 2" src="{{ site.url }}/img/posts/residuals_map_2.png" id="residuals_map_2" ><figcaption>Comparison of observed bikeshare jobs with assumptions data (Census jobs given home locations of bikeshare commuters+ bikeshare infrastructure )</figcaption></figure>
 
-At this point it would be great to add a cycle infrastructure weight that allows us to further improve model fit (even smaller residuals) and identify LSOA-level changes that can be convincingly explained given their spatial context. This unfortunately did not happen and exploratory analysis of our aggregated 'quietness' scores suggests we might need to think more carefully about the way this concept/variable is modelled.
+At this point it would be great to add a cycle infrastructure weight that allows us to further improve model fit (even smaller residuals) and identify LSOA-level changes that can be convincingly explained given their spatial context. This unfortunately did not happen and exploratory analysis of our aggregated 'quietness' scores suggests we might need to think more carefully about other route characteristics recorded by the [cyclestreets](https://www.cyclestreets.net) algorithm.
 
 #### Regression model
 
@@ -114,7 +112,7 @@ One of the main ambitions was to end up with explanations for the geography of o
 <figure> <img alt="regression output" src="{{ site.url }}/img/posts/regression_output.png" id="regression_output" ><figcaption>Example regression output. Bands around regression line represent prediction intervals</figcaption></figure>
 
 
-I don't want to say too much about these. There are plenty of things to reconcile before progressing much further -- an alternative measure to replace _quietness_, what to do about certain obviously peculiar locations (Canary Wharf) and also whether we can actually use a more suitable geography (e.g. Workplace Zones). However, this initial analysis suggests that our assumptions data do help to explain the observed geography of bikeshare jobs: as we add to the assumptions, model fit improves, the slope tends towards 1 and prediction intervals generally  narrow. It also suggests we can better explain the geography of men's bikeshare workplaces than we can women's given the explanatory variables available to us. Thus, the geography of women's bikeshare workplaces might be explained by confounders separate to those we've described (and modelled) to date.
+I don't want to say too much about these. There are plenty of things to reconcile before progressing much further -- an alternative measure for route _agreeableness_, what to do about certain obviously peculiar locations (Canary Wharf) and also whether we can actually use a more suitable geography (e.g. Workplace Zones). However, this initial analysis suggests that our assumptions data do help to explain the observed geography of bikeshare jobs: as we add to the assumptions, model fit improves, the slope tends towards 1 and prediction intervals generally  narrow. It also suggests we can better explain the geography of men's bikeshare workplaces than we can women's given the explanatory variables available to us. Thus, the geography of women's bikeshare workplaces might be explained by confounders separate to those we've described (and modelled) to date.
 
 ### Isn't this (model building with repurposed data) all just secondary data analysis?
 
