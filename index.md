@@ -28,7 +28,7 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
     <p class="title"><a href="http://www.josis.org/index.php/josis/article/view/377">Locally-varying explanations behind the United Kingdom's vote to leave the European Union </a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Aidan&nbsp;Slingsby and&nbsp;Chris&nbsp;Brunsdon</p>
     <ul>
-        <li class="collection">josis in press</li>
+        <li class="collection">josis 2018</li>
         <li><abbr title="code"><a href="https://github.com/rogerbeecham/brexit-analysis" target="_blank">code</a></abbr></li>
         <li><abbr title="talk"><a href="http://www.staff.city.ac.uk/%7Esbbm143/gisruk2017_brexit_talk.pdf" target="_blank">talk</a></abbr></li>
         <li><abbr title="paper"><a href="http://www.josis.org/index.php/josis/article/view/377">paper</a></abbr></li>
