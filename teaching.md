@@ -6,7 +6,7 @@ layout: default
 
 ### 2019/20
 
-* GEOG5042M Data Visualization & Analysis (University of Leeds) [[Resources]](http://www.roger-beecham.com/GEOG5042-data-visualization/index.html/)
+* GEOG5042M Data Visualization & Analysis (University of Leeds) [[Resources]](http://www.roger-beecham.com/GEOG5042-data-visualization/index.html)
 * GEOG5022M Professional & Personal Development (University of Leeds) [[Resources]](http://www.roger-beecham.com/intro-visual-data-analysis/)
 * GEOG5927 Predictive Analytics (University of Leeds)
 * GEOG5957 CAMS Dissertations (University of Leeds)
