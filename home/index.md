@@ -2,7 +2,8 @@
 layout: default
 ---
 
-### I'm a Lecturer in Geographic Data Science at the [Leeds Institute for Data Analysis](http://lida.leeds.ac.uk).
+
+### I'm a Lecturer at the [University of Leeds](https://www.leeds.ac.uk). I work in Social and Geographic Data Science.
 
 My research demonstrates how new, passively-collected datasets can be repurposed for social research. As well as technical and statistical issues, I consider the consequences of these data for knowledge production. This spans several disciplinary areas: spatial data analysis, information visualization, geography, transport planning, crime science and market research.
 
@@ -24,14 +25,27 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
       </ul>
     </li>
 
-    <li class="under_review">
-    <p class="title under_review"><a href="http://www.josis.org/index.php/josis/article/view/377">Locally-varying explanations behind the United Kingdom's vote to leave the European Union </a></p>
+    <li>
+    <p class="title"><a href="{{ site.url }}">Characterising labour market self-containment in London with geographically arranged small multiples</a></p>
+    <p class="authors"><span class="me">Roger&nbsp;Beecham</span> and&nbsp;Aidan&nbsp;Slingsby</p>
+    <ul>
+        <li>epa 2019</li>
+        <li><abbr title="code"><a href="https://github.com/rogerbeecham/visualizing-self-containment" target="_blank">code</a></abbr></li>
+        <li><abbr title="paper"><a href="{{ site.url }}">paper</a></abbr></li>
+        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_characterising_2019.bib">BibTeX</a></abbr></li>
+      </ul>
+    </li>
+
+    <li>
+    <p class="title"><a href="http://www.josis.org/index.php/josis/article/view/377">Locally-varying explanations behind the United Kingdom's vote to leave the European Union </a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Aidan&nbsp;Slingsby and&nbsp;Chris&nbsp;Brunsdon</p>
     <ul>
-        <li class="collection">under review: josis 2018</li>
+        <li>josis 2018</li>
         <li><abbr title="code"><a href="https://github.com/rogerbeecham/brexit-analysis" target="_blank">code</a></abbr></li>
         <li><abbr title="talk"><a href="http://www.staff.city.ac.uk/%7Esbbm143/gisruk2017_brexit_talk.pdf" target="_blank">talk</a></abbr></li>
         <li><abbr title="paper"><a href="http://www.josis.org/index.php/josis/article/view/377">paper</a></abbr></li>
+        <li><abbr title="training"><a href="http://www.roger-beecham.com/tidy-datavis/index.html">training</a></abbr></li>
+        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_locally_2018.bib">BibTeX</a></abbr></li>
       </ul>
     </li>
 
@@ -39,7 +53,7 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
     <p class="title"><a href="papers/beecham_map_2016.pdf">Map line-ups: effects of spatial structure on graphical inference </a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Jason&nbsp;Dykes, Wouter&nbsp;Meulemans, Aidan&nbsp;Slingsby, Cagatay&nbsp;Turkay and&nbsp;Jo&nbsp;Wood</p>
     <ul>
-        <li class="collection">infovis 2016</li>
+        <li class="collection">tvcg 2017</li>
         <li class="best_paper">best paper honorable mention</li>
         <li><abbr title="website"><a href="http://www.gicentre.net/maplineups" target="_blank">website</a></abbr></li>
         <li><abbr title="code"><a href="https://github.com/rogerbeecham/map-lineups" target="_blank">code</a></abbr></li>
@@ -53,7 +67,7 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
    <p class="title"><a href="{{ site.url }}/papers/beecham_faceted_2016.pdf">Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples</a></p>
    <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Chris&nbsp;Rooney, Sebastian&nbsp;Meier, Jason&nbsp;Dykes, Aidan&nbsp;Slingsby, Cagatay&nbsp;Turkay, Jo&nbsp;Wood and&nbsp;William&nbsp;Wong</p>
    <ul>
-       <li> eurovis 2016</li
+       <li> cgf 2016</li
        ><li><abbr title="website"><a href="http://www.gicentre.net/favves" target="_blank">website</a></abbr></li>
        <li><abbr title="code"><a href="https://github.com/sebastian-meier/vis-survey" target="_blank">code</a></abbr></li>
        <li><abbr title="talk"><a href="https://vimeo.com/groups/eurovis2016/videos/177268318" target="_blank">talk</a></abbr></li>
@@ -67,7 +81,7 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
    <p class="title"><a href="{{ site.url }}/papers/wood_moving_2014.pdf">Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization</a></p>
    <p class="authors"> Jo&nbsp;Wood, <span class="me">Roger&nbsp;Beecham</span> and&nbsp;Jason&nbsp;Dykes
    <ul>
-       <li> infovis 2014</li>
+       <li> tvcg 2014</li>
          <li><abbr title="paper"><a href="{{ site.url }}/papers/wood_moving_2014.pdf">paper</a></abbr></li>
        <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/wood_moving_2014.bib">BibTeX</a></abbr></li>
   </ul>
