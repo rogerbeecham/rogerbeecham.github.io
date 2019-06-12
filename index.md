@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### I'm a Lecturer at the [University of Leeds](https://www.leeds.ac.uk). I work in Social and Geographic Data Science.
+### I'm a Lecturer at the [University of Leeds](https://environment.leeds.ac.uk/geography/staff/1003/dr-roger-beecham). I work in Social and Geographic Data Science.
 
 My research demonstrates how new, passively-collected datasets can be repurposed for social research. As well as technical and statistical issues, I consider the consequences of these data for knowledge production. This spans several disciplinary areas: spatial data analysis, information visualization, geography, transport planning, crime science and market research.
 
@@ -25,12 +25,12 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
     </li>
 
     <li>
-    <p class="title"><a href="{{ site.url }}">Characterising labour market self-containment in London with geographically arranged small multiples</a></p>
+    <p class="title"><a href="http://eprints.whiterose.ac.uk/146307/">Characterising labour market self-containment in London with geographically arranged small multiples</a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span> and&nbsp;Aidan&nbsp;Slingsby</p>
     <ul>
         <li>epa 2019</li>
         <li><abbr title="code"><a href="https://github.com/rogerbeecham/visualizing-self-containment" target="_blank">code</a></abbr></li>
-        <li><abbr title="paper"><a href="{{ site.url }}">paper</a></abbr></li>
+        <li><abbr title="paper"><a href="http://eprints.whiterose.ac.uk/146307/">paper</a></abbr></li>
         <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_characterising_2019.bib">BibTeX</a></abbr></li>
       </ul>
     </li>
