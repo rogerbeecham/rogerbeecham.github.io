@@ -15,11 +15,21 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
 
 <ol class="publications">
 
+  <li class="under_review">
+  <p class="title under_review">Regionally-structured explanations behind area-level populism: An update to recent ecological analyses</p>
+  <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Nick&nbsp;Williams and&nbsp;Lex&nbsp;Comber</p>
+  <ul>
+      <li class="collection under_review">minor corrections: plos ##</li>
+      <li><abbr title="code"><a href="https://github.com/rogerbeecham/update-ecological-analyses" target="_blank">code</a></abbr></li>
+    </ul>
+  </li>
+
+
     <li class="under_review">
     <p class="title under_review">Statistical Process Control charts for decision-making under uncertainty: a visualization make-over for crime analysis</p>
-    <p class="authors">Chris&nbsp;Rooney, <span class="me">Roger&nbsp;Beecham</span>, Jason&nbsp;Dykes and&nbsp;William&nbsp;Wong</p>
+    <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Chris&nbsp;Rooney, Jason&nbsp;Dykes and&nbsp;William&nbsp;Wong</p>
     <ul>
-        <li class="collection under_review">under review: tvcg ##</li>
+        <li class="collection under_review">minor corrections: tvcg ##</li>
         <li><abbr title="code"><a href="https://github.com/rooch84/spc" target="_blank">code</a></abbr></li>
       </ul>
     </li>
