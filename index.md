@@ -4,7 +4,7 @@ layout: default
 
 ### I'm a Lecturer at the [University of Leeds](https://environment.leeds.ac.uk/geography/staff/1003/dr-roger-beecham). I work in Social and Geographic Data Science.
 
-My research demonstrates how new, passively-collected datasets can be repurposed for social research. As well as technical and statistical issues, I consider the consequences of these data for knowledge production. This spans several disciplinary areas: spatial data analysis, information visualization, geography, transport planning, crime science and market research.
+My research demonstrates how new, passively-collected datasets can be repurposed for social research. As well as technical and statistical issues, I consider the consequences of these data for knowledge production. This spans several disciplinary areas: spatial data analysis, information visualization, geography, transport planning, crime science and market research. My teaching is focussed around introducing computational data analysis techniques for Geographers (examples [here](http://homepages.see.leeds.ac.uk/~georjb/predictive-analytics/) and [here](http://www.roger-beecham.com/tidy-datavis/index.html)).
 
 Prior to September 2017 I worked as a PostDoc at the [giCentre](https://www.gicentre.net), City, University of London. I have a [PhD](http://www.gicentre.net/rogerbeecham/thesis) in Geographic Information Science (City University London), a BA in Geography (Durham University, Robin Mills Award) and a professional background in market research, previously working as a Senior Researcher at [YouGov](https://yougov.co.uk) and Researcher at [Leicestershire County Council](http://www.lsr-online.org/uploads/dasts-finalreport-1810610.pdf).
 
