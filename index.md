@@ -15,6 +15,17 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
 
 <ol class="publications">
 
+<li>
+<p class="title"><a href=""">Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election</a></p>
+<p class="authors"><span class="me">Roger&nbsp;Beecham</span></p>
+<ul>
+    <li>epa in press</li>
+    <li><abbr title="code"><a href="https://github.com/rogerbeecham/uk-general-election-vis" target="_blank">code</a></abbr></li>
+    <li><abbr title="paper"><a href="papers/beecham_visualizing_2020.pdf">paper</a></abbr></li>
+    <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_visualizing_2020.bib">BibTeX</a></abbr></li>
+  </ul>
+</li>
+
   <li class="under_review">
   <p class="title under_review">Regionally-structured explanations behind area-level populism: An update to recent ecological analyses</p>
   <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Nick&nbsp;Williams and&nbsp;Lex&nbsp;Comber</p>
