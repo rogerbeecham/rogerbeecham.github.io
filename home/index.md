@@ -17,7 +17,7 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
 <ol class="publications">
 
 <li>
-<p class="title"><a href=""">Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election</a></p>
+<p class="title">Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election</p>
 <p class="authors"><span class="me">Roger&nbsp;Beecham</span></p>
 <ul>
     <li>epa in press</li>
