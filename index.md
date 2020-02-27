@@ -25,26 +25,24 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
     <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_visualizing_2020.bib">BibTeX</a></abbr></li>
   </ul>
 </li>
-
-  <li class="under_review">
-  <p class="title under_review">Regionally-structured explanations behind area-level populism: An update to recent ecological analyses</p>
+<li>
+  <p class="title">Regionally-structured explanations behind area-level populism: An update to recent ecological analyses</p>
   <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Nick&nbsp;Williams and&nbsp;Lex&nbsp;Comber</p>
   <ul>
-      <li class="collection under_review">minor corrections: plos ##</li>
+      <li >plos-one in press</li>
       <li><abbr title="code"><a href="https://github.com/rogerbeecham/update-ecological-analyses" target="_blank">code</a></abbr></li>
     </ul>
   </li>
 
 
-    <li class="under_review">
-    <p class="title under_review">Statistical Process Control charts for decision-making under uncertainty: a visualization make-over for crime analysis</p>
+  <li>
+    <p class="title">Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization</p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Chris&nbsp;Rooney, Jason&nbsp;Dykes and&nbsp;William&nbsp;Wong</p>
     <ul>
-        <li class="collection under_review">minor corrections: tvcg ##</li>
+        <li>tvcg in press</li>
         <li><abbr title="code"><a href="https://github.com/rooch84/spc" target="_blank">code</a></abbr></li>
       </ul>
     </li>
-
     <li>
     <p class="title"><a href="http://eprints.whiterose.ac.uk/146307/">Characterising labour market self-containment in London with geographically arranged small multiples</a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span> and&nbsp;Aidan&nbsp;Slingsby</p>
@@ -56,7 +54,6 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
         <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_characterising_2019.bib">BibTeX</a></abbr></li>
       </ul>
     </li>
-
     <li>
     <p class="title"><a href="http://www.josis.org/index.php/josis/article/view/377">Locally-varying explanations behind the United Kingdom's vote to leave the European Union </a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Aidan&nbsp;Slingsby and&nbsp;Chris&nbsp;Brunsdon</p>
@@ -69,7 +66,6 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
         <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_locally_2018.bib">BibTeX</a></abbr></li>
       </ul>
     </li>
-
     <li class="best_paper_nominee">
     <p class="title"><a href="papers/beecham_map_2016.pdf">Map line-ups: effects of spatial structure on graphical inference </a></p>
     <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Jason&nbsp;Dykes, Wouter&nbsp;Meulemans, Aidan&nbsp;Slingsby, Cagatay&nbsp;Turkay and&nbsp;Jo&nbsp;Wood</p>
