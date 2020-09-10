@@ -20,9 +20,10 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
 <p class="title"><a href="http://eprints.whiterose.ac.uk/156733/">Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election</a></p>
 <p class="authors"><span class="me">Roger&nbsp;Beecham</span></p>
 <ul>
-    <li>epa in press</li>
+    <li>epa 2020</li>
     <li><abbr title="code"><a href="https://github.com/rogerbeecham/uk-general-election-vis" target="_blank">code</a></abbr></li>
-    <li><abbr title="paper"><a href="http://eprints.whiterose.ac.uk/156733/">paper</a></abbr></li>
+    <li><abbr title="press"><a href="https://journals.sagepub.com/doi/full/10.1177/0308518X20909392">paper</a></abbr></li>
+    <li><abbr title="paper"><a href="https://www.rgs.org/geography/geovisualisation/voting-patterns-in-the-2019-general-election/?utm_source=Twitter&utm_medium=social&utm_campaign=SocialSignIn">press</a></abbr></li>
     <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_visualizing_2020.bib">BibTeX</a></abbr></li>
   </ul>
 </li>
@@ -30,7 +31,7 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
   <p class="title"><a href="https://doi.org/10.1371/journal.pone.0229974">Regionally-structured explanations behind area-level populism: An update to recent ecological analyses</a></p>
   <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Nick&nbsp;Williams and&nbsp;Lex&nbsp;Comber</p>
   <ul>
-      <li >plos-one in press</li>
+      <li >plos-one 2020</li>
       <li><abbr title="code"><a href="https://github.com/rogerbeecham/update-ecological-analyses" target="_blank">code</a></abbr></li>
       <li><abbr title="paper"><a href="https://doi.org/10.1371/journal.pone.0229974">paper</a></abbr></li>
       <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_regionally_2020.bib">BibTeX</a></abbr></li>
