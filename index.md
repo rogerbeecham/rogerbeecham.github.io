@@ -16,13 +16,13 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
 <ol class="publications">
 
 <li>
-<p class="title"><a href="https://osf.io/6nz8q">Guidelines and recommendations for mapping Covid-19 prevalence</a></p>
+<p class="title"><a href="https://osf.io/6nz8q">On the use of ‘glyphmaps’ for analysing Covid-19 reported cases</a></p>
 <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Jason&nbsp;Dykes and&nbsp;Layik&nbsp;Hama and&nbsp;Nik&nbsp;Lomax</p>
 <ul>
- <li>in review</li>
+ <li>in press</li>
     <li><abbr title="code"><a href="https://github.com/rogerbeecham/covid-19-datavis" target="_blank">code</a></abbr></li>
     <li><abbr title="paper"><a href="https://osf.io/6nz8q/">pre-print</a></abbr></li>
-    <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_guidelines_2020.bib">BibTeX</a></abbr></li>
+    <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_on_2021.bib">BibTeX</a></abbr></li>
   </ul>
 </li>
 
