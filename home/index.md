@@ -18,12 +18,12 @@ A complete publications list can be found in my [CV](/roger_beecham_cv.pdf).
 
 
 <li>
-<p class="title"><a href="https://osf.io/6nz8q">On the use of ‘glyphmaps’ for analysing Covid-19 reported cases</a></p>
+<p class="title"><a href="https://doi.org/10.3390/ijgi10040213">On the use of ‘glyphmaps’ for analysing Covid-19 reported cases</a></p>
 <p class="authors"><span class="me">Roger&nbsp;Beecham</span>, Jason&nbsp;Dykes and&nbsp;Layik&nbsp;Hama and&nbsp;Nik&nbsp;Lomax</p>
 <ul>
- <li>in press</li>
+ <li>ijgi</li>
     <li><abbr title="code"><a href="https://github.com/rogerbeecham/covid-19-datavis" target="_blank">code</a></abbr></li>
-    <li><abbr title="paper"><a href="https://osf.io/6nz8q/">pre-print</a></abbr></li>
+    <li><abbr title="paper"><a href="https://doi.org/10.3390/ijgi10040213">paper</a></abbr></li>
     <li><abbr title="BibTeX citation"><a href="{{ site.url }}/papers/beecham_on_2021.bib">BibTeX</a></abbr></li>
   </ul>
 </li>
