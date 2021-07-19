@@ -5,10 +5,18 @@ layout: default
 ## Teaching activities
 
 
+### 2020/21
+
+* GEOG5009 Visualization for Geographic Data Science (University of Leeds) [[Resources - R]](http://www.roger-beecham.com/vis-for-gds/)
+* GEOG5022 Professional & Personal Development (University of Leeds) [[Resources - R, Tableau, vega-lite]](http://www.roger-beecham.com/intro-visual-data-analysis/)
+* GEOG5927 Predictive Analytics (University of Leeds) [[Resources - R]](http://homepages.see.leeds.ac.uk/~georjb/predictive-analytics/)
+* GEOG5957 CAMS Dissertations (University of Leeds)
+* GEOG5255 Geodemographics & Neighbourhood Analysis (University of Leeds)
+
 ### 2019/20
 
-* GEOG5042M Data Visualization & Analysis (University of Leeds) [[Resources - Tableau]](http://www.roger-beecham.com/GEOG5042-data-visualization/index.html)
-* GEOG5022M Professional & Personal Development (University of Leeds) [[Resources - R, Tableau, vega-lite]](http://www.roger-beecham.com/intro-visual-data-analysis/)
+* GEOG5042 Data Visualization & Analysis (University of Leeds) [[Resources - Tableau]](http://www.roger-beecham.com/GEOG5042-data-visualization/index.html)
+* GEOG5022 Professional & Personal Development (University of Leeds) [[Resources - R, Tableau, vega-lite]](http://www.roger-beecham.com/intro-visual-data-analysis/)
 * GEOG5927 Predictive Analytics (University of Leeds) [[Resources - R]](http://homepages.see.leeds.ac.uk/~georjb/predictive-analytics/)
 * GEOG5957 CAMS Dissertations (University of Leeds)
 * GEOG5255 Geodemographics & Neighbourhood Analysis (University of Leeds)
@@ -16,8 +24,8 @@ layout: default
 
 ### 2018/19
 
-* GEOG5042M Data Visualization & Analysis (University of Leeds) [[Resources]](http://www.roger-beecham.com/GEOG5042-data-visualization/index.html)
-* GEOG5022M Professional & Personal Development (University of Leeds) [[Resources]](http://www.roger-beecham.com/intro-visual-data-analysis/)
+* GEOG5042 Data Visualization & Analysis (University of Leeds) [[Resources]](http://www.roger-beecham.com/GEOG5042-data-visualization/index.html)
+* GEOG5022 Professional & Personal Development (University of Leeds) [[Resources]](http://www.roger-beecham.com/intro-visual-data-analysis/)
 * GEOG5927 Predictive Analytics (University of Leeds)
 * GEOG5957 CAMS Dissertations (University of Leeds)
 * GEOG5255 Geodemographics & Neighbourhood Analysis (University of Leeds)
@@ -26,10 +34,10 @@ layout: default
 ### 2017/18
 
 * CDRC workshop : Tidy Data Visualization (University of Leeds) [[Resources]](http://www.roger-beecham.com/tidy-datavis/index.html)
-* GEOG5042M Data Visualization & Analysis (University of Leeds)
-* GEOG5927M Predictive Analytics (University of Leeds)
-* GEOG5022M Professional & Personal Development [[Resources]](http://www.roger-beecham.com/intro-visual-data-analysis/) (University of Leeds)
-* GEOG5870M Web-based GIS [[Resources]](http://www.roger-beecham.com/intro-visual-data-analysis/sessions/session_datavis.html) (University of Leeds)
+* GEOG5042 Data Visualization & Analysis (University of Leeds)
+* GEOG5927 Predictive Analytics (University of Leeds)
+* GEOG5022 Professional & Personal Development [[Resources]](http://www.roger-beecham.com/intro-visual-data-analysis/) (University of Leeds)
+* GEOG5870 Web-based GIS [[Resources]](http://www.roger-beecham.com/intro-visual-data-analysis/sessions/session_datavis.html) (University of Leeds)
 
 ### 2016/17
 
