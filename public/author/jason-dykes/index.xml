@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason Dykes | Roger Beecham</title>
+    <link>https://www.roger-beecham.com/author/jason-dykes/</link>
+      <atom:link href="https://www.roger-beecham.com/author/jason-dykes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jason Dykes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language><copyright>© 2021 Roger Beecham</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.roger-beecham.com/media/icon_hub95eb0e58be258e1ffda38cd3e7d1c88_233270_512x512_fill_lanczos_center_2.png</url>
+      <title>Jason Dykes</title>
+      <link>https://www.roger-beecham.com/author/jason-dykes/</link>
+    </image>
+    
+    <item>
+      <title>Strategies for Detecting Difference in Map Line-Up Tasks</title>
+      <link>https://www.roger-beecham.com/publication/strategies/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.roger-beecham.com/publication/strategies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Use of ‘Glyphmaps’ for Analysing the Scale and Temporal Spread of COVID-19 Reported Cases</title>
+      <link>https://www.roger-beecham.com/publication/glyphmaps/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.roger-beecham.com/publication/glyphmaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization</title>
+      <link>https://www.roger-beecham.com/publication/dexds/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.roger-beecham.com/publication/dexds/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    IEEE 2016 InfoVis Honorable Mention &amp;ndash; top 3 of 165 papers.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Map LineUps: effects of spatial structure on graphical inference</title>
+      <link>https://www.roger-beecham.com/publication/lineups/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.roger-beecham.com/publication/lineups/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    IEEE 2016 InfoVis Honorable Mention &amp;ndash; top 3 of 165 papers.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples</title>
+      <link>https://www.roger-beecham.com/publication/favves/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.roger-beecham.com/publication/favves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supporting crime analysis through visual design</title>
+      <link>https://www.roger-beecham.com/publication/crime/</link>
+      <pubDate>Fri, 30 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.roger-beecham.com/publication/crime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization</title>
+      <link>https://www.roger-beecham.com/publication/moving/</link>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.roger-beecham.com/publication/moving/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

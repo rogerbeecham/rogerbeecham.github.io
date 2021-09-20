@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sebastian Meier | Roger Beecham</title>
+    <link>https://www.roger-beecham.com/author/sebastian-meier/</link>
+      <atom:link href="https://www.roger-beecham.com/author/sebastian-meier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sebastian Meier</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-uk</language><copyright>© 2021 Roger Beecham</copyright><lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.roger-beecham.com/media/icon_hub95eb0e58be258e1ffda38cd3e7d1c88_233270_512x512_fill_lanczos_center_2.png</url>
+      <title>Sebastian Meier</title>
+      <link>https://www.roger-beecham.com/author/sebastian-meier/</link>
+    </image>
+    
+    <item>
+      <title>Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples</title>
+      <link>https://www.roger-beecham.com/publication/favves/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.roger-beecham.com/publication/favves/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
