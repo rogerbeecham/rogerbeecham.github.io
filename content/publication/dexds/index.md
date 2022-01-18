@@ -20,7 +20,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*IEEE Transactions on Visualization and Computer Graphics*, 27(8): 3451--3462"
-publication_short: 
+publication_short:
 
 abstract: "We present and report on Design Exposition Discussion Documents (DExDs), a new means of fostering collaboration between visualization designers and domain experts in applied visualization research. DExDs are a collection of semi-interactive web-based documents used to promote design discourse: to communicate new visualization designs, and their underlying rationale, and to elicit feedback and new design ideas. Developed and applied during a four-year visual data analysis project in criminal intelligence, these documents enabled a series of visualization re-designs to be explored by crime analysts remotely – in a flexible and authentic way. The DExDs were found to engender a level of engagement that is qualitatively distinct from more traditional methods of feedback elicitation, supporting the kind of informed, iterative and design-led feedback that is core to applied visualization research. They also offered a solution to limited and intermittent contact between analyst and visualization researcher and began to address more intractable deficiencies, such as social desirability-bias, common to applied visualization projects. Crucially, DExDs conferred to domain experts greater agency over the design process – collaborators proposed design suggestions, justified with design knowledge, that directly influenced the re-redesigns. We provide context that allows the contributions to be transferred to a range of settings."
 
@@ -64,7 +64,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-IEEE 2016 InfoVis Honorable Mention -- top 3 of 165 papers.
-{{% /callout %}}
