@@ -228,24 +228,37 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 ### Exploratory analysis and visualization
 
 
-<img src = "img/framework_examples.png", width = 80%, style = "position:absolute; top: 30%; left: 12%;"></img>
+<img src = "img/framework_p1.png", width = 60%, style = "position:absolute; top: 20%; left: 12%;"></img>
 
+<img src = "img/analysis1_p1.png", width = 47%, style = "position:absolute; top: 38%; left: 12%;"></img>
+
+<img src = "img/analysis2_p1.png", width = 40%, style = "position:absolute; top: 64%; left: 12%;"></img>
 ---
 
 ### Exploratory analysis and visualization
 
 
-<img src = "img/framework_phase_3.png", width = 80%, style = "position:absolute; top: 30%; left: 12%;"></img>
+<img src = "img/framework_p2.png", width = 60%, style = "position:absolute; top: 20%; left: 12%;"></img>
+
+<img src = "img/analysis1_p2.png", width = 47%, style = "position:absolute; top: 38%; left: 12%;"></img>
+
+<img src = "img/analysis2_p2.png", width = 40%, style = "position:absolute; top: 64%; left: 12%;"></img>
+---
+
+### Exploratory analysis and visualization
 
 
-<br><br><br><br><br><br>
-.xtiny-font[
- > *Exploratory research **needs rigor** to serve its intended aim of **facilitating scientific discovery**.* <br>
- > *Whichever method is selected [...] it needs to be implemented rigorously to **maximize the probability of true discoveries while minimizing the probability of false discoveries**. *
- >
- > Devezer et al. 2021
-]
+<img src = "img/framework_p3.png", width = 60%, style = "position:absolute; top: 20%; left: 12%;"></img>
 
+<br><br><br><br><br><br><br><br><br>
+.right[.xtiny-font[
+  *Exploratory research **needs rigor** to serve its intended aim of **facilitating scientific discovery**.* <br>
+ *Whichever method is selected [...] it needs to be implemented rigorously to **maximize the probability of true discoveries while minimizing the probability of false discoveries**. *
+
+  Devezer et al. 2021
+]]
+
+<img src = "img/analysis2.png", width = 40%, style = "position:absolute; top: 38%; left: 12%;"></img>
 
 ---
 
@@ -281,14 +294,7 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 
 ##### *Our framework progresses a data analysis by supporting model refinement*
 
-<img src = "img/analysis1.png", width = 70%, style = "position:absolute; top: 55%; left: 16%;"></img>
-
-
-.xtiny-font[
-> *EDA is usually an iterative process of model specification, residual analysis, examination of assumptions, and model pre-specification to find patterns and reveal data structure.*
->
-> Devezer et al. 2021
-]
+<img src = "img/analysis1.png", width = 70%, style = "position:absolute; top: 40%; left: 16%;"></img>
 
 
 ---
@@ -298,14 +304,8 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 ##### Our framework emphasises ‘surprise’ characterising difference from expectation in detail
 
 
-<img src = "img/analysis1.png", width = 70%, style = "position:absolute; top: 55%; left: 16%;"></img>
+<img src = "img/analysis1.png", width = 70%, style = "position:absolute; top: 40%; left: 16%;"></img>
 
-
-.xtiny-font[
-> *EDA is usually an iterative process of model specification, residual analysis, examination of assumptions, and model pre-specification to find patterns and reveal data structure.*
->
-> Devezer et al. 2021
-]
 
 ---
 
@@ -314,14 +314,7 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 ##### Our framework discourages spurious discovery
 
 
-.xtiny-font[
- > *Exploratory research **needs rigor** to serve its intended aim of **facilitating scientific discovery**.* <br>
- > *Whichever method is selected [...] it needs to be implemented rigorously to **maximize the probability of true discoveries while minimizing the probability of false discoveries**. *
- >
- > Devezer et al. 2021
-]
-
-<img src = "img/analysis2.png", width = 62%, style = "position:absolute; top: 50%; left: 16%;"></img>
+<img src = "img/analysis2.png", width = 62%, style = "position:absolute; top: 36%; left: 16%;"></img>
 
 ---
 
@@ -346,15 +339,7 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 
 ##### Our framework discourages spurious discovery
 
-<img src = "img/analysis_1_gradients.png", width = 49%, style = "position:absolute; top: 47%; left: 16%;"></img>
-
-
-.xtiny-font[
- > *Exploratory research **needs rigor** to serve its intended aim of **facilitating scientific discovery**.* <br>
- > *Whichever method is selected [...] it needs to be implemented rigorously to **maximize the probability of true discoveries while minimizing the probability of false discoveries**. *
- >
- > Devezer et al. 2021
-]
+<img src = "img/analysis_1_gradients.png", width = 49%, style = "position:absolute; top: 36%; left: 16%;"></img>
 
 ---
 
@@ -363,17 +348,8 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 ##### Our framework discourages spurious discovery
 
 
-<img src = "img/bayesian_map.png", width = 35%, style = "position:absolute; top: 47%; left: 16%;"></img>
-<img src = "img/bayesian_formula.png", width = 35%, style = "position:absolute; top: 60%; left: 55%;"></img>
-
-
-
-.xtiny-font[
- > *Exploratory research **needs rigor** to serve its intended aim of **facilitating scientific discovery**.* <br>
- > *Whichever method is selected [...] it needs to be implemented rigorously to **maximize the probability of true discoveries while minimizing the probability of false discoveries**. *
- >
- > Devezer et al. 2021
-]
+<img src = "img/bayesian_map.png", width = 35%, style = "position:absolute; top: 36%; left: 16%;"></img>
+<img src = "img/bayesian_formula.png", width = 35%, style = "position:absolute; top: 50%; left: 55%;"></img>
 
 
 ???
@@ -393,15 +369,7 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 ##### Our framework discourages spurious discovery
 
 
-
-.xtiny-font[
- > *Exploratory research **needs rigor** to serve its intended aim of **facilitating scientific discovery**.* <br>
- > *Whichever method is selected [...] it needs to be implemented rigorously to **maximize the probability of true discoveries while minimizing the probability of false discoveries**. *
- >
- > Devezer et al. 2021
-]
-
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -412,9 +380,9 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 .xtiny-font[`obs vs. CSR`]
 
 
-<img src = "img/analysis2_observed.png", width = 24%, style = "position:absolute; top: 52%; left: 16%;"></img>
+<img src = "img/analysis2_observed.png", width = 24%, style = "position:absolute; top: 42%; left: 16%;"></img>
 --
-<img src = "img/analysis2_lineup.png", width = 36%, style = "position:absolute; top: 43%; left: 45%;"></img>
+<img src = "img/analysis2_lineup.png", width = 36%, style = "position:absolute; top: 33%; left: 45%;"></img>
 
 ---
 
