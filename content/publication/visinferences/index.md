@@ -3,7 +3,7 @@ title: "A framework for inserting visually-supported inferences into geographica
 authors:
   - admin
   - Robin Lovelace
-date: "2022-01-14T00:00:00Z"
+date: "2022-06-14T00:00:00Z"
 doi: "10.31219/osf.io/mfja8
 "
 
@@ -15,10 +15,10 @@ publishDate: "2022-01-14T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*OSF Pre-print*"
+publication: "*Geographical Analysis*"
 # publication_short: ""
 
 abstract: "Road safety research is a data-rich field with large social impacts. Like in medical research, the ambition is to build knowledge around risk factors that can save lives. Unlike medical research, road safety research generates empirical findings from messy observational datasets. Records of road crashes contain numerous intersecting categorical variables, dominating patterns that are complicated by confounding and, when conditioning on data to make inferences net of this, observed effects that are subject to uncertainty due to diminishing sample sizes. We demonstrate how visual data analysis approaches can inject rigour into exploratory analysis of such datasets. A framework is presented whereby graphics are used to expose, model and evaluate spatial patterns in observational data, as well as protect against false discovery. The framework is supported through an applied data analysis of national crash patterns recorded in STATS19, the main source of road crash information in Great Britain. Our framework moves beyond typical depictions of exploratory data analysis and helps navigate complex data analysis decision spaces characteristic of modern geographical analysis settings, generating data-driven outputs that support policy interventions and public debate."
@@ -28,7 +28,7 @@ abstract: "Road safety research is a data-rich field with large social impacts. 
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 # links:
 # - name: ""
@@ -38,7 +38,7 @@ url_code: https://github.com/rogerbeecham/vis-inferences-roadsafety
 # url_dataset: ''
 # url_poster: ''
 # url_project: ''
-# url_slides:
+url_slides: http://www.roger-beecham.com/files/sfds22/science_reform.html
 # url_source: ''
 # url_video:
 

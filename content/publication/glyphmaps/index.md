@@ -31,9 +31,9 @@ tags:
 - Source Themes
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+links:
+- name: twitter-abstract
+  url: https://twitter.com/rJBeecham/status/1380129004850647042
 url_pdf: https://eprints.whiterose.ac.uk/172944/1/ijgi-10-00213.pdf
 url_code: https://github.com/rogerbeecham/covid-19-datavis
 # url_dataset: ''

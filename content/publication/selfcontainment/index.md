@@ -29,8 +29,12 @@ tags:
 - Source Themes
 featured: false
 
-# links:
-# - name: ""
+
+
+links:
+- name: twitter-abstract
+  url: https://twitter.com/rjbeecham/status/1138746147269468161
+
 #   url: ""
 url_pdf: https://eprints.whiterose.ac.uk/146307/1/beecham_characterising_2019.pdf
 url_code: https://github.com/rogerbeecham/visualizing-self-containment
