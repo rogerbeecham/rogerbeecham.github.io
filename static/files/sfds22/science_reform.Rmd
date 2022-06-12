@@ -230,6 +230,21 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 
 <img src = "img/framework_examples.png", width = 80%, style = "position:absolute; top: 30%; left: 12%;"></img>
 
+---
+
+### Exploratory analysis and visualization
+
+
+<img src = "img/framework_phase_3.png", width = 80%, style = "position:absolute; top: 30%; left: 12%;"></img>
+
+
+<br><br><br><br><br><br>
+.xtiny-font[
+ > *Exploratory research **needs rigor** to serve its intended aim of **facilitating scientific discovery**.* <br>
+ > *Whichever method is selected [...] it needs to be implemented rigorously to **maximize the probability of true discoveries while minimizing the probability of false discoveries**. *
+ >
+ > Devezer et al. 2021
+]
 
 
 ---
@@ -311,7 +326,7 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 ---
 
 
-### Claim 3
+<!-- ### Claim 3
 
 
 
@@ -323,7 +338,7 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 <img src = "img/github_icons.png", width = 50%, style = "position:absolute; top: 59%; left: 12%;"></img>
 
 
----
+--- -->
 
 
 
