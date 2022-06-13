@@ -213,6 +213,36 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 
  But that it needs rigour to serve the intended prupose of scientific discovery -- it is about discovering *generalisations*. EDA is usually an iterative process of model specification, residual analysis, examination of assumptions, and model pre-specification... Whichever method is selected for EDA; however, it needs to be implemented rigorously to maximize the probability of true discoveries while minimizing the probability of false discoveries. Because the process of exploration is elusive and informal, it may not be possible to derive some minimum standards all exploratory studies need to meet.
 
+
+
+---
+
+
+### Exploratory analysis and visualization
+
+.xtiny-font[Data analysis 1: Pedestrian crashes and neighbourhood characteristics]
+<img src = "img/demogs_p2.png", width = 45%, style = "position:absolute; top: 27%; left: 12%;"></img>
+
+<br><br><br><br><br>
+
+
+<img src = "img/geog_p1.png", width = 25%, style = "position:absolute; top: 70%; left: 70%;"></img>
+
+
+---
+
+
+### Exploratory analysis and visualization
+
+.xtiny-font[Data analysis 2: Pedestrian crashes authority comparison]
+<img src = "img/geog_p1.png", width = 55%, style = "position:absolute; top: 27%; left: 12%;"></img>
+
+<br><br><br><br><br>
+
+
+<img src = "img/demogs_p2.png", width = 22%, style = "position:absolute; top: 70%; left: 70%;"></img>
+
+
 ---
 
 
@@ -262,32 +292,6 @@ Framework for what this expanded, model-based exploratory analysis (not EDA) mig
 
 ---
 
-### Implementing the framework
-
-.xtiny-font[Data analysis 1: Pedestrian crashes and neighbourhood characteristics]
-<img src = "img/demogs_p2.png", width = 45%, style = "position:absolute; top: 27%; left: 12%;"></img>
-
-<br><br><br><br><br>
-
-
-<img src = "img/geog_p1.png", width = 25%, style = "position:absolute; top: 70%; left: 70%;"></img>
-
-
----
-
-
-### Implementing the framework
-
-.xtiny-font[Data analysis 2: Pedestrian crashes authority comparison]
-<img src = "img/geog_p1.png", width = 55%, style = "position:absolute; top: 27%; left: 12%;"></img>
-
-<br><br><br><br><br>
-
-
-<img src = "img/demogs_p2.png", width = 22%, style = "position:absolute; top: 70%; left: 70%;"></img>
-
-
----
 
 
 ### Claim 1
