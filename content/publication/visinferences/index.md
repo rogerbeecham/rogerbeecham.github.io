@@ -4,11 +4,10 @@ authors:
   - admin
   - Robin Lovelace
 date: "2022-06-14T00:00:00Z"
-doi: "10.31219/osf.io/mfja8
-"
+doi: "10.1111/gean.12338"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-01-14T00:00:00Z"
+publishDate: "2022-07-07T00:00:00Z"
 
 
 # Publication type.
@@ -30,10 +29,12 @@ tags:
 - Source Themes
 featured: true
 
-# links:
-# - name: ""
+links:
+- name: twitter-abstract
+  url: https://twitter.com/rJBeecham/status/1545012322594443264
+
 #   url: ""
-url_pdf: https://osf.io/mfja8/
+url_pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1111/gean.12338
 url_code: https://github.com/rogerbeecham/vis-inferences-roadsafety
 # url_dataset: ''
 # url_poster: ''

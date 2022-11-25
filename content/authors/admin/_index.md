@@ -11,15 +11,16 @@ role: Associate Professor in Visual Data Science
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: University of Leeds
-  url: http://www.leeds.ac.uk/
+  url: https://environment.leeds.ac.uk/geography/staff/1003/dr-roger-beecham
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include data visualization, applied data science and computational statistics.
+bio: My research interests include data visualization, applied data science, geographical analysis and computational statistics.
 
 # Interests to show in About widget
 interests:
 - Data Visualization
 - Applied Data Science
+- Geographical Analysis
 - Computational Statistics
 - Open Science
 - Transportation

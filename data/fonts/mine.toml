@@ -1,0 +1,17 @@
+# Font style metadata
+name = "mine"
+
+# Optional Google font URL
+# google_fonts = "family=Montserrat:wght@500&family=Work+Sans:wght@400&family=Roboto+Mono&family=Roboto:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700"
+# Optional Google font URL
+google_fonts = "family=Source+Sans+Pro+Light:wght@300;400;700;900;300italic&family=Roboto+Slab:wght@300"
+
+# Font families
+# heading_font = "Montserrat"
+# body_fon = "Roboto"
+# nav_font =  "Roboto"
+# mono_font = "Roboto Mono"
+heading_font = "Source Sans Pro Light"
+body_font = "Source Sans Pro Light"
+nav_font = "Source Sans Pro Light"
+mono_font = "Source Sans Pro Light, iosevka, monospace"

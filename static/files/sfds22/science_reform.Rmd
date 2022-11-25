@@ -115,6 +115,47 @@ Also the case that protocols for making statistical inference envisaged for very
 
 ---
 
+### On data uncertainty: observational data (and target population)
+
+
+.tiny-font[
+>  The replication of spatial analysis is complicated by the number of choices that must be made during spatial analy-sis and the wide range of alternatives that could be reasonably pursued.
+
+> If the goal is to produce regional expectations about the replicability of results, it is also necessary to consider the analytical uncertainties created when multiple tests are conducted in the presence of spatial data dependence. When multiple tests are used to examine the same hypothesis across a number of locations, it quickly becomes a near-certainty that results will include several false positives.
+
+> Correction factors have been proposed [but] those corrections assume independence between tests that does not exist in most geographic contexts because neighboring test locations share spatially dependent data
+
+> Kedron et al., 2021
+]
+
+???
+
+* and so where there is not agreed/accepted technique -- making inferential claims
+
+
+---
+
+
+### On analytic uncertainty: multiple testing
+
+
+.tiny-font[
+>  The techniques of statistical inference have their origins in the work of agronomists and experimental psychologists, where research is often conducted on **samples** of individuals or plants that have been **drawn** [...] **independently from larger populations**. These techniques then allow inferences to be made about the larger population — in short, to **generalize away from the sample**.
+>
+> [I]t is common in GIScience for research to deal not with a randomly chosen sample but with the **entire available set**: all of the counties in the United States, for example, or all of the census tracts in a city. In such situations **it is difficult to conceive of a larger population, difficult to see the set as randomly chosen from it, and difficult therefore to generalize away from the study**.
+
+
+> Nelson et al., 2022
+]
+
+???
+
+* and so where there is not agreed/accepted technique -- making inferential claims
+
+
+---
+
+
 ### Scientific Reform
 
 

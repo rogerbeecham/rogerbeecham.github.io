@@ -3,7 +3,7 @@ _site*
 .Rhistory
 .RData
 .Ruserdata
-public/
+/public/
 .DS_Store
 *_cache/
 content/**/*.html
