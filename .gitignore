@@ -1,14 +1,15 @@
-_site*
+# _site/*
+# /.quarto/
+# *_cache/
+# *_files/
+# /_*.local
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-/public/
-.DS_Store
-*_cache/
-content/**/*.html
-*.Rproj
-*.sh
+docs
+/.quarto/
+/.luarc.json
 CNAME
 
-/.luarc.json
+
