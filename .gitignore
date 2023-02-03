@@ -11,5 +11,5 @@ docs
 /.quarto/
 /.luarc.json
 CNAME
-
+.DS_Store
 
