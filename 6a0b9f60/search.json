@@ -1,0 +1,639 @@
+[
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Roger Beecham",
+    "section": "",
+    "text": "Hi! Thanks for visiting my website. If you find anything useful here, or on my github, and would like to know more, do get in touch. Below is a bio I tend to use to describe myself:\n\nI’m an Associate Professor in visual data science at the School of Geography, University of Leeds. I joined Leeds in 2017 after completing a PhD and postdoc at the giCentre. I publish methods-oriented research in data visualization (IEEE TVCG | CGF) and spatial analysis (GA), as well as applied studies in transport (AAP | TRC | TRA) and geography (E&P A | E&P B | JoTG). My work typically proposes, tests or applies visual methods that help analysts to understand and communicate complex (spatial) processes under uncertainty; I’m especially interested in how visualization relates to statistical issues."
+  },
+  {
+    "objectID": "research/articles/bikeability/index.html",
+    "href": "research/articles/bikeability/index.html",
+    "title": "Connected bikeability in London: which localities are better connected by bike and does this matter?",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/bikeability/index.html#abstract",
+    "href": "research/articles/bikeability/index.html#abstract",
+    "title": "Connected bikeability in London: which localities are better connected by bike and does this matter?",
+    "section": "Abstract",
+    "text": "Abstract\nBikeability, the extent to which a route network enables cycling for everyday travel, is a frequently-cited theme for increasing and diversifying cycling uptake and therefore one that attracts much research attention. Indexes designed to quantify bikeability typically generate a single bikeability value for a single locality. Important to transport planners making and evaluating infrastructure decisions, however, is how well-connected by bike are pairs of localities. For this it is necessary to estimate the bikeability of plausible routes connecting different parts of a city. We approximate routes for all origin-destination trips cycled in the London Cycle Hire Scheme for 2018 and estimate the bikeability of each route, linking to the newly-released London Cycle Infrastructure Database. We then divide the area of inner London covered by the bikeshare scheme into ‘villages’ and profile how bikeability varies for trips connecting those villages – we call this connected bikeability. Our bikeability scores vary geographically with certain localities in London better connected by bike than others. A key finding is that higher levels of connected bikeability are conferred to origin- destination village pairs of strategic importance, aligning with the stated ambition of recent cycling infrastructure interventions. The geography of connected bikeability maps to the commuting needs of London’s workers and we find some evidence that connected bikeability has a positive association with observed cycling activity, especially so when studying patterns of cycling to job-rich villages."
+  },
+  {
+    "objectID": "research/articles/bikeability/index.html#important-figure",
+    "href": "research/articles/bikeability/index.html#important-figure",
+    "title": "Connected bikeability in London: which localities are better connected by bike and does this matter?",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 4: Selected OD maps where Strand — Covent Garden bikeshare village is the destination. Origin maps are shaded according to connected bikeability, estimated commute counts and signed chi-scores of relative differences in professional vs. non-professional workers commuting from origin villages."
+  },
+  {
+    "objectID": "research/articles/bikeability/index.html#bibtex-citation",
+    "href": "research/articles/bikeability/index.html#bibtex-citation",
+    "title": "Connected bikeability in London: which localities are better connected by bike and does this matter?",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_connected_2023,\n    author = {Beecham, R. Yang, Y., Tait, C. and Lovelace, R.},\n    doi = {10.31219/osf.io/gbfz8},\n    publisher={OSF Preprints},\n    title={Connected bikeability in London: which localities are better connected by bike and does this matter?},\n    year = {2023}\n    }"
+  },
+  {
+    "objectID": "research/articles/biketube/index.html",
+    "href": "research/articles/biketube/index.html",
+    "title": "Understanding the impacts of public transit disruptions on bikeshare schemes and cycling behaviours using spatiotemporal and graph-based analysis: A case study of four London Tube strikes",
+    "section": "",
+    "text": "Paper\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/biketube/index.html#abstract",
+    "href": "research/articles/biketube/index.html#abstract",
+    "title": "Understanding the impacts of public transit disruptions on bikeshare schemes and cycling behaviours using spatiotemporal and graph-based analysis: A case study of four London Tube strikes",
+    "section": "Abstract",
+    "text": "Abstract\nUnderstanding the interactions between different travel modes is crucial for improving urban transport resilience, especially during times of disruption and transit failure. As a flexible and sustainable travel mode, bikeshare schemes are able to solve “first/last” mile problems in urban transit as well as provide an alternative to motorised traffic. This paper uses OD (origin and destination) trip data from the London Cycle Hire Scheme and temporal docking station bike availability data to explore the impact of four separate London Underground (Tube) strikes on bikeshare usage and behaviours. The results suggest that bikeshare usage generally rises in response to Tube disruptions, but the extent and nature of this rise in use varies according to the type of disruption. A novel measure of station pressure suggests that the scheme very quickly reaches saturated capacity and is unusable in certain parts of London during disruptions. A graph-based analysis reveals several changes in OD flow structures. This implies a modal shift from Tube to bikeshare and a change of route behaviours among bikeshare users. Weekday Tube strikes bring new behaviours and new OD pairs to the bike flow structures, whilst for weekend strikes existing patterns are consolidated. The corollary is that more heterogenous OD trip patterns are introduced by higher volumes of commuting trips and intense competition of cycles/docks. Cyclists are forced into using alternative (second or third preference) docking stations with new behaviours, and possibly users, as journeys that would otherwise be made via the Tube are made via bikeshare. This work comprehensively presents and compares the impacts of Tube strikes under varied circumstances and offers a detailed understanding of the changed cycling behaviours that could be used in transport planning and management."
+  },
+  {
+    "objectID": "research/articles/biketube/index.html#important-links-1",
+    "href": "research/articles/biketube/index.html#important-links-1",
+    "title": "Understanding the impacts of public transit disruptions on bikeshare schemes and cycling behaviours using spatiotemporal and graph-based analysis: A case study of four London Tube strikes",
+    "section": "Important links",
+    "text": "Important links\n\nPaper\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/biketube/index.html#important-figure",
+    "href": "research/articles/biketube/index.html#important-figure",
+    "title": "Understanding the impacts of public transit disruptions on bikeshare schemes and cycling behaviours using spatiotemporal and graph-based analysis: A case study of four London Tube strikes",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 5: Ridership change in the hexagonal grid, white lines are disrupted Tube lines; (a) Ridership change - Strike 3; (b) Change ratio – Strike 3; (c) Ridership change – Strike 4; (d) Change Ratio – Strike 4."
+  },
+  {
+    "objectID": "research/articles/biketube/index.html#bibtex-citation",
+    "href": "research/articles/biketube/index.html#bibtex-citation",
+    "title": "Understanding the impacts of public transit disruptions on bikeshare schemes and cycling behaviours using spatiotemporal and graph-based analysis: A case study of four London Tube strikes",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{yang_understanding_2022,\n    title = {Understanding the impacts of public transit disruptions on bikeshare schemes and cycling behaviours using spatiotemporal and graph-based analysis: {A} case study of four {London} {Tube} strikes},\n    volume = {98},\n    issn = {0966-6923},\n    url = {https://www.sciencedirect.com/science/article/pii/S0966692321003082},\n    doi = {https://doi.org/10.1016/j.jtrangeo.2021.103255},\n    journal = {Journal of Transport Geography},\n    author = {Yang, Y. and Beecham, R. and Heppenstall, A. and Turner, A. and Comber, A.},\n    year = {2022},\n    keywords = {Bike-sharing, Graph theory, Transportation, Urban analytics},\n    pages = {103255},\n}"
+  },
+  {
+    "objectID": "research/articles/brexit/index.html",
+    "href": "research/articles/brexit/index.html",
+    "title": "Locally-varying explanations behind the United Kingdom’s vote to leave the European Union",
+    "section": "",
+    "text": "Paper\nCode"
+  },
+  {
+    "objectID": "research/articles/brexit/index.html#abstract",
+    "href": "research/articles/brexit/index.html#abstract",
+    "title": "Locally-varying explanations behind the United Kingdom’s vote to leave the European Union",
+    "section": "Abstract",
+    "text": "Abstract\nExplanations behind area-based (Local Authority-level) voting preference in the 2016 referendum on membership of the European Union are explored using aggregate-level data. Developing local models, special attention is paid to whether variables explain the vote equally well across the country. Variables describing the post-industrial and economic successfulness of Local Authorities most strongly discriminate variation in the vote. To a lesser extent this is the case for variables linked to metropolitan and big city contexts, which assist the Remain vote, those that distinguish more traditional and nativist values, assisting Leave, and those loosely describing material outcomes, again reinforcing Leave. Whilst variables describing economic competitiveness co-vary with voting preference equally well across the country, the importance of secondary variables - those distinguishing metropolitan settings, values and outcomes - does vary by region. For certain variables and in certain areas, the direction of effect on voting preference reverses. For example, whilst levels of European Union migration mostly assist the Remain vote, in parts of the country the opposite effect is observed."
+  },
+  {
+    "objectID": "research/articles/brexit/index.html#important-figure",
+    "href": "research/articles/brexit/index.html#important-figure",
+    "title": "Locally-varying explanations behind the United Kingdom’s vote to leave the European Union",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 5: Geographically-weighted correlation coefficients for candidate explanatory variables against share of Leave vote. Coefficients are mapped to a green(+ve) → purple(−ive) diverging color scheme. A ColorBrewer PRGn diverging scheme [13] is used."
+  },
+  {
+    "objectID": "research/articles/brexit/index.html#bibtex-citation",
+    "href": "research/articles/brexit/index.html#bibtex-citation",
+    "title": "Locally-varying explanations behind the United Kingdom’s vote to leave the European Union",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_locally_2018,\n    title = {Locally-varying explanations behind the {United Kingdom's} vote to leave the {European Union}},\n          journal = {Journal of Spatial Information Science},\n    author = {Beecham, R. and Slingsby, A. and Brunsdon, C.},\n    volume =  {16},\n    number = {},\n    pages = {117--136},\n    year = {2018}\n}"
+  },
+  {
+    "objectID": "research/articles/cid/index.html",
+    "href": "research/articles/cid/index.html",
+    "title": "Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database",
+    "section": "",
+    "text": "Paper\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/cid/index.html#abstract",
+    "href": "research/articles/cid/index.html#abstract",
+    "title": "Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database",
+    "section": "Abstract",
+    "text": "Abstract\nIntroduction We describe and analyse a new, open dataset of surveyed cycling infrastructure in London UK. We demonstrate its potential to contribute to research and evidence-based policy development through a spatial analysis of infrastructure provision in London, before evaluating administrative boroughs on their infrastructure mix and compliance with UK Cycle Infrastructure Design Standards.\nMethods We processed and cleaned the 233,596 records in the London Cycling Infrastructure Database (CID) that contains nine infrastructure types. To support comparison between London boroughs, infrastructure provision was normalised to borough area, population size and level of commuter cycling. We generated variables capturing cyclist separation from motor vehicles and estimated cycle lane compliance for such segregation against design standards.\nResults Each CID record contains the infrastructure survey date, spatial location, infrastructure-specific variables and accompanying photographs. Traffic calming assets are numerous and distributed throughout London. Cyclist signals, crossings, Advanced Stop Lanes and cycle lanes and tracks are less numerous and more commonly seen in inner rather than outer London. Normalisation by area and population did not change these spatial patterns. Six percent of on-road cycle lane length is physically segregated from vehicles. Estimated compliance with UK design standards was notably higher for inner London boroughs with 66% exceeding mean compliance compared to just 24% of outer London boroughs.\nConclusions In this first systematic description and analysis of the CID we have demonstrated its potential to quantitively and qualitatively compare infrastructure and a method to estimate compliance against design standards. We found that cycling infrastructure is not distributed equally across London and may not be of the quality that provides safe space for cycling. Such datasets are critical assets to evaluate infrastructure and guide health and transport policies."
+  },
+  {
+    "objectID": "research/articles/cid/index.html#important-figure",
+    "href": "research/articles/cid/index.html#important-figure",
+    "title": "Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 7: Estimated compliance of on-road cycle lanes with LTN 1/20: Spatial distribution (top left), spatially arranged borough bar charts showing length in kilometre (bottom left) and percentage of length by borough where speed limit is known (right, solid line = mean)."
+  },
+  {
+    "objectID": "research/articles/cid/index.html#bibtex-citation",
+    "href": "research/articles/cid/index.html#bibtex-citation",
+    "title": "Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{tait_cycling_2022,\n    author = {Caroline Tait and Roger Beecham and Robin Lovelace and Stuart Barber},\n    doi = {https://doi.org/10.1016/j.jth.2022.101369},\n    issn = {2214-1405},\n    journal = {Journal of Transport & Health},\n    keywords = {Cycling infrastructure, Spatial analysis, Cycling equity, Cycling safety, Transport planning, Active travel},\n    pages = {101369},\n    title = {Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database},\n    url = {https://www.sciencedirect.com/science/article/pii/S221414052200041X},\n    year = {2022},\n    Bdsk-Url-1 = {https://www.sciencedirect.com/science/article/pii/S221414052200041X},\n    Bdsk-Url-2 = {https://doi.org/10.1016/j.jth.2022.101369}\n    }"
+  },
+  {
+    "objectID": "research/articles/commuting/index.html",
+    "href": "research/articles/commuting/index.html",
+    "title": "Studying commuting behaviours using collaborative visual analytics",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "research/articles/commuting/index.html#abstract",
+    "href": "research/articles/commuting/index.html#abstract",
+    "title": "Studying commuting behaviours using collaborative visual analytics",
+    "section": "Abstract",
+    "text": "Abstract\nMining a large origin–destination dataset of journeys made through London’s Cycle Hire Scheme (LCHS), we develop a technique for automatically classifying commuting behaviour that involves a spatial analysis of cyclists’ journeys. We identify a subset of potential commuting cyclists, and for each individual define a plausible geographic area representing their workplace. All peak-time journeys terminating within the vicinity of this derived workplace in the morning, and originating from this derived workplace in the evening, we label commutes. Three techniques for creating these workplace areas are compared using visual analytics: a weighted mean-centres calculation, spatial k-means clustering and a kernel density-estimation method. Evaluating these techniques at the individual cyclist level, we find that commuters’ peak-time journeys are more spatially diverse than might be expected, and that for a significant portion of commuters there appears to be more than one plausible spatial workplace area. Evaluating the three techniques visually, we select the density-estimation as our preferred method. Two distinct types of commuting activity are identified: those taken by LCHS customers living outside of London, who make highly regular commuting journeys at London’s major rail hubs; and more varied commuting behaviours by those living very close to a bike-share docking station. We find evidence of many interpeak journeys around London’s universities apparently being taken as part of cyclists’ working day. Imbalances in the number of morning commutes to, and evening commutes from, derived workplaces are also found, which might relate to local availability of bikes. Significant decisions around our workplace analysis, and particularly these broader insights into commuting behaviours, are discovered through exploring this analysis visually. The visual analysis approach described in the paper is effective in enabling a research team with varying levels of analysis experience to participate in this research. We suggest that such an approach is of relevance to many applied research contexts."
+  },
+  {
+    "objectID": "research/articles/commuting/index.html#important-figure",
+    "href": "research/articles/commuting/index.html#important-figure",
+    "title": "Studying commuting behaviours using collaborative visual analytics",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 9: Application for exploring ‘global workplaces’. Map: pie charts are workplace docking stations sized according to number of commutes arriving (blue) in the morning and departing (orange) in the evening Mouse is currently held on docking station in middle left of view; its name, and number of commuting journeys is labelled and all evening commutes leaving that station are drawn on the map. Bottom: gender and geodemographic variables appear as bars; in am/pm slider, docking stations where more evening commutes depart from that station than morning commutes arrive are selected."
+  },
+  {
+    "objectID": "research/articles/commuting/index.html#bibtex-citation",
+    "href": "research/articles/commuting/index.html#bibtex-citation",
+    "title": "Studying commuting behaviours using collaborative visual analytics",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_studying_2014,\n    title={Studying commuting behaviours using collaborative visual analytics},\n    author={Beecham, R. and Wood, J. and Bowerman, A.},\n    journal={Computers, Environment and Urban Systems},\n    year={2014},\n    volume = {47},\n    number={September},\n    pages={5--15},\n    publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "research/articles/contraflows/index.html",
+    "href": "research/articles/contraflows/index.html",
+    "title": "Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets",
+    "section": "",
+    "text": "Paper\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/contraflows/index.html#abstract",
+    "href": "research/articles/contraflows/index.html#abstract",
+    "title": "Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets",
+    "section": "Abstract",
+    "text": "Abstract\nContraflow cycling on one-way streets is a low cost intervention that research shows can improve the cycling experience and increase participation. Evidence from several studies suggest that cyclists on contraflows have a lower crash risk. However, implementing contraflow cycling is often controversial, including in the United Kingdom (UK). In this paper we examine whether contraflow cycling on one-way streets alters crash or casualty rates for pedal cyclists. Focusing on inner London boroughs between 1998 and 2019, we identified 508 road segments where contraflow cycling was introduced on one-way streets. We identified road traffic crashes occurring within 10 m of these segments and labelled them as pre-contraflow, contraflow or contraflow removed crashes. We calculated rates using the number of crashes or casualties divided by the time exposed and generated 95 % confidence intervals using bootstrap resampling. We adjusted the rates for changes in cordon cycling volume and injury severity reporting. There were 1498 crashes involving pedal cyclists: 788 pre-contraflow, 703 contraflow and 7 following contraflow removal. There was no change in adjusted overall pedal cyclist crash or casualty rates when contraflow cycling was introduced. Proximity to a junction doubled the crash rate. The crash rate when pedal cyclists were travelling contraflow was the same as those travelling with flow. We have found no evidence that introducing contraflow cycling increases the crash or casualty rate for pedal cyclists. It is possible that such rates may indeed fall when contraflow cycling is introduced if more accurate spatio-temporal cycling volume data was available. We recommend all one-way streets are evaluated for contraflow cycling but encourage judicious junction design and recommend UK legislative change for mandatory-two-way cycling on one-way streets unless exceptional circumstances exist."
+  },
+  {
+    "objectID": "research/articles/contraflows/index.html#important-figure",
+    "href": "research/articles/contraflows/index.html#important-figure",
+    "title": "Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 1: Road segments with contraflows introduced a) Map of London showing location of inner London boroughs used in the study; b) Map of inner London boroughs showing the location and spatial extent of road segments; c) Line chart showing number of contraflows added, removed and active over time; and d) Line chart showing cumulative number of contraflows introduced over time by borough. The dashed line shows when traffic sign change was introduced."
+  },
+  {
+    "objectID": "research/articles/contraflows/index.html#bibtex-citation",
+    "href": "research/articles/contraflows/index.html#bibtex-citation",
+    "title": "Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{tait_contraflows_2023,\n    author = {Tait, C. and Beecham, R. and Lovelace, R. and Barber, S.},\n    doi = {10.1016/j.aap.2022.106895},\n    publisher={Elsevier},\n    title={Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets},\n    year = {2023},\n    volume = {179},\n        number={January},\n        pages={106895}\n    }"
+  },
+  {
+    "objectID": "research/articles/deprivation/index.html",
+    "href": "research/articles/deprivation/index.html",
+    "title": "Mapping deprivation for each and every small area in England",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "research/articles/deprivation/index.html#abstract",
+    "href": "research/articles/deprivation/index.html#abstract",
+    "title": "Mapping deprivation for each and every small area in England",
+    "section": "Abstract",
+    "text": "Abstract\nOur regional graphic maps deprivation for small neighbourhoods in England in a way that enables the extent, distribution and spatial structure of deprivation to be perceived at multiple levels of geography. All 32,844 neighbourhoods are depicted using rectangles of constant size and with an approximate geographical arrangement. This approach overcomes familiar cartographic challenges when representing demographic data, exposing local pockets of deprivation that would otherwise be obscured in a conventional map. Neighbourhoods are nested hierarchically, and this hierarchy is emphasized in our design, allowing analysis within and between regions. The graphic reveals important spatial processes – rich patterns of continuity and discontinuity at multiple spatial scales – that may not be as effectively represented using non-visual means."
+  },
+  {
+    "objectID": "research/articles/deprivation/index.html#important-figure",
+    "href": "research/articles/deprivation/index.html#important-figure",
+    "title": "Mapping deprivation for each and every small area in England",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 1: Spatially ordered treemap (Wood & Dykes 2008) of 32,844 lower layer super output areas (LSOAs) in England, nested within local authority and region, and given an approximate geographical arrangement. Each LSOA is depicted using a rectangle of equal size. LSOAs are coloured according to Index of Multiple Deprivation 2019 (IMD) rank and using a ColorBrewer diverging scheme (Brewer 2002)."
+  },
+  {
+    "objectID": "research/articles/deprivation/index.html#bibtex-citation",
+    "href": "research/articles/deprivation/index.html#bibtex-citation",
+    "title": "Mapping deprivation for each and every small area in England",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n\n@article{radburn_mapping_2021,\n    author = {Robert Radburn and Roger Beecham},\n    doi = {10.1080/21681376.2021.1934528},\n    journal = {Regional Studies, Regional Science},\n    number = {1},\n    pages = {269-272},\n    title = {Mapping deprivation for each and every small area in England},\n    volume = {8},\n    year = {2021}"
+  },
+  {
+    "objectID": "research/articles/dexds/index.html",
+    "href": "research/articles/dexds/index.html",
+    "title": "Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization",
+    "section": "",
+    "text": "Paper\nCode"
+  },
+  {
+    "objectID": "research/articles/dexds/index.html#abstract",
+    "href": "research/articles/dexds/index.html#abstract",
+    "title": "Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization",
+    "section": "Abstract",
+    "text": "Abstract\nWe present and report on Design Exposition Discussion Documents (DExDs), a new means of fostering collaboration between visualization designers and domain experts in applied visualization research. DExDs are a collection of semi-interactive web-based documents used to promote design discourse: to communicate new visualization designs, and their underlying rationale, and to elicit feedback and new design ideas. Developed and applied during a four-year visual data analysis project in criminal intelligence, these documents enabled a series of visualization re-designs to be explored by crime analysts remotely – in a flexible and authentic way. The DExDs were found to engender a level of engagement that is qualitatively distinct from more traditional methods of feedback elicitation, supporting the kind of informed, iterative and design-led feedback that is core to applied visualization research. They also offered a solution to limited and intermittent contact between analyst and visualization researcher and began to address more intractable deficiencies, such as social desirability-bias, common to applied visualization projects. Crucially, DExDs conferred to domain experts greater agency over the design process – collaborators proposed design suggestions, justified with design knowledge, that directly influenced the re-redesigns. We provide context that allows the contributions to be transferred to a range of settings."
+  },
+  {
+    "objectID": "research/articles/dexds/index.html#important-figure",
+    "href": "research/articles/dexds/index.html#important-figure",
+    "title": "Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 2: Edited excerpts from our DExDs illustrating the four dialogue strategies: explain, expose, experiment, express."
+  },
+  {
+    "objectID": "research/articles/dexds/index.html#bibtex-citation",
+    "href": "research/articles/dexds/index.html#bibtex-citation",
+    "title": "Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_design_2021,\n     author = {Beecham, R. and Dykes, J. and Rooney, C. and Wong, W.},\n     title = {{Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization}},\n     journal = {{IEEE Transactions on Visualization and Computer Graphics}},\n     pages = {3451--3462},\n     volume = {27},\n     number = {8},\n     year = {2021}\n}"
+  },
+  {
+    "objectID": "research/articles/favves/index.html",
+    "href": "research/articles/favves/index.html",
+    "title": "Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples",
+    "section": "",
+    "text": "Paper\nCode"
+  },
+  {
+    "objectID": "research/articles/favves/index.html#abstract",
+    "href": "research/articles/favves/index.html#abstract",
+    "title": "Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples",
+    "section": "Abstract",
+    "text": "Abstract\nMany datasets have multiple perspectives – for example space, time and description – and often analysts are required to study these multiple perspectives concurrently. This concurrent analysis becomes difficult when data are grouped and split into small multiples for comparison. A design challenge is thus to provide representations that enable multiple perspectives, split into small multiples, to be viewed simultaneously in ways that neither clutter nor overload. We present a design framework that allows us to do this. We claim that multi-perspective comparison across small multiples may be possible by superimposing perspectives on one another rather than juxtaposing those perspectives side-by-side. This approach defies conventional wisdom and likely results in visual and informational clutter. For this reason we propose designs at three levels of abstraction for each perspective. By flexibly varying the abstraction level, certain perspectives can be brought into, or out of, focus. We evaluate our framework through laboratory-style user tests. We find that superimposing, rather than juxtaposing, perspective views has little effect on performance of a low-level comparison task. We reflect on the user study and its design to further identify analysis situations for which our framework may be desirable. Although the user study findings were insufficiently discriminating, we believe our framework opens up a new design space for multi-perspective visual analysis."
+  },
+  {
+    "objectID": "research/articles/favves/index.html#important-figure",
+    "href": "research/articles/favves/index.html#important-figure",
+    "title": "Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 1: Small multiples summarising spatial (red), temporal (blue) and descriptive (green) signatures of several collections of reported road incident data from London. The three perspectives – space, time and description – are superimposed on one another to form space-filling single graphic composites. They indicate, for example, that incidents involving pedal cycles are highly spatially concentrated around central London, although reasonably evenly so, and typically happen during the daytime and mid-week. This is distin t from incidents involving taxis, which have a similar spatial concentration, but typically happen towards the end of the week and in the evening."
+  },
+  {
+    "objectID": "research/articles/favves/index.html#bibtex-citation",
+    "href": "research/articles/favves/index.html#bibtex-citation",
+    "title": "Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_faceted_2016,\n    title = {Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples},\n          journal = {Computer Graphics Forum},\n    author = {Beecham, R. and Rooney, C. and Meier, S. and Dykes, J. and Slingsby, A. and Turkay, C. and Wong, W.},\n    year = {2016},\n    volume =  {35},\n    number = {3},\n    pages = {241--249}\n}"
+  },
+  {
+    "objectID": "research/articles/ge/index.html",
+    "href": "research/articles/ge/index.html",
+    "title": "Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election",
+    "section": "",
+    "text": "Paper (OpenAccess)\nCode"
+  },
+  {
+    "objectID": "research/articles/ge/index.html#important-figure",
+    "href": "research/articles/ge/index.html#important-figure",
+    "title": "Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 1: Map of the Butler two-party Conservative–Labour shift in the 2019 UK general election. 2019 data collated by Alex Denvir, 2017 data from the Electoral Commission, boundary data from the Office of National Statistics Open Geography Portal and hex cartogram from ESRI’s Ben Flanagan."
+  },
+  {
+    "objectID": "research/articles/ge/index.html#bibtex-citation",
+    "href": "research/articles/ge/index.html#bibtex-citation",
+    "title": "Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_using_2020,\n     author = {Beecham, R.},\n     title = {{Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election}},\n     journal = {{Environment and Planning A: Economy and Space}},\n     pages = {833--836},\n     volume = {52},\n     number = {5},\n     year = {2020}\n}"
+  },
+  {
+    "objectID": "research/articles/gender/index.html",
+    "href": "research/articles/gender/index.html",
+    "title": "Exploring gendered cycling behaviours within a large-scale behavioural data-set",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "research/articles/gender/index.html#abstract",
+    "href": "research/articles/gender/index.html#abstract",
+    "title": "Exploring gendered cycling behaviours within a large-scale behavioural data-set",
+    "section": "Abstract",
+    "text": "Abstract\nAnalysing over 10 million journeys made by members of London’s Cycle Hire Scheme, we find that female customers’ usage characteristics are demonstrably different from those of male customers. Usage at weekends and within London’s parks characterises women’s journeys, whereas for men, a commuting function is more clearly identified. Some of these variations are explained by geo-demographic differences and by an atypical period of usage during the first three months after the scheme’s launch. Controlling for each of these variables brings some convergence between men and women. However, many differences are preserved. Studying the spatio-temporal context under which journeys are made, we find that women’s journeys are highly spatially structured. Even when making utilitarian cycle trips, routes that involve large, multi-lane roads are comparatively rare, and instead female cyclists preferentially select areas of the city associated with slower traffic streets and with cycle routes slightly offset from major roads."
+  },
+  {
+    "objectID": "research/articles/gender/index.html#important-figure",
+    "href": "research/articles/gender/index.html#important-figure",
+    "title": "Exploring gendered cycling behaviours within a large-scale behavioural data-set",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nComparing the geography of men’s and women’s journeys in the London bikeshare scheme. Assumption is that local OD pairs are cycled by men and women in the same proportion as gloally (for the scheme as a whole)."
+  },
+  {
+    "objectID": "research/articles/gender/index.html#bibtex-citation",
+    "href": "research/articles/gender/index.html#bibtex-citation",
+    "title": "Exploring gendered cycling behaviours within a large-scale behavioural data-set",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_exploring_2014,\n    title={Exploring gendered cycling behaviours within a large-scale behavioural data-set},\n    author={Beecham, R. and Wood, J.},\n    journal={Transportation Planning and Technology},\n         volume = {37},\n    number={1},\n    pages={83--97},\n    year={2014},\n    publisher={Taylor \\& Francis}\n}"
+  },
+  {
+    "objectID": "research/articles/glyphmaps/index.html",
+    "href": "research/articles/glyphmaps/index.html",
+    "title": "On the Use of ‘Glyphmaps’ for Analysing the Scale and Temporal Spread of COVID-19 Reported Cases",
+    "section": "",
+    "text": "Paper (OpenAccess)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/glyphmaps/index.html#abstract",
+    "href": "research/articles/glyphmaps/index.html#abstract",
+    "title": "On the Use of ‘Glyphmaps’ for Analysing the Scale and Temporal Spread of COVID-19 Reported Cases",
+    "section": "Abstract",
+    "text": "Abstract\nRecent analysis of area-level COVID-19 cases data attempts to grapple with a challenge familiar to geovisualization: how to capture the development of the virus, whilst supporting analysis across geographic areas? We present several glyphmap designs for addressing this challenge applied to local authority data in England whereby charts displaying multiple aspects related to the pandemic are given a geographic arrangement. These graphics are visually complex, with clutter, occlusion and salience bias an inevitable consequence. We develop a framework for describing and validating the graphics against data and design requirements. Together with an observational data analysis, this framework is used to evaluate our designs, relating them to particular data analysis needs based on the usefulness of the structure they expose. Our designs, documented in an accompanying code repository, attend to common difficulties in geovisualization design and could transfer to contexts outside of the UK and to phenomena beyond the pandemic."
+  },
+  {
+    "objectID": "research/articles/glyphmaps/index.html#important-figure",
+    "href": "research/articles/glyphmaps/index.html#important-figure",
+    "title": "On the Use of ‘Glyphmaps’ for Analysing the Scale and Temporal Spread of COVID-19 Reported Cases",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 10: Full glyphmap with area-chart of daily new cases (with 7-day smoothing) and spine plot of absolute and relative cases superimposed."
+  },
+  {
+    "objectID": "research/articles/glyphmaps/index.html#bibtex-citation",
+    "href": "research/articles/glyphmaps/index.html#bibtex-citation",
+    "title": "On the Use of ‘Glyphmaps’ for Analysing the Scale and Temporal Spread of COVID-19 Reported Cases",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_on_2021,\n    article-number = {213},\n    author = {Beecham, R. and Dykes, J. and Hama, L. and Lomax, N.},\n    doi = {10.3390/ijgi10040213},\n    issn = {2220-9964},\n    journal = {ISPRS International Journal of Geo-Information},\n    number = {4},\n    title = {On the Use of `Glyphmaps' for Analysing the Scale and Temporal Spread of COVID-19 Reported Cases},\n    volume = {10},\n    year = {2021}\n    }"
+  },
+  {
+    "objectID": "research/articles/groupcycling/index.html",
+    "href": "research/articles/groupcycling/index.html",
+    "title": "Characterising group-cycling journeys using interactive graphics",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "research/articles/groupcycling/index.html#abstract",
+    "href": "research/articles/groupcycling/index.html#abstract",
+    "title": "Characterising group-cycling journeys using interactive graphics",
+    "section": "Abstract",
+    "text": "Abstract\nThe group-cycling behaviours of over 16,000 members of the London Cycle Hire Scheme (LCHS), a large public bikeshare system, are identified and analysed. Group journeys are defined as trips made by two or more cyclists together in space and time. Detailed insights into group-cycling behaviour are generated using specifically designed visualization software. We find that in many respects group-cycle journeys fit an expected pattern of discretionary activity: group journeys are more likely at weekends, late evenings and lunchtimes; they generally take place within more pleasant parts of the city; and between individuals apparently known to each other. A separate set of group activity is found, however, that coincides with commuting peaks and that appears to be imposed onto LCHS users by the scheme’s design. Studying the characteristics of individuals making group journeys, we identify a group of less experienced LCHS cyclists that appear to make more spatially extensive journeys than they would do normally while cycling with others; and that female cyclists are more likely to make late evening journeys when cycling in groups. For 20% of group cyclists, the first journey ever made through the LCHS was a group journey; this is particularly surprising since just 9% of all group cyclists’ journeys are group journeys. Moreover, we find that women are very significantly (p < 0.001) overrepresented amongst these ‘first time group cyclists’. Studying the bikeshare cyclists, or bike share ‘friends’, that individuals make ‘first time group journeys’ with, we find a significantly high incidence (p < 0.001) of group journeys being made with friends of the opposite gender, and for a very large proportion (55%) of members these first ever journeys are made with a friend that shares the same postcode. A substantial insight, then, is that group cycling appears to be a means through which early LCHS usage is initiated."
+  },
+  {
+    "objectID": "research/articles/groupcycling/index.html#important-figure",
+    "href": "research/articles/groupcycling/index.html#important-figure",
+    "title": "Characterising group-cycling journeys using interactive graphics",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 9: Discourse channel trajectories mapped onto the Sedlmair et al. task-information space. Arrows indicate evolution over time."
+  },
+  {
+    "objectID": "research/articles/groupcycling/index.html#bibtex-citation",
+    "href": "research/articles/groupcycling/index.html#bibtex-citation",
+    "title": "Characterising group-cycling journeys using interactive graphics",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_characterising_2014,\n    title={Characterising group-cycling journeys using interactive graphics},\n    author={Beecham, R. and Wood, J.},\n    journal={Transportation Research Part C: Emerging Technologies},\n    year={2014},\n    volume = {47},\n    number={October},\n    pages={194--206},\n    publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "research/articles/inclusive/index.html",
+    "href": "research/articles/inclusive/index.html",
+    "title": "Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "research/articles/inclusive/index.html#abstract",
+    "href": "research/articles/inclusive/index.html#abstract",
+    "title": "Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips",
+    "section": "Abstract",
+    "text": "Abstract\nPro-cycling interventions, and cycle hire schemes in particular, are often assumed to primarily benefit the privileged. This framing has played-out in academic research, with many papers exploring the relationship between cycling and existing inequalities. A growing body of evidence suggests that cycle hire schemes tend to serve wealthy areas and young, high income groups, mirroring inequalities in other types of cycling uptake, yet there has been little research into the ‘direction of travel’ and whether such inequalities are growing or ‘levelling up’ over time. This paper explores the uptake of the London Cycle Hire Scheme (LCHS), a large, early and prominent scheme that had the explicit aim of ‘normalising’ cycling. The method involved reproducible analysis (with code documented in the GitHub repo Robinlovelace/cycle-hire-inclusive) of 73.4 million cycle high records spanning 8 years from January 2012 to December 2019, using the geographic location of docking stations alongside official statistics to assess social and spatial inequalities in uptake. The method involved analysis of 73.4 million cycle high records spanning 8 years from January 2012 to December 2019, using the geographic location of docking stations alongside official statistics to assess social and spatial inequalities in uptake. We found that, contrary to the trend for increasing segregation and geographic inequalities, the usage of the LCHS have become increasingly geographically distributed across London over time, with AM peak usage in comparatively low-income areas seeing high levels of growth. Our study shows that cycle hire schemes can be designed and expanded in ways that benefit a wide range of people, including those from low income areas, and that new cycle hire docking stations in poorer areas can succeed."
+  },
+  {
+    "objectID": "research/articles/inclusive/index.html#important-figure",
+    "href": "research/articles/inclusive/index.html#important-figure",
+    "title": "Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 10: Rolling daily trip counts by income decile (red) and docking stations within income deciles (grey) for 2012–2019. Frequencies are locally scaled by income decile and docking station and with a 365-day smoothing. Docking stations are ordered within small multiples from lowest (1) to highest (10) income deciles. Grey fill within each decile plot varies according to overall trip counts originating from dockin stations in that decile."
+  },
+  {
+    "objectID": "research/articles/inclusive/index.html#bibtex-citation",
+    "href": "research/articles/inclusive/index.html#bibtex-citation",
+    "title": "Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{lovelace_cycle_2021,\n    author = {Robin Lovelace and Roger Beecham and Eva Heinen and Eugeni {Vidal Tortosa} and Yuanxuan Yang and Chris Slade and Antonia Roberts},\n    doi = {https://doi.org/10.1016/j.tra.2020.07.017},\n    journal = {Transportation Research Part A: Policy and Practice},\n    pages = {1-15},\n    title = {Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips},\n    url = {https://www.sciencedirect.com/science/article/pii/S0965856420306728},\n    volume = {140},\n    year = {2020}\n    }"
+  },
+  {
+    "objectID": "research/articles/maplineups/index.html",
+    "href": "research/articles/maplineups/index.html",
+    "title": "Map line-ups: effects of spatial structure on graphical inference",
+    "section": "",
+    "text": "Paper\nCode"
+  },
+  {
+    "objectID": "research/articles/maplineups/index.html#abstract",
+    "href": "research/articles/maplineups/index.html#abstract",
+    "title": "Map line-ups: effects of spatial structure on graphical inference",
+    "section": "Abstract",
+    "text": "Abstract\nFundamental to the effective use of visualization as an analytic and descriptive tool is the assurance that presenting data visually provides the capability of making inferences from what we see. This paper explores two related approaches to quantifying the confidence we may have in making visual inferences from mapped geospatial data. We adapt Wickham et al.’s `Visual Line-up’ method as a direct analogy with Null Hypothesis Significance Testing (NHST) and propose a new approach for generating more credible spatial null hypotheses. Rather than using as a spatial null hypothesis the unrealistic assumption of complete spatial randomness, we propose spatially autocorrelated simulations as alternative nulls. We conduct a set of crowdsourced experiments (n = 361) to determine the just noticeable difference (JND) between pairs of choropleth maps of geographic units controlling for spatial autocorrelation (Moran’s I statistic) and geometric configuration (variance in spatial unit area). Results indicate that people’s abilities to perceive differences in spatial autocorrelation vary with baseline autocorrelation structure and the geometric configuration of geographic units. These results allow us, for the first time, to construct a visual equivalent of statistical power for geospatial data. Our JND results add to those provided in recent years by Klippel et al. (2011), Harrison et al. (2014) and Kay & Heer (2015) for correlation visualization. Importantly, they provide an empirical basis for an improved construction of visual line-ups for maps and the development of theory to inform geospatial tests of graphical inference."
+  },
+  {
+    "objectID": "research/articles/maplineups/index.html#important-figure",
+    "href": "research/articles/maplineups/index.html#important-figure",
+    "title": "Map line-ups: effects of spatial structure on graphical inference",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 2: Example stimuli used in the experiments. Three categories of geography were used: regular grid, regular real and irregular real."
+  },
+  {
+    "objectID": "research/articles/maplineups/index.html#bibtex-citation",
+    "href": "research/articles/maplineups/index.html#bibtex-citation",
+    "title": "Map line-ups: effects of spatial structure on graphical inference",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_map_2017,\n    title = {Map line-ups: effects of spatial structure on graphical inference},\n          journal = {{IEEE} Transactions on Visualization and Computer Graphics},\n    author = {Beecham, R. and Dykes, J. and Meulemans, W. and Slingsby, A. and Turkay, C. and Wood, J.},\n    volume =  {23},\n    number = {1},\n    pages = {391--400},\n    year = {2017}\n}"
+  },
+  {
+    "objectID": "research/articles/moving/index.html",
+    "href": "research/articles/moving/index.html",
+    "title": "Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "research/articles/moving/index.html#abstract",
+    "href": "research/articles/moving/index.html#abstract",
+    "title": "Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization",
+    "section": "Abstract",
+    "text": "Abstract\nWe reflect on a four-year engagement with transport authorities and others involving a large dataset describing the use of a public bicycle-sharing scheme. We describe the role visualization of these data played in fostering engagement with policy makers, transport operators, the transport research community, the museum and gallery sector and the general public. We identify each of these as `channels’-evolving relationships between producers and consumers of visualization-where traditional roles of the visualization expert and domain expert are blurred. In each case, we identify the different design decisions that were required to support each of these channels and the role played by the visualization process. Using chauffeured interaction with a flexible visual analytics system we demonstrate how insight was gained by policy makers into gendered spatio-temporal cycle behaviors, how this led to further insight into workplace commuting activity, group cycling behavior and explanations for street navigation choice. We demonstrate how this supported, and was supported by, the seemingly unrelated development of narrative-driven visualization via TEDx, of the creation and the setting of an art installation and the curating of digital and physical artefacts. We assert that existing models of visualization design, of tool/technique development and of insight generation do not adequately capture the richness of parallel engagement via these multiple channels of communication. We argue that developing multiple channels in parallel opens up opportunities for visualization design and analysis by building trust and authority and supporting creativity. This rich, non-sequential approach to visualization design is likely to foster serendipity, deepen insight and increase impact."
+  },
+  {
+    "objectID": "research/articles/moving/index.html#important-figure",
+    "href": "research/articles/moving/index.html#important-figure",
+    "title": "Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 9: Discourse channel trajectories mapped onto the Sedlmair et al. task-information space. Arrows indicate evolution over time."
+  },
+  {
+    "objectID": "research/articles/moving/index.html#bibtex-citation",
+    "href": "research/articles/moving/index.html#bibtex-citation",
+    "title": "Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{wood_moving_2014,\n    title = {Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization},\n          journal = {{IEEE} Transactions on Visualization and Computer Graphics},\n    author = {Wood, J. and Beecham, R. and Dykes, J.},\n    year = {2014},\n    volume =  {20},\n    number = {12},\n    pages = {2171--2180}\n}"
+  },
+  {
+    "objectID": "research/articles/nokia/index.html",
+    "href": "research/articles/nokia/index.html",
+    "title": "Visual analysis of social networks in space and time using smartphone logs",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "research/articles/nokia/index.html#abstract",
+    "href": "research/articles/nokia/index.html#abstract",
+    "title": "Visual analysis of social networks in space and time using smartphone logs",
+    "section": "Abstract",
+    "text": "Abstract\nWe designed and applied interactive visualisation techniques for investigating how social networks are embedded in time and space, using data collected from smartphone logs. Our interest in spatial aspects of social networks is that they may reveal associations between participants missed by simply making contact through smartphone devices. Four linked and co-ordinated views of spatial, temporal, individual and social network aspects of the data, along with demographic and attitudinal variables, helped add context to the behaviours we observed. Using these techniques, we were able to characterise spatial and temporal aspects of participants’ social networks and suggest explanations for some of them. This provides some validation of our techniques.\nUnexpected deficiencies in the data that became apparent prompted us to evaluate the dataset in more detail. Contrary to what we expected, we found significant gaps in participant records, particularly in terms of location, a poorly connected sample of participants and asymmetries in reciprocal call logs. Although the data captured are of high quality, deficiencies such as these remain and are likely to have a significant impact on interpretations relating to spatial aspects of the social network. We argue that appropriately-designed interactive visualisation techniques–afforded by our flexible prototyping approach–are effective in identifying and characterising data inconsistencies. Such deficiencies are likely to exist in other similar datasets, and although the visual approaches we discuss for identifying data problems may not be scalable, the categories of problems we identify may be used to inform attempts to systematically account for errors in larger smartphone datasets."
+  },
+  {
+    "objectID": "research/articles/nokia/index.html#important-figure",
+    "href": "research/articles/nokia/index.html#important-figure",
+    "title": "Visual analysis of social networks in space and time using smartphone logs",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 1: Screenshot of tool, with four coordinated views: [A] Zoomable map that shows all GPS points; blue and purple indicates where calls and texts were made. [B] Zoomable timeline (bottom) with one row per participant showing their GPS positions (yellow), calls (blue) and texts (purple). [C] List of participants where colours indicate gender (blue: male, pink: female), age (dark green: older) and a derived measure of social activity (dark red: more socially active). [D] Matrix (bottom right) of number of calls between participants."
+  },
+  {
+    "objectID": "research/articles/nokia/index.html#bibtex-citation",
+    "href": "research/articles/nokia/index.html#bibtex-citation",
+    "title": "Visual analysis of social networks in space and time using smartphone logs",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{slingsby_visual_2013,\n    title = {Visual analysis of social networks in space and time using smartphone logs},\n    volume = {9},\n    number = {6},\n    journal = {Pervasive and Mobile Computing},\n    author = {Slingsby, A. and Beecham, R. and Wood, J.},\n    year = {2013},\n    pages = {848--864}\n}"
+  },
+  {
+    "objectID": "research/articles/populism/index.html",
+    "href": "research/articles/populism/index.html",
+    "title": "Regionally-structured explanations behind area-level populism: an update to recent ecological analyses",
+    "section": "",
+    "text": "Paper (OpenAccess)\nCode"
+  },
+  {
+    "objectID": "research/articles/populism/index.html#abstract",
+    "href": "research/articles/populism/index.html#abstract",
+    "title": "Regionally-structured explanations behind area-level populism: an update to recent ecological analyses",
+    "section": "Abstract",
+    "text": "Abstract\nHeavy geographic patterning to the 2016 Brexit vote in UK and Trump vote in US has resulted in numerous ecological analyses of variations in area-level voting behaviours. We extend this work by employing modelling approaches that permit regionally-specific associations between outcome and explanatory variables. We do so by generating a large number of regional models using penalised regression for variable selection and coefficient evaluation. The results reinforce those already published in that we find associations in support of a ‘left-behind’ reading. Multivariate models are dominated by a single variable—levels of degree-education. Net of this effect, ‘secondary’ variables help explain the vote, but do so differently for different regions. For Brexit, variables relating to material disadvantage, and to a lesser extent structural-economic circumstances, are more important for regions with a strong industrial history than for regions that do not share such a history. For Trump, increased material disadvantage reduces the vote both in global models and models built mostly for Southern states, thereby undermining the ‘left-behind’ reading. The reverse is nevertheless true for many other states, particularly those in New England and the Mid-Atlantic, where comparatively high levels of disadvantage assist the Trump vote and where model outputs are more consistent with the UK, especially so for regions with closer economic histories. This pattern of associations is exposed via our regional modelling approach, application of penalised regression and use of carefully designed visualization to reason over 100+ model outputs located within their spatial context. Our analysis, documented in an accompanying github repository, is in response to recent calls in empirical Social and Political Science for fuller exploration of subnational contexts that are often controlled out of analyses, for use of modelling techniques more robust to replication and for greater transparency in research design and methodology."
+  },
+  {
+    "objectID": "research/articles/populism/index.html#important-figure",
+    "href": "research/articles/populism/index.html#important-figure",
+    "title": "Regionally-structured explanations behind area-level populism: an update to recent ecological analyses",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 6: Semi-spatially arranged small multiples of outputs for models fit separately to each US state."
+  },
+  {
+    "objectID": "research/articles/populism/index.html#bibtex-citation",
+    "href": "research/articles/populism/index.html#bibtex-citation",
+    "title": "Regionally-structured explanations behind area-level populism: an update to recent ecological analyses",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_regionally_2020,\n     author = {Beecham, R. and Williams, N. and Comber, L.},\n     title = {{Regionally-structured explanations behind area-level populism: an update to recent ecological analyses}},\n     journal = {{PLoS ONE}},\n     pages = {e0229974},\n     volume = {15},\n     number = {3},\n     year = {2020}\n}"
+  },
+  {
+    "objectID": "research/articles/selfcontainment/index.html",
+    "href": "research/articles/selfcontainment/index.html",
+    "title": "Characterising labour market self-containment in London with geographically arranged small multiples",
+    "section": "",
+    "text": "Paper\nCode"
+  },
+  {
+    "objectID": "research/articles/selfcontainment/index.html#abstract",
+    "href": "research/articles/selfcontainment/index.html#abstract",
+    "title": "Characterising labour market self-containment in London with geographically arranged small multiples",
+    "section": "Abstract",
+    "text": "Abstract\nWe present a collection of small multiple graphics that support analysis and understanding of the geography of labour-market self-containment across London’s 33 boroughs. Ratios describing supply-side self-containment, the extent to which working residents access jobs locally, and demand-side self-containment, the extent to which local jobs are filled by local resident workers, are first calculated for professional and non-professional occupations and encoded directly through geographically-arranged bar charts. The full distribution of workers into-and out-of- boroughs that underpins these ratios is then revealed via Origin-Destination flows maps (OD maps) – sets of geographically-arranged choropleths. In order to make relative and absolute comparison of borough-to-borough frequencies between occupation types, these OD maps are coloured according to signed chi-square residuals: for every borough-to-borough pair, we compare the observed number of flows to access professional versus non-professional jobs against the number that would be expected given the distribution of those jobs across London boroughs. Our geographically-arranged small multiples demonstrate potential for spatial analysis: a rich, multivariate structure is depicted that reflects London’s economic geography and that would be difficult to expose using non-visual means."
+  },
+  {
+    "objectID": "research/articles/selfcontainment/index.html#important-figure",
+    "href": "research/articles/selfcontainment/index.html#important-figure",
+    "title": "Characterising labour market self-containment in London with geographically arranged small multiples",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nSupply- side and deman-side self-containment for Coty of London."
+  },
+  {
+    "objectID": "research/articles/selfcontainment/index.html#bibtex-citation",
+    "href": "research/articles/selfcontainment/index.html#bibtex-citation",
+    "title": "Characterising labour market self-containment in London with geographically arranged small multiples",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_characterising_2019,\n     author = {Beecham, R. and Slingsby, A.},\n     title = {{Characterising labour market self-containment in London with geographically arranged small multiples}},\n     journal = {{Environment and Planning A: Economy and Space}},\n     pages = {1217--1224},\n     volume = {51},\n     number = {6},\n     year = {2019}\n}"
+  },
+  {
+    "objectID": "research/articles/visinferences/index.html",
+    "href": "research/articles/visinferences/index.html",
+    "title": "A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis",
+    "section": "",
+    "text": "Paper (OpenAccess)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/visinferences/index.html#abstract",
+    "href": "research/articles/visinferences/index.html#abstract",
+    "title": "A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis",
+    "section": "Abstract",
+    "text": "Abstract\nRoad safety research is a data-rich field with large social impacts. Like in medical research, the ambition is to build knowledge around risk factors that can save lives. Unlike medical research, road safety research generates empirical findings from messy observational datasets. Records of road crashes contain numerous intersecting categorical variables, dominating patterns that are complicated by confounding and, when conditioning on data to make inferences net of this, observed effects that are subject to uncertainty due to diminishing sample sizes. We demonstrate how visual data analysis approaches can inject rigor into exploratory analysis of such datasets. A framework is presented whereby graphics are used to expose, model and evaluate spatial patterns in observational data, as well as protect against false discovery. Evidence for the framework is presented through an applied data analysis of national crash patterns recorded in STATS19, the main source of road crash information in Great Britain. Our framework moves beyond typical depictions of exploratory data analysis and transfers to complex data analysis decision spaces characteristic of modern geographical analysis."
+  },
+  {
+    "objectID": "research/articles/visinferences/index.html#important-figures",
+    "href": "research/articles/visinferences/index.html#important-figures",
+    "title": "A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis",
+    "section": "Important figures",
+    "text": "Important figures\n\n\n\nThe three phases of the framework for exploratory visual data analysis.\n\n\n\n\n\nFigure 6: Data Analysis 1 located within our framework.\n\n\n\n\n\nFigure 7: Data Analysis 2 located within our framework."
+  },
+  {
+    "objectID": "research/articles/visinferences/index.html#bibtex-citation",
+    "href": "research/articles/visinferences/index.html#bibtex-citation",
+    "title": "A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@article{beecham_vis_2022,\n    author = {Beecham, R. and Lovelace, R.},\n    doi = {10.1111/gean.12338},\n  jounral = {Geographical Analysis},\n    title = {A framework for inserting visually-supported inferences into geographical analysis workflow: application to road safety research},\n    year = {2022}\n    }"
+  },
+  {
+    "objectID": "research/conferences/strategies/index.html",
+    "href": "research/conferences/strategies/index.html",
+    "title": "Strategies for Detecting Difference in Map Line-Up Tasks",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "research/conferences/strategies/index.html#abstract",
+    "href": "research/conferences/strategies/index.html#abstract",
+    "title": "Strategies for Detecting Difference in Map Line-Up Tasks",
+    "section": "Abstract",
+    "text": "Abstract\nThe line-up task hides a plot of real data amongst a line-up of decoys built around some plausible null hypothesis. It has been proposed as a mechanism for lending greater reliability and confidence to statistical inferences made from data graphics. The proposition is a seductive one, but whether or not line-ups guarantee consistent interpretation of statistical structure is an open question, especially when applied to representations of geo-spatial data. We build on empirical work around the extent to which statistical structure can be reliably judged in map line-ups, paying particular attention to the strategies employed when making line-up judgements. We conducted in-depth experiments with 19 graduate students equipped with a moderate background in geovisualization. The experiments consisted of a series of map line-up tasks with two map designs: choropleth maps and a centroid-dot alternative. We chose challenging tasks in the hope of exposing participants’ sensemaking activities. Through structured qualitative analysis of think-aloud protocols, we identify six sensemaking strategies and evaluate their effects in making judgements from map line-ups. We find five sensemaking strategies applicable to most visualization types, but one that seems particular to map line-up designs. We could not identify one single successful strategy, but users adopt a mix of different strategies, depending on the circumstances. We also found that choropleth maps were easier to use than centroid-dot maps."
+  },
+  {
+    "objectID": "research/conferences/strategies/index.html#important-figure",
+    "href": "research/conferences/strategies/index.html#important-figure",
+    "title": "Strategies for Detecting Difference in Map Line-Up Tasks",
+    "section": "Important figure",
+    "text": "Important figure\n\n\n\nFigure 6: Participants favoured plot 6 over 2 in the left choropleth line-up because of the smaller number of clusters; In the centroid-dot map (center) most participants chose plot 5 because of the centered cluster instead of the smoother, higher autocorrelated plot 9 leading to the worst success rate. Most participants chose plot 8 in the right choropleth line-up because of a perceived figure although plot 7 shows a higher autocorrelation value."
+  },
+  {
+    "objectID": "research/conferences/strategies/index.html#bibtex-citation",
+    "href": "research/conferences/strategies/index.html#bibtex-citation",
+    "title": "Strategies for Detecting Difference in Map Line-Up Tasks",
+    "section": "BibTeX citation",
+    "text": "BibTeX citation\n@inproceedings{doppler_strategies_2021,\n  author    = {Johanna Haider Doppler and\n               Margit Pohl and\n                             Beecham, R. and\n                             Jason Dykes},\n  editor    = {David Lamas and\n               Fernando Loizides and\n               Lennart E. Nacke and\n               Helen Petrie and\n               Marco Winckler and\n               Panayiotis Zaphiris},\n  title     = {Strategies for Detecting Difference in Map Line-Up Tasks},\n  booktitle = {{INTERACT} 2021 - 18th\n               International Conference on Human-Computer Interaction, Bari, Italy, August 30th-2nd September, 2021, Proceedings},\n  series    = {Lecture Notes in Computer Science},\n  volume    = {12934},\n  pages     = {},\n  publisher = {Springer},\n  year      = {2021}\n}"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research papers develop, evaluate and apply visual approaches to analysing social science datasets. They typically blend empirical and methodological contributions. A key domain area is Transport research. I am especially interested in how visualization can be used to explore, infer and communicate under uncertainty complex structure in behvaioural transport data."
+  },
+  {
+    "objectID": "research/index.html#journal-articles",
+    "href": "research/index.html#journal-articles",
+    "title": "Research",
+    "section": "Journal articles",
+    "text": "Journal articles\n\n\n\n\n        \n            \n                Roger Beecham, Yuanxuan Yang, Caroline Tait, and Robin Lovelace (2023) “Connected bikeability in London: which localities are better connected by bike and does this matter?”, Environment & Planning B: Urban Analytics and City Science, doi: 10.5281/zenodo.7527494\n            \n            \n                    \n                            cycle infrastructure\n                        \n                    \n                            cycle routing\n                        \n                    \n                            origin-destination\n                        \n                    \n                            flow maps\n                        \n                    \n                            bikeshare\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Preprint\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                \n            \n        \n        \n            \n                Caroline Tait, Roger Beecham, Stuart Barber and Robin Lovelace (2023) “Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets”, Accident Analysis \\& Prevention, doi: 10.1016/j.aap.2022.106895\n            \n            \n                    \n                            cycle infrastructure\n                        \n                    \n                            transportation\n                        \n                    \n                            road safety\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                    \n                        \n                             Twitter abstract\n                        \n                    \n                \n            \n        \n        \n            \n                Caroline Tait, Roger Beecham, Stuart Barber and Robin Lovelace (2022) “Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database”, Journal of Transport \\& Health, doi: 10.1016/j.jth.2022.101369\n            \n            \n                    \n                            cycle infrastructure\n                        \n                    \n                            transportation\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                    \n                        \n                             Twitter abstract\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham and Robin Lovelace (2022) “A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis”, Geographical Analysis, doi: 110.1111/gean.12338\n            \n            \n                    \n                            uncertainty analysis\n                        \n                    \n                            exploratory data analysis\n                        \n                    \n                            reproducibility\n                        \n                    \n                            graphical inference\n                        \n                    \n                            multilevel modelling\n                        \n                    \n                            road safety\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                    \n                        \n                             Twitter abstract\n                        \n                    \n                \n            \n        \n        \n            \n                Yuanxuan Yang, Roger Beecham, Alison Heppenstall and Alexis Comber (2021) “Understanding the impacts of public transit disruptions on bikeshare schemes and cycling behaviours using spatiotemporal and graph-based analysis: A case study of four London Tube strikes”, Journal of Transport Geography, doi: 10.1016/j.jtrangeo.2021.103255\n            \n            \n                    \n                            bikeshare\n                        \n                    \n                            transportation\n                        \n                    \n                            urban analytics\n                        \n                    \n                            graph theory\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham, Jason Dykes, Chris Rooney and William Wong (2021) “Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization”, IEEE Transactions on Visualization \\& Computer Graphics, doi: 10.1109/TVCG.2020.2979433\n            \n            \n                    \n                            crime analysis\n                        \n                    \n                            design methodology\n                        \n                    \n                            statistical process control\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                \n            \n        \n        \n            \n                Rob Radburn and Roger Beecham (2021) “Mapping deprivation for each and every small area in England”, Regional Studies, Regional Science, doi: 10.1080/21681376.2021.1934528\n            \n            \n                    \n                            deprivation\n                        \n                    \n                            spatial treemaps\n                        \n                    \n                            cartograms\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Twitter abstract\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham,  Jason Dykes, Layik Hama, Nik Lomax (2021) “On the Use of ‘Glyphmaps’ for Analysing the Scale and Temporal Spread of COVID-19 Reported Cases”, International Journal of Geo-Infomation, doi: 10.3390/ijgi10040213\n            \n            \n                    \n                            covid-19\n                        \n                    \n                            multivariate visualization\n                        \n                    \n                            glyphs\n                        \n                    \n                            graphical inference\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                    \n                        \n                             Twitter abstract\n                        \n                    \n                \n            \n        \n        \n            \n                Robin Lovelace, Roger Beecham Eva Heinen, Eugeni Vidal Tortosa, Yuanxuan Yang, Chris Slade and Antonia Roberts (2020) “Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips”, Transportation Research Part A: Policy and Practice, doi: 10.1016/j.tra.2020.07.017\n            \n            \n                    \n                            bikeshare\n                        \n                    \n                            transportation\n                        \n                    \n                            equity\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham, Nick Williams, Lex Comber (2020) “Regionally-structured explanations behind area-level populism: an update to recent ecological analyses”, PLoS One, doi: 10.1371/journal.pone.0229974\n            \n            \n                    \n                            multilevel modelling\n                        \n                    \n                            regularisation\n                        \n                    \n                            cartograms\n                        \n                    \n                            populism\n                        \n                    \n                            political geography\n                        \n                    \n                            geographically-weighted statistics\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham (2020) \"Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election\" Environment and Planning A: Economy and Space, doi: 10.1177/0308518X2090939\n            \n            \n                    \n                            populism\n                        \n                    \n                            political geography\n                        \n                    \n                            cartograms\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham and Aidan Slingsby (2019) “Characterising labour market self-containment in London with geographically arranged small multiples”, Environment and Planning A: Economy and Space, doi: 10.1177/0308518X19850580\n            \n            \n                    \n                            cartograms\n                        \n                    \n                            multivariate visualization\n                        \n                    \n                            glyphs\n                        \n                    \n                            economic geography\n                        \n                    \n                            flow maps\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                    \n                        \n                             Twitter abstract\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham, Aidan Slingsby and Chris Brunsdon (2018) “Locally-varying explanations behind the United Kingdom's vote to leave the European Union”, Journal of Spatial Information Science, doi: 10.5311/JOSIS.2018.16.377\n            \n            \n                    \n                            multilevel modelling\n                        \n                    \n                            geographically-weighted statistics\n                        \n                    \n                            regularisation\n                        \n                    \n                            political geography\n                        \n                    \n                            populism\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham, Jason Dykes, Wouter Meulemans, Aidan Slingsby, Cagatay Turkay and Jo Wood (2017) “Map line-ups: effects of spatial structure on graphical inference”, IEEE Transactions on Visualization & Computer Graphics, doi: 10.1109/TVCG.2016.2598862\n            \n            \n                    \n                            graphical inference\n                        \n                    \n                            spatial autocorrelation\n                        \n                    \n                            uncertainty analysis\n                        \n                    \n                            just noticeable difference\n                        \n                    \n                            crime analysis\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                    \n                        \n                             Video\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham, Chris Rooney, Sebastian Meier, Jason Dykes, Aidan Slingsby, Cagatay Turkay, Jo Wood and William Wong (2016) “Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples”, Computer Graphics Forum, doi: 10.1111/cgf.12900\n            \n            \n                    \n                            multivariate visualization\n                        \n                    \n                            glyphs\n                        \n                    \n                            crime analysis\n                        \n                    \n                            exploratory data analysis\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                    \n                        \n                             Data\n                        \n                    \n                    \n                        \n                             Video\n                        \n                    \n                \n            \n        \n        \n            \n                Jo Wood, Roger Beecham and Jason Dykes (2014) “Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization”, IEEE Transactions on Visualization & Computer Graphics, doi: 10.1109/TVCG.2014.2346323\n            \n            \n                    \n                            bikeshare\n                        \n                    \n                            design methodology\n                        \n                    \n                            origin-destination\n                        \n                    \n                            transportation\n                        \n                    \n                            urban analytics\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham and Jo Wood (2014) “Characterising group-cycling journeys using interactive graphics”, Transportation Research Part C: Emerging Technologies, doi: 10.1016/j.trc.2014.03.007\n            \n            \n                    \n                            bikeshare\n                        \n                    \n                            origin-destination\n                        \n                    \n                            transportation\n                        \n                    \n                            urban analytics\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham, Jo Wood and Audrey Bowerman (2014) “Studying commuting behaviours using collaborative visual analytics”, Computers, Environment and Urban Systems, doi: 10.1016/j.compenvurbsys.2013.10.007\n            \n            \n                    \n                            bikeshare\n                        \n                    \n                            origin-destination\n                        \n                    \n                            transportation\n                        \n                    \n                            urban analytics\n                        \n                    \n                            economic geography\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                \n            \n        \n        \n            \n                Roger Beecham and Jo Wood (2014) “Exploring gendered cycling behaviours within a large-scale behavioural data-set”, Transportation Planning and Technology, doi: 10.1080/03081060.2013.844903\n            \n            \n                    \n                            bikeshare\n                        \n                    \n                            origin-destination\n                        \n                    \n                            transportation\n                        \n                    \n                            urban analytics\n                        \n                    \n                            exploratory data analysis\n                        \n                    \n                            flow maps\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                \n            \n        \n        \n            \n                Aidan Slingsby, Roger Beecham and Aidan Slingsby (2013) “Visual analysis of social networks in space and time using smartphone logs”,  Pervasive and Mobile Computing, doi: 10.1016/j.pmcj.2013.07.002\n            \n            \n                    \n                            social network analysis\n                        \n                    \n                            multivariate visualization\n                        \n                    \n                            urban analytics\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                \n            \n        \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#conference-papers",
+    "href": "research/index.html#conference-papers",
+    "title": "Research",
+    "section": "Conference papers",
+    "text": "Conference papers\n\n\n\n        \n            \n                Johanna Haider Doppler, Margit Pohl, Roger Beecham and Jason Dykes (2021) “Strategies for Detecting Difference in Map Line-Up Tasks”, Lecture Notes in Computer Science, doi: 10.1007/978-3-030-85613-7_36\n            \n            \n                    \n                            graphical inference\n                        \n                    \n                            spatial autocorrelation\n                        \n                    \n                            cognition\n                        \n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                \n            \n        \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Visualization for Geographic Data Science \n            \n            \n                GEOG 5099 | \n                University of Leeds\n            \n            Visual techniques for data processing, exploratory analysis, model building and communication\n            \n                 Summer 2023\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Predictive Analytics \n            \n            \n                GEOG 5927 | \n                University of Leeds\n            \n            Machine learning, spatial microsimulation and agent-based modelling for analysing cosumer behaviour\n            \n                 Spring 2023\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/index.html#previous",
+    "href": "teaching/index.html#previous",
+    "title": "Teaching",
+    "section": "Previous",
+    "text": "Previous"
+  }
+]
