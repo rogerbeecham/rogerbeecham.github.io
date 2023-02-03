@@ -1,0 +1,19 @@
+- title: Visualization for Geographic Data Science
+  description: "Visual techniques for data processing, exploratory analysis, model building and communication"
+  university: University of Leeds
+  number: GEOG 5099
+  url: https://www.roger-beecham.com/vis-for-gds/
+  logo: logos/vis4gds.png
+  semester:
+  - name: Summer 2023
+    url: https://www.roger-beecham.com/vis-for-gds/
+
+- title: Predictive Analytics
+  description: "Machine learning, spatial microsimulation and agent-based modelling for analysing cosumer behaviour"
+  university: University of Leeds
+  number: GEOG 5927
+  url: https://www.roger-beecham.com/predictive-analytics/
+  logo: logos/pa.png
+  semester:
+  - name: Spring 2023
+    url: https://www.roger-beecham.com/predictive-analytics/

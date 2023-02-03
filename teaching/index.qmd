@@ -1,0 +1,26 @@
+---
+title: "Teaching"
+description-meta: "{{< meta website.description >}}"
+listing:
+  - id: current
+    contents: current.yml
+    sort: "date desc"
+    template: ../html/teaching/listing.ejs
+title-block-banner: "#d03231"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Academic year
+---
+
+## Current
+
+:::{#current}
+:::
+
+## Previous
+
+:::{#previous}
+:::
+
+

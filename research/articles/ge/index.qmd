@@ -1,0 +1,62 @@
+---
+title: "Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election"
+date: 2020-03-01
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+
+categories: 
+  - populism
+  - political geography
+  - cartograms
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong> (2020) "Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election" <em>Environment and Planning A: Economy and Space</em>, doi: <a href="https://doi.org/10.1177/0308518X2090939"><code>10.1177/0308518X2090939</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1177/0308518X2090939
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/rogerbeecham/uk-general-election-vis
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+doi: 10.1371/journal.pone.0229974
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://doi.org/10.1177/0308518X2090939)
+- [Code](https://github.com/rogerbeecham/uk-general-election-vis)
+
+
+
+## Important figure
+
+
+![Figure 1: Map of the Butler two-party Conservative–Labour shift in the 2019 UK general election. 2019 data collated by Alex Denvir, 2017 data from the Electoral Commission, boundary data from the Office of National Statistics Open Geography Portal and hex cartogram from ESRI’s Ben Flanagan.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_using_2020,
+	 author = {Beecham, R.},
+	 title = {{Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election}},
+	 journal = {{Environment and Planning A: Economy and Space}},
+	 pages = {833--836},
+	 volume = {52},
+	 number = {5},
+	 year = {2020}
+}
+```
+
+
+
+
+
+
+

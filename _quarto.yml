@@ -1,0 +1,86 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.md"
+  output-dir: docs
+
+execute: 
+    freeze: auto
+
+resources:
+  - "files/**"
+
+bibliography: files/bib/references.bib
+csl: files/bib/chicago-author-date.csl
+
+
+# Metadata stuff
+pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
+description-meta: "{{< meta description >}}"
+author-meta: "Roger Beecham"
+
+
+website:
+  title: "Roger Beecham"
+  description: "Roger Beecham is Associate Professor in Visual Data Science at University of Leeds, researching, teaching and applying visual methods in social scince data analysis ."
+  favicon: "/files/favicon.png"
+  site-url: "https://github.com/rogerbeecham/rogerbeecham.github.io"
+  repo-url: "https://www.roger-beecham.com"
+  
+  twitter-card: 
+    image: "/files/profiles/profile.png"
+    card-style: summary_large_image
+    creator: "@rjbeecham"
+    site: "@rjbeecham"
+
+
+  navbar:
+    pinned: true
+
+    left:
+      - href: index.qmd
+        text: About
+      - href: cv/index.qmd
+        text: CV
+      - href: research/index.qmd
+        text: Research
+      - href: teaching/index.qmd
+        text: Teaching
+
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:r.j.beecham@leeds.ac.uk"
+      - icon: github
+        aria-label: github
+        href: https://github.com/rogerbeecham
+      - icon: twitter
+        aria-label: twitter
+        href: https://twitter.com/rjbeecham
+      - icon: linkedin
+        aria-label: linkedin
+        href: https://www.linkedin.com/in/roger-beecham-a98860241/
+    rel: me
+
+  page-footer:
+     left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Roger Beecham | Design by  [Andrew Heiss](https://www.andrewheiss.com/)</span> 
+       <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)</span>
+     center: |
+       <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+     right: |
+       <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+       <span class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</span>
+
+format:
+  html:
+    theme:
+      - html/rb.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai

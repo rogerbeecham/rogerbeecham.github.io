@@ -11,7 +11,7 @@ if (file.exists("~/.Rprofile")) {
 # are a few sample options; for more options, see
 # https://bookdown.org/yihui/blogdown/global-options.html
 options(
-  # to automatically serve the site on RStudio startup, set this option to TRUE
+  # to automatically serve the site on RStudio startup, set this. option to TRUE
   blogdown.serve_site.startup = FALSE,
   # to disable knitting Rmd files on save, set this option to FALSE
   blogdown.knit.on_save = TRUE,
@@ -20,4 +20,4 @@ options(
 )
 
 # fix Hugo version
-options(blogdown.hugo.version = "0.101.0")
+options(blogdown.hugo.version = "0.109.0")

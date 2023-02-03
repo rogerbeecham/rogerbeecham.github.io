@@ -1,0 +1,76 @@
+---
+title: "Connected bikeability in London: which localities are better connected by bike and does this matter?"
+date: 2023-01-01
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Yuanxuan Yang
+    url: https://yyuanxuan.github.io/
+    orcid: 0000-0002-7970-2544
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Caroline Tait
+    url: https://environment.leeds.ac.uk/geography/pgr/2474/caroline-tait
+    orcid: 0000-0002-4781-4111
+    affiliation: School of Geography, University of Leeds
+  - name: Robin Lovelace
+    url: https://www.robinlovelace.net/
+    orcid: 0000-0001-5679-6536
+    affiliation: Institute for Transport Studies, University of Leeds
+categories: 
+  - cycle infrastructure
+  - cycle routing
+  - origin-destination
+  - flow maps
+  - bikeshare
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong>, <a href="https://yyuanxuan.github.io/">Yuanxuan Yang</a>, Caroline Tait, and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2023) “Connected bikeability in London: which localities are better connected by bike and does this matter?”, <em>Environment & Planning B: Urban Analytics and City Science</em>, doi: <a href="https://doi.org/10.5281/zenodo.7527494"><code>10.5281/zenodo.7527494</code></a>
+  links:
+    - name: Preprint
+      url: https://osf.io/gbfz8/
+      icon: fa-solid fa-file-pdf
+      local: false
+    - name: Final version
+      url: 
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/rogerbeecham/connected-bikeability-london
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+doi: 10.31219/osf.io/gbfz8
+haiku:
+---
+## Important links
+
+- [Paper (preprint)](https://osf.io/gbfz8/)
+- [GitHub repository](https://github.com/rogerbeecham/connected-bikeability-london)
+
+
+## Abstract
+
+Bikeability, the extent to which a route network enables cycling for everyday travel, is a frequently-cited theme for increasing and diversifying cycling uptake and therefore one that attracts much research attention. Indexes designed to quantify bikeability typically generate a single bikeability value for a single locality. Important to transport planners making and evaluating infrastructure decisions, however, is how well-connected by bike are pairs of localities. For this it is necessary to estimate the bikeability of plausible routes connecting different parts of a city. We approximate routes for all origin-destination trips cycled in the London Cycle Hire Scheme for 2018 and estimate the bikeability of each route, linking to the newly-released London Cycle Infrastructure Database. We then divide the area of inner London covered by the bikeshare scheme into ‘villages’ and profile how bikeability varies for trips connecting those villages – we call this connected bikeability. Our bikeability scores vary geographically with certain localities in London better connected by bike than others. A key finding is that higher levels of connected bikeability are conferred to origin- destination village pairs of strategic importance, aligning with the stated ambition of recent cycling infrastructure interventions. The geography of connected bikeability maps to the commuting needs of London’s workers and we find some evidence that connected bikeability has a positive association with observed cycling activity, especially so when studying patterns of cycling to job-rich villages.
+
+
+## Important figure
+
+
+![Figure 4: Selected OD maps where Strand — Covent Garden bikeshare village is the destination. Origin maps are shaded according to connected bikeability, estimated commute counts and signed chi-scores of relative differences in professional vs. non-professional workers commuting from origin villages.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_connected_2023,
+	author = {Beecham, R. Yang, Y., Tait, C. and Lovelace, R.},
+	doi = {10.31219/osf.io/gbfz8},
+	publisher={OSF Preprints},
+	title={Connected bikeability in London: which localities are better connected by bike and does this matter?},
+	year = {2023}
+	}
+```
+
+

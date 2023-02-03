@@ -1,0 +1,60 @@
+---
+title: "Mapping deprivation for each and every small area in England"
+date: 2021-06-18
+author:
+  - name: Rob Radburn
+    url: https://twitter.com/robradburn?lang=en
+    affiliation: Leicestershire County Council
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - deprivation
+  - spatial treemaps
+  - cartograms
+pub-info:
+  reference: >-
+    Rob Radburn and <strong>Roger Beecham</strong> (2021) “Mapping deprivation for each and every small area in England”, <em>Regional Studies, Regional Science</em>, doi: <a href="https://doi.org/10.1080/21681376.2021.1934528"><code>10.1080/21681376.2021.1934528</code></a>
+  links:
+    - name: Final version
+      url: 	url = {https://doi.org/10.1080/21681376.2021.1934528},
+      icon: fa-solid fa-scroll
+    - name: Twitter abstract
+      url: https://twitter.com/rJBeecham/status/1405914748307263497
+      icon: fa-brands fa-twitter
+doi: 10.1080/21681376.2021.1934528
+haiku:
+---
+## Important links
+
+- [Paper](https://doi.org/10.1080/21681376.2021.1934528)
+
+
+## Abstract
+
+Our regional graphic maps deprivation for small neighbourhoods in England in a way that enables the extent, distribution and spatial structure of deprivation to be perceived at multiple levels of geography. All 32,844 neighbourhoods are depicted using rectangles of constant size and with an approximate geographical arrangement. This approach overcomes familiar cartographic challenges when representing demographic data, exposing local pockets of deprivation that would otherwise be obscured in a conventional map. Neighbourhoods are nested hierarchically, and this hierarchy is emphasized in our design, allowing analysis within and between regions. The graphic reveals important spatial processes -- rich patterns of continuity and discontinuity at multiple spatial scales -- that may not be as effectively represented using non-visual means.
+
+
+## Important figure
+
+![Figure 1: Spatially ordered treemap (Wood & Dykes 2008) of 32,844 lower layer super output areas (LSOAs) in England, nested within local authority and region, and given an approximate geographical arrangement. Each LSOA is depicted using a rectangle of equal size. LSOAs are coloured according to Index of Multiple Deprivation 2019 (IMD) rank and using a ColorBrewer diverging scheme (Brewer 2002).](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+
+@article{radburn_mapping_2021,
+	author = {Robert Radburn and Roger Beecham},
+	doi = {10.1080/21681376.2021.1934528},
+	journal = {Regional Studies, Regional Science},
+	number = {1},
+	pages = {269-272},
+	title = {Mapping deprivation for each and every small area in England},
+	volume = {8},
+	year = {2021}
+
+```
+
+

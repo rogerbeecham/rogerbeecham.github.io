@@ -1,0 +1,78 @@
+---
+title: "Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips"
+date: 2020-08-11
+author:
+  - name: Robin Lovelace
+    url: https://www.robinlovelace.net/
+    orcid: 0000-0001-5679-6536
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+  - name: Eva Heinen
+    url: https://environment.leeds.ac.uk/transport/staff/936/prof-dr-eva-heinen
+    orcid: 0000-0001-8428-5709
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Eugeni Vidal Tortosa
+    url: https://environment.leeds.ac.uk/transport-social-political-sciences/staff/9633/eugeni-vidal-tortosa
+    orcid: 0000-0001-5199-4103
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Yuanxuan Yang
+    url: https://yyuanxuan.github.io/
+    orcid: 0000-0002-7970-2544
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Chris Slade
+    affiliation: Smoove, France
+  - name: Antonia Roberts
+    affiliation: CoMoUK, United Kingdom
+categories: 
+  - bikeshare
+  - transportation
+  - equity
+pub-info:
+  reference: >-
+    <a href="https://www.robinlovelace.net/">Robin Lovelace</a>, <strong>Roger Beecham</strong> Eva Heinen, Eugeni Vidal Tortosa, <a href="https://yyuanxuan.github.io/">Yuanxuan Yang</a>, Chris Slade and Antonia Roberts (2020) “Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips”, <em>Transportation Research Part A: Policy and Practice</em>, doi: <a href="https://doi.org/10.1016/j.tra.2020.07.017"><code>10.1016/j.tra.2020.07.017</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1016/j.tra.2020.07.017
+      icon: fa-solid fa-scroll
+doi: 10.1016/j.tra.2020.07.017
+haiku:
+---
+## Important links
+
+- [Paper](https://doi.org/10.1016/j.tra.2020.07.017)
+
+
+## Abstract
+
+Pro-cycling interventions, and cycle hire schemes in particular, are often assumed to primarily benefit the privileged. This framing has played-out in academic research, with many papers exploring the relationship between cycling and existing inequalities. A growing body of evidence suggests that cycle hire schemes tend to serve wealthy areas and young, high income groups, mirroring inequalities in other types of cycling uptake, yet there has been little research into the ‘direction of travel’ and whether such inequalities are growing or ‘levelling up’ over time. This paper explores the uptake of the London Cycle Hire Scheme (LCHS), a large, early and prominent scheme that had the explicit aim of ‘normalising’ cycling. The method involved reproducible analysis (with code documented in the GitHub repo Robinlovelace/cycle-hire-inclusive) of 73.4 million cycle high records spanning 8 years from January 2012 to December 2019, using the geographic location of docking stations alongside official statistics to assess social and spatial inequalities in uptake. The method involved analysis of 73.4 million cycle high records spanning 8 years from January 2012 to December 2019, using the geographic location of docking stations alongside official statistics to assess social and spatial inequalities in uptake. We found that, contrary to the trend for increasing segregation and geographic inequalities, the usage of the LCHS have become increasingly geographically distributed across London over time, with AM peak usage in comparatively low-income areas seeing high levels of growth. Our study shows that cycle hire schemes can be designed and expanded in ways that benefit a wide range of people, including those from low income areas, and that new cycle hire docking stations in poorer areas can succeed.
+
+
+## Important figure
+
+
+![Figure 10: Rolling daily trip counts by income decile (red) and docking stations within income deciles (grey) for 2012–2019. Frequencies are locally scaled by income decile and docking station and with a 365-day smoothing. Docking stations are ordered within small multiples from lowest (1) to highest (10) income deciles. Grey fill within each decile plot varies according to overall trip counts originating from dockin stations in that decile.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{lovelace_cycle_2021,
+	author = {Robin Lovelace and Roger Beecham and Eva Heinen and Eugeni {Vidal Tortosa} and Yuanxuan Yang and Chris Slade and Antonia Roberts},
+	doi = {https://doi.org/10.1016/j.tra.2020.07.017},
+	journal = {Transportation Research Part A: Policy and Practice},
+	pages = {1-15},
+	title = {Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips},
+	url = {https://www.sciencedirect.com/science/article/pii/S0965856420306728},
+	volume = {140},
+	year = {2020}
+	}
+```
+
+
+
+
+
+
+

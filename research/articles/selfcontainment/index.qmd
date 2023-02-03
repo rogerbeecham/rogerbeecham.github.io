@@ -1,0 +1,74 @@
+---
+title: "Characterising labour market self-containment in London with geographically arranged small multiples"
+date: 2019-09-16
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Aidan Slingsby
+    url: https://www.staff.city.ac.uk/~sbbb717/
+    orcid: 0000-0003-3941-553X
+    affiliation: Department of Computer Science, City University of London
+categories: 
+  - cartograms
+  - multivariate visualization
+  - glyphs
+  - economic geography
+  - flow maps
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong> and Aidan Slingsby (2019) “Characterising labour market self-containment in London with geographically arranged small multiples”, <em>Environment and Planning A: Economy and Space</em>, doi: <a href="https://doi.org/10.1177/0308518X19850580"><code>10.1177/0308518X19850580</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1177/0308518X19850580
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/rogerbeecham/visualizing-self-containment
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+    - name: Twitter abstract
+      url: https://twitter.com/rjbeecham/status/1138746147269468161
+      icon: fa-brands fa-twitter
+doi: https://doi.org/10.1177/0308518X19850580
+haiku:
+---
+## Important links
+
+- [Paper](https://doi.org/10.1016/j.tra.2020.07.017)
+- [Code](https://github.com/rogerbeecham/visualizing-self-containment)
+
+
+## Abstract
+
+We present a collection of small multiple graphics that support analysis and understanding of the geography of labour-market self-containment across London’s 33 boroughs. Ratios describing supply-side self-containment, the extent to which working residents access jobs locally, and demand-side self-containment, the extent to which local jobs are filled by local resident workers, are first calculated for professional and non-professional occupations and encoded directly through geographically-arranged bar charts. The full distribution of workers into-and out-of- boroughs that underpins these ratios is then revealed via Origin-Destination flows maps (OD maps) – sets of geographically-arranged choropleths. In order to make relative and absolute comparison of borough-to-borough frequencies between occupation types, these OD maps are coloured according to signed chi-square residuals: for every borough-to-borough pair, we compare the observed number of flows to access professional versus non-professional jobs against the number that would be expected given the distribution of those jobs across London boroughs. Our geographically-arranged small multiples demonstrate potential for spatial analysis: a rich, multivariate structure is depicted that reflects London’s economic geography and that would be difficult to expose using non-visual means.
+
+
+## Important figure
+
+
+![Supply- side and deman-side self-containment for Coty of London.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_characterising_2019,
+	 author = {Beecham, R. and Slingsby, A.},
+	 title = {{Characterising labour market self-containment in London with geographically arranged small multiples}},
+	 journal = {{Environment and Planning A: Economy and Space}},
+	 pages = {1217--1224},
+	 volume = {51},
+	 number = {6},
+	 year = {2019}
+}
+```
+
+
+
+
+
+
+

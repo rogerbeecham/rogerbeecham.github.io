@@ -1,0 +1,75 @@
+---
+title: "Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets"
+date: 2023-01-01
+author:
+  - name: Caroline Tait
+    url: https://environment.leeds.ac.uk/geography/pgr/2474/caroline-tait
+    orcid: 0000-0002-4781-4111
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Stuart Barber
+    url: https://eps.leeds.ac.uk/maths/staff/4005/dr-stuart-barber
+    orcid: 0000-0002-7611-7219
+    affiliation: School of Mathematics, University of Leeds
+  - name: Robin Lovelace
+    url: https://www.robinlovelace.net/
+    orcid: 0000-0001-5679-6536
+    affiliation: Institute for Transport Studies, University of Leeds
+categories: 
+  - cycle infrastructure
+  - transportation
+  - road safety
+pub-info:
+  reference: >-
+    Caroline Tait, <strong>Roger Beecham</strong>, Stuart Barber and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2023) “Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets”, <em>Accident Analysis \& Prevention</em>, doi: <a href="https://doi.org/10.1016/j.aap.2022.106895"><code>10.1016/j.aap.2022.106895</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1016/j.aap.2022.106895
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/PublicHealthDataGeek/Contraflow_cycling_safety
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+    - name: Twitter abstract
+      url: https://twitter.com/troublestrife/status/1594617455367929856
+      icon: fa-brands fa-twitter
+doi: 10.1016/j.aap.2022.106895
+haiku:
+---
+## Important links
+
+- [Paper](https://doi.org/10.1016/j.aap.2022.106895)
+- [GitHub repository](https://github.com/PublicHealthDataGeek/Contraflow_cycling_safety)
+
+
+## Abstract
+
+Contraflow cycling on one-way streets is a low cost intervention that research shows can improve the cycling experience and increase participation. Evidence from several studies suggest that cyclists on contraflows have a lower crash risk. However, implementing contraflow cycling is often controversial, including in the United Kingdom (UK). In this paper we examine whether contraflow cycling on one-way streets alters crash or casualty rates for pedal cyclists. Focusing on inner London boroughs between 1998 and 2019, we identified 508 road segments where contraflow cycling was introduced on one-way streets. We identified road traffic crashes occurring within 10 m of these segments and labelled them as pre-contraflow, contraflow or contraflow removed crashes. We calculated rates using the number of crashes or casualties divided by the time exposed and generated 95 % confidence intervals using bootstrap resampling. We adjusted the rates for changes in cordon cycling volume and injury severity reporting. There were 1498 crashes involving pedal cyclists: 788 pre-contraflow, 703 contraflow and 7 following contraflow removal. There was no change in adjusted overall pedal cyclist crash or casualty rates when contraflow cycling was introduced. Proximity to a junction doubled the crash rate. The crash rate when pedal cyclists were travelling contraflow was the same as those travelling with flow. We have found no evidence that introducing contraflow cycling increases the crash or casualty rate for pedal cyclists. It is possible that such rates may indeed fall when contraflow cycling is introduced if more accurate spatio-temporal cycling volume data was available. We recommend all one-way streets are evaluated for contraflow cycling but encourage judicious junction design and recommend UK legislative change for mandatory-two-way cycling on one-way streets unless exceptional circumstances exist.
+
+
+## Important figure
+
+![Figure 1: Road segments with contraflows introduced a) Map of London showing location of inner London boroughs used in the study; b) Map of inner London boroughs showing the location and spatial extent of road segments; c) Line chart showing number of contraflows added, removed and active over time; and d) Line chart showing cumulative number of contraflows introduced over time by borough. The dashed line shows when traffic sign change was introduced.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{tait_contraflows_2023,
+	author = {Tait, C. and Beecham, R. and Lovelace, R. and Barber, S.},
+	doi = {10.1016/j.aap.2022.106895},
+	publisher={Elsevier},
+	title={Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets},
+	year = {2023},
+	volume = {179},
+		number={January},
+		pages={106895}
+	}
+
+```
+
+

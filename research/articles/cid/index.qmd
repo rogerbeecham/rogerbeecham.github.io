@@ -1,0 +1,88 @@
+---
+title: "Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database"
+date: 2022-09-01
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Yuanxuan Yang
+    url: https://yyuanxuan.github.io/
+    orcid: 0000-0002-7970-2544
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Caroline Tait
+    url: https://environment.leeds.ac.uk/geography/pgr/2474/caroline-tait
+    orcid: 0000-0002-4781-4111
+    affiliation: School of Geography, University of Leeds
+  - name: Robin Lovelace
+    url: https://www.robinlovelace.net/
+    orcid: 0000-0001-5679-6536
+    affiliation: Institute for Transport Studies, University of Leeds
+categories: 
+  - cycle infrastructure
+  - transportation
+pub-info:
+  reference: >-
+    Caroline Tait, <strong>Roger Beecham</strong>, Stuart Barber and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2022) “Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database”, <em>Journal of Transport \& Health</em>, doi: <a href="https://doi.org/10.1016/j.jth.2022.101369"><code>10.1016/j.jth.2022.101369</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1016/j.jth.2022.101369
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/PublicHealthDataGeek/London_CID_analysis
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+    - name: Twitter abstract
+      url: https://twitter.com/troublestrife/status/1545402094915567616
+      icon: fa-brands fa-twitter
+doi: 10.1016/j.jth.2022.101369
+haiku:
+---
+## Important links
+
+- [Paper](https://doi.org/10.1016/j.jth.2022.101369)
+- [GitHub repository](https://github.com/PublicHealthDataGeek/London_CID_analysis)
+
+
+## Abstract
+
+Introduction
+We describe and analyse a new, open dataset of surveyed cycling infrastructure in London UK. We demonstrate its potential to contribute to research and evidence-based policy development through a spatial analysis of infrastructure provision in London, before evaluating administrative boroughs on their infrastructure mix and compliance with UK Cycle Infrastructure Design Standards.
+
+Methods
+We processed and cleaned the 233,596 records in the London Cycling Infrastructure Database (CID) that contains nine infrastructure types. To support comparison between London boroughs, infrastructure provision was normalised to borough area, population size and level of commuter cycling. We generated variables capturing cyclist separation from motor vehicles and estimated cycle lane compliance for such segregation against design standards.
+
+Results
+Each CID record contains the infrastructure survey date, spatial location, infrastructure-specific variables and accompanying photographs. Traffic calming assets are numerous and distributed throughout London. Cyclist signals, crossings, Advanced Stop Lanes and cycle lanes and tracks are less numerous and more commonly seen in inner rather than outer London. Normalisation by area and population did not change these spatial patterns. Six percent of on-road cycle lane length is physically segregated from vehicles. Estimated compliance with UK design standards was notably higher for inner London boroughs with 66% exceeding mean compliance compared to just 24% of outer London boroughs.
+
+Conclusions
+In this first systematic description and analysis of the CID we have demonstrated its potential to quantitively and qualitatively compare infrastructure and a method to estimate compliance against design standards. We found that cycling infrastructure is not distributed equally across London and may not be of the quality that provides safe space for cycling. Such datasets are critical assets to evaluate infrastructure and guide health and transport policies.
+
+
+## Important figure
+
+![Figure 7: Estimated compliance of on-road cycle lanes with LTN 1/20: Spatial distribution (top left), spatially arranged borough bar charts showing length in kilometre (bottom left) and percentage of length by borough where speed limit is known (right, solid line = mean).](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{tait_cycling_2022,
+	author = {Caroline Tait and Roger Beecham and Robin Lovelace and Stuart Barber},
+	doi = {https://doi.org/10.1016/j.jth.2022.101369},
+	issn = {2214-1405},
+	journal = {Journal of Transport & Health},
+	keywords = {Cycling infrastructure, Spatial analysis, Cycling equity, Cycling safety, Transport planning, Active travel},
+	pages = {101369},
+	title = {Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database},
+	url = {https://www.sciencedirect.com/science/article/pii/S221414052200041X},
+	year = {2022},
+	Bdsk-Url-1 = {https://www.sciencedirect.com/science/article/pii/S221414052200041X},
+	Bdsk-Url-2 = {https://doi.org/10.1016/j.jth.2022.101369}
+	}
+
+```
+
+

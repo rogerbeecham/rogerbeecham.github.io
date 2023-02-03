@@ -1,0 +1,55 @@
+---
+title: "Research"
+description-meta: "{{< meta website.description >}}"
+listing:
+  - id: articles
+    contents: "articles/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+    categories: true
+  - id: conferences
+    contents: "conferences/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+    categories: true
+  - id: working-papers
+    contents: "working-papers/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+  - id: book-chapters
+    contents: "chapters/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+  - id: reviews
+    contents: "reviews/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+  - id: dormant-working-papers
+    contents: "dormant-working-papers/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+  - id: seminar-papers
+    contents: "seminar-papers/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+  - id: translations
+    contents: "translations/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+page-layout: full
+include-back-link: false
+toc-location: right
+---
+
+My research papers develop, evaluate and apply visual approaches to analysing social science datasets. They typically blend empirical and methodological contributions. A key domain area is Transport research. I am especially interested in how visualization can be used to explore, infer and communicate under uncertainty complex structure in behvaioural transport data.
+
+
+## Journal articles
+
+:::{#articles}
+:::
+
+## Conference papers
+
+:::{#conferences}
+:::

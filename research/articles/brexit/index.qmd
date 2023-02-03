@@ -1,0 +1,77 @@
+---
+title: "Locally-varying explanations behind the United Kingdom's vote to leave the European Union"
+date: 2018-06-30
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Aidan Slingsby
+    url: https://www.staff.city.ac.uk/~sbbb717/
+    orcid: 0000-0003-3941-553X
+    affiliation: Department of Computer Science, City University of London
+  - name: Chris Brunsdon
+    url: https://www.maynoothuniversity.ie/faculty-social-sciences/our-people/chris-brunsdon/
+    orcid: 0000-0003-4254-1780
+    affiliation: National Centre for Geocomputation, Maynooth University
+categories: 
+  - multilevel modelling
+  - geographically-weighted statistics
+  - regularisation
+  - political geography
+  - populism
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong>, Aidan Slingsby and Chris Brunsdon (2018) “Locally-varying explanations behind the United Kingdom's vote to leave the European Union”, <em>Journal of Spatial Information Science</em>, doi: <a href="http://dx.doi.org/10.5311/JOSIS.2018.16.377"><code>10.5311/JOSIS.2018.16.377</code></a>
+  links:
+    - name: Final version
+      url: http://dx.doi.org/10.5311/JOSIS.2018.16.377
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/rogerbeecham/brexit-analysis
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+doi: http://dx.doi.org/10.5311/JOSIS.2018.16.377
+haiku:
+---
+## Important links
+
+- [Paper](http://dx.doi.org/10.5311/JOSIS.2018.16.377)
+- [Code](https://github.com/rogerbeecham/brexit-analysis)
+
+
+## Abstract
+
+Explanations behind area-based (Local Authority-level) voting preference in the 2016 referendum on membership of the European Union are explored using aggregate-level data. Developing local models, special attention is paid to whether variables explain the vote equally well across the country. Variables describing the post-industrial and economic successfulness of Local Authorities most strongly discriminate variation in the vote. To a lesser extent this is the case for variables linked to metropolitan and big city contexts, which assist the Remain vote, those that distinguish more traditional and nativist values, assisting Leave, and those loosely describing material outcomes, again reinforcing Leave. Whilst variables describing economic competitiveness co-vary with voting preference equally well across the country, the importance of secondary variables - those distinguishing metropolitan settings, values and outcomes - does vary by region. For certain variables and in certain areas, the direction of effect on voting preference reverses. For example, whilst levels of European Union migration mostly assist the Remain vote, in parts of the country the opposite effect is observed.
+
+
+## Important figure
+
+
+![Figure 5: Geographically-weighted correlation coefficients for candidate explanatory variables
+against share of Leave vote. Coefficients are mapped to a green(+ve) → purple(−ive) diverging
+color scheme. A ColorBrewer PRGn diverging scheme [13] is used.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_locally_2018,
+	title = {Locally-varying explanations behind the {United Kingdom's} vote to leave the {European Union}},
+          journal = {Journal of Spatial Information Science},
+	author = {Beecham, R. and Slingsby, A. and Brunsdon, C.},
+	volume =  {16},
+	number = {},
+	pages = {117--136},
+	year = {2018}
+}
+```
+
+
+
+
+
+
+

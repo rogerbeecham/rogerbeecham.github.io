@@ -1,0 +1,94 @@
+---
+title: "Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples"
+date: 2016-06-01
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Chris Rooney
+    affiliation: Genetec
+  - name: Sebastian Meier
+    url: https://www.sebastianmeier.eu/
+    orcid: 0000-0002-7466-4059
+    affiliation: VISLAB, Berlin
+  - name: Jason Dykes
+    url: https://www.gicentre.net/jsndyks
+    orcid: 0000-0002-8096-5763
+    affiliation: Department of Computer Science, City University of London
+  - name: Aidan Slingsby
+    url: https://www.staff.city.ac.uk/~sbbb717/
+    orcid: 0000-0003-3941-553X
+    affiliation: Department of Computer Science, City University of London
+  - name: Cagatay Turkay
+    url: https://warwick.ac.uk/fac/cross_fac/cim/people/cagatay-turkay/
+    orcid: 0000-0001-6788-251X
+    affiliation: Centre for Interdisciplinary Methodologies, University of Warwick
+  - name: Jo Wood
+    url: https://www.gicentre.net/jwo/index
+    orcid: 0000-0001-9270-247X
+    affiliation: Department of Computer Science, City University of London
+  - name: William Wong
+    affiliation: IDC, Middlesex University
+
+categories: 
+  - multivariate visualization
+  - glyphs
+  - crime analysis
+  - exploratory data analysis
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong>, Chris Rooney, Sebastian Meier, Jason Dykes, Aidan Slingsby, Cagatay Turkay, Jo Wood and William Wong (2016) “Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples”, <em>Computer Graphics Forum</em>, doi: <a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.12900"><code>10.1111/cgf.12900</code></a>
+  links:
+    - name: Final version
+      url: https://onlinelibrary.wiley.com/doi/10.1111/cgf.12900
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/sebastian-meier/vis-survey
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+    - name: Video
+      url: https://vimeo.com/groups/eurovis2016/videos/177268318
+      icon: fas fa-video
+doi: 10.1111/cgf.12900
+haiku:
+---
+## Important links
+
+- [Paper](https://onlinelibrary.wiley.com/doi/10.1111/cgf.1290)
+- [Code](https://github.com/sebastian-meier/vis-survey)
+
+
+## Abstract
+
+Many datasets have multiple perspectives – for example space, time and description – and often analysts are required to study these multiple perspectives concurrently. This concurrent analysis becomes difficult when data are grouped and split into small multiples for comparison. A design challenge is thus to provide representations that enable multiple perspectives, split into small multiples, to be viewed simultaneously in ways that neither clutter nor overload. We present a design framework that allows us to do this. We claim that multi-perspective comparison across small multiples may be possible by superimposing perspectives on one another rather than juxtaposing those perspectives side-by-side. This approach defies conventional wisdom and likely results in visual and informational clutter. For this reason we propose designs at three levels of abstraction for each perspective. By flexibly varying the abstraction level, certain perspectives can be brought into, or out of, focus. We evaluate our framework through laboratory-style user tests. We find that superimposing, rather than juxtaposing, perspective views has little effect on performance of a low-level comparison task. We reflect on the user study and its design to further identify analysis situations for which our framework may be desirable. Although the user study findings were insufficiently discriminating, we believe our framework opens up a new design space for multi-perspective visual analysis.
+
+
+## Important figure
+
+
+![Figure 1:  Small multiples summarising spatial (red), temporal (blue) and descriptive (green) signatures of several collections of reported road incident data from London. The three perspectives -- space, time and description -- are superimposed on one another to form space-filling single graphic composites. They indicate, for example, that incidents involving pedal cycles are highly spatially concentrated around central London, although reasonably evenly so, and typically happen during the daytime and mid-week. This is distin t from incidents involving taxis, which have a similar spatial concentration, but typically happen towards the end of the week and in the evening.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_faceted_2016,
+	title = {Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples},
+          journal = {Computer Graphics Forum},
+	author = {Beecham, R. and Rooney, C. and Meier, S. and Dykes, J. and Slingsby, A. and Turkay, C. and Wong, W.},
+	year = {2016},
+	volume =  {35},
+	number = {3},
+	pages = {241--249}
+}
+```
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+---
+title: "Regionally-structured explanations behind area-level populism: an update to recent ecological analyses"
+date: 2020-03-12
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Nick Williams
+    url: https://business.leeds.ac.uk/departments-management/staff/367/nick-williams
+    affiliation: Leeds University Business School, University of Leeds
+  - name: Lex Comber
+    url: https://environment.leeds.ac.uk/geography/staff/1020/professor-lex-comber
+    orcid: 0000-0002-3652-7846
+    affiliation: School of Geography, University of Leeds
+
+categories: 
+  - multilevel modelling
+  - regularisation
+  - cartograms
+  - populism
+  - political geography
+  - geographically-weighted statistics
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong>, Nick Williams, Lex Comber (2020) “Regionally-structured explanations behind area-level populism: an update to recent ecological analyses”, <em>PLoS One</em>, doi: <a href="https://doi.org/10.1371/journal.pone.0229974"><code>10.1371/journal.pone.0229974</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1371/journal.pone.0229974
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/rogerbeecham/update-ecological-analyses
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+doi: 10.1371/journal.pone.0229974
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://doi.org/10.1371/journal.pone.0229974)
+- [Code](https://github.com/rogerbeecham/update-ecological-analyses)
+
+
+## Abstract
+
+Heavy geographic patterning to the 2016 Brexit vote in UK and Trump vote in US has resulted in numerous ecological analyses of variations in area-level voting behaviours. We extend this work by employing modelling approaches that permit regionally-specific associations between outcome and explanatory variables. We do so by generating a large number of regional models using penalised regression for variable selection and coefficient evaluation. The results reinforce those already published in that we find associations in support of a ‘left-behind’ reading. Multivariate models are dominated by a single variable—levels of degree-education. Net of this effect, ‘secondary’ variables help explain the vote, but do so differently for different regions. For Brexit, variables relating to material disadvantage, and to a lesser extent structural-economic circumstances, are more important for regions with a strong industrial history than for regions that do not share such a history. For Trump, increased material disadvantage reduces the vote both in global models and models built mostly for Southern states, thereby undermining the ‘left-behind’ reading. The reverse is nevertheless true for many other states, particularly those in New England and the Mid-Atlantic, where comparatively high levels of disadvantage assist the Trump vote and where model outputs are more consistent with the UK, especially so for regions with closer economic histories. This pattern of associations is exposed via our regional modelling approach, application of penalised regression and use of carefully designed visualization to reason over 100+ model outputs located within their spatial context. Our analysis, documented in an accompanying github repository, is in response to recent calls in empirical Social and Political Science for fuller exploration of subnational contexts that are often controlled out of analyses, for use of modelling techniques more robust to replication and for greater transparency in research design and methodology.
+
+
+
+## Important figure
+
+
+![Figure 6: Semi-spatially arranged small multiples of outputs for models fit separately to each US state.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_regionally_2020,
+	 author = {Beecham, R. and Williams, N. and Comber, L.},
+	 title = {{Regionally-structured explanations behind area-level populism: an update to recent ecological analyses}},
+	 journal = {{PLoS ONE}},
+	 pages = {e0229974},
+	 volume = {15},
+	 number = {3},
+	 year = {2020}
+}
+```
+
+
+
+
+
+
+

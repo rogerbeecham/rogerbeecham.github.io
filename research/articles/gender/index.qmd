@@ -1,0 +1,69 @@
+---
+title: "Exploring gendered cycling behaviours within a large-scale behavioural data-set"
+date: 2013-10-01
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Jo Wood
+    url: https://www.gicentre.net/jwo/index
+    orcid: 0000-0001-9270-247X
+    affiliation: Department of Computer Science, City University of London
+
+categories: 
+  - bikeshare
+  - origin-destination
+  - transportation
+  - urban analytics
+  - exploratory data analysis
+  - flow maps
+pub-info:
+  reference: >-
+   <strong>Roger Beecham</strong> and Jo Wood (2014) “Exploring gendered cycling behaviours within a large-scale behavioural data-set”, <em>Transportation Planning and Technology</em>, doi: <a href="https://doi.org/10.1080/03081060.2013.844903"><code>10.1080/03081060.2013.844903</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1080/03081060.2013.844903
+      icon: fa-solid fa-scroll
+doi: 10.1080/03081060.2013.844903
+haiku:
+---
+## Important links
+
+- [Paper](https://doi.org/10.1080/03081060.2013.844903)
+
+
+## Abstract
+
+Analysing over 10 million journeys made by members of London's Cycle Hire Scheme, we find that female customers' usage characteristics are demonstrably different from those of male customers. Usage at weekends and within London's parks characterises women's journeys, whereas for men, a commuting function is more clearly identified. Some of these variations are explained by geo-demographic differences and by an atypical period of usage during the first three months after the scheme's launch. Controlling for each of these variables brings some convergence between men and women. However, many differences are preserved. Studying the spatio-temporal context under which journeys are made, we find that women's journeys are highly spatially structured. Even when making utilitarian cycle trips, routes that involve large, multi-lane roads are comparatively rare, and instead female cyclists preferentially select areas of the city associated with slower traffic streets and with cycle routes slightly offset from major roads.
+
+## Important figure
+
+
+![Comparing the geography of men's and women's journeys in the London bikeshare scheme. Assumption is that local OD pairs are cycled by men and women in the same proportion as gloally  (for the scheme as a whole).](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_exploring_2014,
+  	title={Exploring gendered cycling behaviours within a large-scale behavioural data-set},
+  	author={Beecham, R. and Wood, J.},
+  	journal={Transportation Planning and Technology},
+         volume = {37},
+  	number={1},
+  	pages={83--97},
+  	year={2014},
+  	publisher={Taylor \& Francis}
+}
+
+
+
+```
+
+
+
+
+
+
+

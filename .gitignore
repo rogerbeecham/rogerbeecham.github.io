@@ -10,3 +10,5 @@ content/**/*.html
 *.Rproj
 *.sh
 CNAME
+
+/.luarc.json

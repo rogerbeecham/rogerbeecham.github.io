@@ -1,0 +1,42 @@
+---
+title: "Roger Beecham"
+pagetitle: "{{< meta website.title >}}"
+description-meta: "{{< meta website.description >}}"
+main-photo: files/profiles/profile.png
+main-photo-square: files/profiles/profile.png
+title-block-banner: "#274033"
+format:
+  html:
+    quarto-template-params:
+      banner-header-class: "home"
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-4}
+
+```{=html}
+<div class="grid" style="--bs-columns: 5; row-gap: 0;">
+  <div class="g-col-1 g-col-sm-0"></div>
+  <div class="g-col-3 g-col-sm-5">
+    <picture>
+      <source media="(max-width: 576px)" srcset="{{< meta main-photo-square >}}">
+      <source media="(min-width: 576px)" srcset="{{< meta main-photo >}}">
+      <img class="img-fluid" src="{{< meta main-photo >}}" alt="{{< meta author-meta >}}">
+    </picture>
+  </div>
+  <div class="g-col-1 g-col-sm-0"></div>
+</div>
+```
+
+:::
+
+::: {.g-col-12 .g-col-sm-8}
+
+Hi! Thanks for visiting my website. If you find anything useful here, or on my [github](https://github.com/rogerbeecham), and would like to know more, do get in touch. Below is a *bio* I tend to use to describe myself:
+
+> I'm an Associate Professor in visual data science at the School of Geography, [University of Leeds](https://environment.leeds.ac.uk/geography/staff/1003/dr-roger-beecham). I joined Leeds in 2017 after completing a PhD and postdoc at the [giCentre](https://www.gicentre.net/). I publish methods-oriented research in data visualization ([IEEE TVCG](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945) | [CGF](https://onlinelibrary.wiley.com/journal/14678659)) and spatial analysis ([GA](https://onlinelibrary.wiley.com/journal/15384632)), as well as applied studies in transport ([AAP](https://www.sciencedirect.com/journal/accident-analysis-and-prevention) | [TRC](https://www.journals.elsevier.com/transportation-research-part-c-emerging-technologies) | [TRA](https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice)) and geography ([E&P A](https://journals.sagepub.com/home/epn) | [E&P B](https://journals.sagepub.com/toc/EPB/current) | [JoTG](https://www.sciencedirect.com/journal/journal-of-transport-geography)). My work typically proposes, tests or applies visual methods that help analysts to understand and communicate complex (spatial) processes under uncertainty; I'm especially interested in how visualization relates to statistical issues.
+
+:::
+
+:::

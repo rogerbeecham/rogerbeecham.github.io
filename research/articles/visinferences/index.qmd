@@ -1,0 +1,72 @@
+---
+title: "A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis"
+date: 2022-07-06
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Robin Lovelace
+    url: https://www.robinlovelace.net/
+    orcid: 0000-0001-5679-6536
+    affiliation: Institute for Transport Studies, University of Leeds
+categories: 
+  - uncertainty analysis
+  - exploratory data analysis
+  - reproducibility
+  - graphical inference
+  - multilevel modelling
+  - road safety
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong> and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2022) “A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis”, <em>Geographical Analysis</em>, doi: <a href="https://doi.org/10.1111/gean.12338"><code>110.1111/gean.12338</code></a>
+  links:
+    - name: Final version
+      url: https://onlinelibrary.wiley.com/doi/10.1111/gean.12338
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/rogerbeecham/vis-inferences-roadsafety
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+    - name: Twitter abstract
+      url: https://twitter.com/rJBeecham/status/1545012322594443264
+      icon: fa-brands fa-twitter
+doi: 10.31219/osf.io/gbfz8
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://onlinelibrary.wiley.com/doi/10.1111/gean.12338)
+- [GitHub repository](https://github.com/rogerbeecham/vis-inferences-roadsafety)
+
+
+## Abstract
+
+Road safety research is a data-rich field with large social impacts. Like in medical research, the ambition is to build knowledge around risk factors that can save lives. Unlike medical research, road safety research generates empirical findings from messy observational datasets. Records of road crashes contain numerous intersecting categorical variables, dominating patterns that are complicated by confounding and, when conditioning on data to make inferences net of this, observed effects that are subject to uncertainty due to diminishing sample sizes. We demonstrate how visual data analysis approaches can inject rigor into exploratory analysis of such datasets. A framework is presented whereby graphics are used to expose, model and evaluate spatial patterns in observational data, as well as protect against false discovery. Evidence for the framework is presented through an applied data analysis of national crash patterns recorded in STATS19, the main source of road crash information in Great Britain. Our framework moves beyond typical depictions of exploratory data analysis and transfers to complex data analysis decision spaces characteristic of modern geographical analysis.
+
+
+## Important figures
+
+![The three phases of the framework for exploratory visual data analysis.](featured.png)
+
+![Figure 6: Data Analysis 1 located within our framework.](analysis1.png)
+
+![Figure 7: Data Analysis 2 located within our framework.](analysis2.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_vis_2022,
+	author = {Beecham, R. and Lovelace, R.},
+	doi = {10.1111/gean.12338},
+  jounral = {Geographical Analysis},
+	title = {A framework for inserting visually-supported inferences into geographical analysis workflow: application to road safety research},
+	year = {2022}
+	}
+
+```
+
+
