@@ -47,7 +47,9 @@ website:
         text: Research
       - href: teaching/index.qmd
         text: Teaching
-
+      - text: "Now"
+        href: now/index.qmd
+        
     right:
       - icon: envelope
         aria-label: email

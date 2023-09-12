@@ -1,0 +1,17 @@
+---
+title: What I'm doing now
+date: 2023-09-11
+description-meta: "{{< meta website.description >}}"
+published-title: Last updated
+title-block-banner: "#274033"
+toc: false
+---
+
+As of September 2023, I am focussing on:
+
+- Completing a book, [*Visualization for Social Data Science*](https://vis4sds.github.io/vis4sds/), to be published by CRC Press -- link is to free development version.
+-  Work as Acting Programme co-Lead on [Consumer Analytics and Marketing Strategy](https://courses.leeds.ac.uk/g963/consumer-analytics-and-marketing-strategy-msc) (CAMS).
+- [GISRUK2024](https://2024.gisruk.org/), which I'm lead organising with some [fantastic colleagues](https://2024.gisruk.org/organisation/).
+- [Turing Methods Challenge Fortnight](https://www.turing.ac.uk/research/theory-and-method-challenge-fortnights/navigating-garden-forking-paths-theoretical), with [Cagatay Turkay](https://warwick.ac.uk/fac/cross_fac/cim/people/cagatay-turkay/), and which funds a team of international experts on a dedicated research challenge, in this case the *forking paths problem* in data science. 
+- Supervising two excellent PhD Researchers -- [Juan P. Fonseca-Zamora](https://environment.leeds.ac.uk/geography/pgr/11291/juan-p-fonseca-zamora) (w/ [Robin Lovelace](https://www.robinlovelace.net/) + [James Tate](https://environment.leeds.ac.uk/transport/staff/980/dr-james-tate)), Juliana Novaes Bueno de Camargo (w/ [Dan Birks](https://essl.leeds.ac.uk/law/staff/261/dr-daniel-birks) +  [`@robradburn`](@https://twitter.com/robradburn?lang=en)) -- and several follow-up projects with [Caroline Tait](https://environment.leeds.ac.uk/geography/pgr/2474/caroline-tait) ([`@troublestrife`](https://twitter.com/troublestrife)).
+- Teaching on [GEOG5917](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&M=GEOG-5917M), [GEOG5009](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&M=GEOG-5009M), [GEOG5022](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&M=GEOG-5022M), [GEOG5967](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&M=GEOG-5967M) and also [Course 3D -- Essex Summer School](https://essexsummerschool.com/summer-school-facts/courses/ess-2023-course-list/3d-social-data-science/).
