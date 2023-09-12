@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Roger Beecham">
-<meta name="description" content="Roger Beecham is Associate Professor in Visual Data Science at University of Leeds, researching, teaching and applying visual methods in social scince data analysis .">
+<meta name="description" content="<strong>?meta:website.description</strong>">
 
-<title>Research | Roger Beecham</title>
+<title>Research | Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,7 +19,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -61,7 +61,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -74,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-description-meta','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-format','listing-title','listing-date','listing-author','listing-categories','listing-pub-info','listing-doi','listing-haiku','listing-path','listing-image','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-execute','listing-resources','listing-bibliography','listing-csl','listing-pagetitle','listing-description-meta','listing-author-meta','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-include-back-link','listing-title','listing-date','listing-author','listing-categories','listing-pub-info','listing-doi','listing-haiku','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-description-meta","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-format","listing-title","listing-date","listing-author","listing-categories","listing-pub-info","listing-doi","listing-haiku","listing-path","listing-image","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-execute","listing-resources","listing-bibliography","listing-csl","listing-pagetitle","listing-description-meta","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-include-back-link","listing-title","listing-date","listing-author","listing-categories","listing-pub-info","listing-doi","listing-haiku","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -102,9 +103,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-description-meta','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-format','listing-title','listing-date','listing-author','listing-categories','listing-pub-info','listing-doi','listing-haiku','listing-path','listing-image','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-execute','listing-resources','listing-bibliography','listing-csl','listing-pagetitle','listing-description-meta','listing-author-meta','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-include-back-link','listing-title','listing-date','listing-author','listing-categories','listing-pub-info','listing-doi','listing-haiku','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-description-meta","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-format","listing-title","listing-date","listing-author","listing-categories","listing-pub-info","listing-doi","listing-haiku","listing-path","listing-image","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-execute","listing-resources","listing-bibliography","listing-csl","listing-pagetitle","listing-description-meta","listing-author-meta","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-include-back-link","listing-title","listing-date","listing-author","listing-categories","listing-pub-info","listing-doi","listing-haiku","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -290,15 +291,17 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <style>
-    .quarto-title-block .quarto-title-banner {
-      background: #315696;
-    }
-    </style>
 
+      .quarto-title-block .quarto-title-banner {
+        background: #315696;
+      }
+</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta name="twitter:title" content="Research | Roger Beecham">
-<meta name="twitter:description" content="My research papers develop, evaluate and apply visual approaches to analysing social science datasets. They typically blend empirical and methodological contributions.">
+<meta name="twitter:title" content="Research | Research">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://github.com/rogerbeecham/rogerbeecham.github.io/files/profiles/profile.png">
 <meta name="twitter:creator" content="@rjbeecham">
 <meta name="twitter:site" content="@rjbeecham">
@@ -318,51 +321,57 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Roger Beecham</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/index.html">
+    <a class="nav-link" href="../cv/index.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page">
+    <a class="nav-link active" href="../research/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching/index.html">
+    <a class="nav-link" href="../teaching/index.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../now/index.html" rel="" target="">
+ <span class="menu-text">Now</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:r.j.beecham@leeds.ac.uk"><i class="bi bi-envelope" role="img" aria-label="email">
+    <a class="nav-link" href="mailto:r.j.beecham@leeds.ac.uk" rel="" target=""><i class="bi bi-envelope" role="img" aria-label="email">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/rogerbeecham"><i class="bi bi-github" role="img" aria-label="github">
+    <a class="nav-link" href="https://github.com/rogerbeecham" rel="" target=""><i class="bi bi-github" role="img" aria-label="github">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/rjbeecham"><i class="bi bi-twitter" role="img" aria-label="twitter">
+    <a class="nav-link" href="https://twitter.com/rjbeecham" rel="" target=""><i class="bi bi-twitter" role="img" aria-label="twitter">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/roger-beecham-a98860241/"><i class="bi bi-linkedin" role="img" aria-label="linkedin">
+    <a class="nav-link" href="https://www.linkedin.com/in/roger-beecham-a98860241/" rel="" target=""><i class="bi bi-linkedin" role="img" aria-label="linkedin">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -415,9 +424,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="research project-list">
 <ul class="list">
-        <li class="project" data-index="0" data-categories="cycle infrastructure,cycle routing,origin-destination,flow maps,bikeshare" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1675453039798" data-listing-reading-time-sort="1.54">
+        <li class="project" data-index="0" data-categories="cycle infrastructure,cycle routing,origin-destination,flow maps,bikeshare" data-listing-date-sort="1679356800000" data-listing-file-modified-sort="1694514709354" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
-                <p><strong>Roger Beecham</strong>, <a href="https://yyuanxuan.github.io/">Yuanxuan Yang</a>, Caroline Tait, and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2023) “Connected bikeability in London: which localities are better connected by bike and does this matter?”, <em>Environment &amp; Planning B: Urban Analytics and City Science</em>, doi: <a href="https://doi.org/10.5281/zenodo.7527494"><code>10.5281/zenodo.7527494</code></a></p>
+                <p><strong>Roger Beecham</strong>, <a href="https://yyuanxuan.github.io/">Yuanxuan Yang</a>, Caroline Tait, and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2023) “Connected bikeability in London: which localities are better connected by bike and does this matter?”, <em>Environment &amp; Planning B: Urban Analytics and City Science</em>, doi: <a href="https://doi.org/10.1177/23998083231165122"><code>10.1177/23998083231165122</code></a></p>
             </div>
             <div class="project-categories">
                     <div class="project-category"><a href="#category=cycle infrastructure">
@@ -444,12 +453,7 @@ ul.task-list li input[type="checkbox"] {
                         </a>
                     </li>
                     <li class="project-link">
-                        <a href="https://osf.io/gbfz8/">
-                            <i class="fa-solid fa-file-pdf"></i> Preprint
-                        </a>
-                    </li>
-                    <li class="project-link">
-                        <a href="">
+                        <a href="https://journals.sagepub.com/doi/full/10.1177/23998083231165122">
                             <i class="fa-solid fa-scroll"></i> Final version
                         </a>
                     </li>
@@ -463,10 +467,15 @@ ul.task-list li input[type="checkbox"] {
                             <i class="fa-solid fa-table"></i> Data
                         </a>
                     </li>
+                    <li class="project-link">
+                        <a href="https://twitter.com/rJBeecham/status/1638568404952010754">
+                            <i class="fa-brands fa-twitter"></i> Twitter abstract
+                        </a>
+                    </li>
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="1" data-categories="cycle infrastructure,transportation,road safety" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1675453039833" data-listing-reading-time-sort="1.95">
+        <li class="project" data-index="1" data-categories="cycle infrastructure,transportation,road safety" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1694514709398" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p>Caroline Tait, <strong>Roger Beecham</strong>, Stuart Barber and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2023) “Contraflows and cycling safety: Evidence from 22 years of data involving 508 one-way streets”, <em>Accident Analysis \&amp; Prevention</em>, doi: <a href="https://doi.org/10.1016/j.aap.2022.106895"><code>10.1016/j.aap.2022.106895</code></a></p>
             </div>
@@ -511,7 +520,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="2" data-categories="cycle infrastructure,transportation" data-listing-date-sort="1661986800000" data-listing-file-modified-sort="1675453039828" data-listing-reading-time-sort="1.91">
+        <li class="project" data-index="2" data-categories="cycle infrastructure,transportation" data-listing-date-sort="1661990400000" data-listing-file-modified-sort="1694514709390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p>Caroline Tait, <strong>Roger Beecham</strong>, Stuart Barber and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2022) “Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database”, <em>Journal of Transport \&amp; Health</em>, doi: <a href="https://doi.org/10.1016/j.jth.2022.101369"><code>10.1016/j.jth.2022.101369</code></a></p>
             </div>
@@ -553,9 +562,9 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="3" data-categories="uncertainty analysis,exploratory data analysis,reproducibility,graphical inference,multilevel modelling,road safety" data-listing-date-sort="1657062000000" data-listing-file-modified-sort="1675453040019" data-listing-reading-time-sort="1.19">
+        <li class="project" data-index="3" data-categories="uncertainty analysis,exploratory data analysis,reproducibility,graphical inference,multilevel modelling,road safety" data-listing-date-sort="1658102400000" data-listing-file-modified-sort="1694514709538" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
-                <p><strong>Roger Beecham</strong> and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2022) “A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis”, <em>Geographical Analysis</em>, doi: <a href="https://doi.org/10.1111/gean.12338"><code>110.1111/gean.12338</code></a></p>
+                <p><strong>Roger Beecham</strong> and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2023) “A framework for inserting visually-supported inferences into geographical analysis workflow: application to road crash analysis”, <em>Geographical Analysis</em>, doi: <a href="https://doi.org/10.1111/gean.12338"><code>110.1111/gean.12338</code></a></p>
             </div>
             <div class="project-categories">
                     <div class="project-category"><a href="#category=uncertainty analysis">
@@ -607,7 +616,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="4" data-categories="bikeshare,transportation,urban analytics,graph theory" data-listing-date-sort="1640649600000" data-listing-file-modified-sort="1675453039803" data-listing-reading-time-sort="1.985">
+        <li class="project" data-index="4" data-categories="bikeshare,transportation,urban analytics,graph theory" data-listing-date-sort="1640649600000" data-listing-file-modified-sort="1694514709362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><a href="https://yyuanxuan.github.io/">Yuanxuan Yang</a>, <strong>Roger Beecham</strong>, Alison Heppenstall and Alexis Comber (2021) “Understanding the impacts of public transit disruptions on bikeshare schemes and cycling behaviours using spatiotemporal and graph-based analysis: A case study of four London Tube strikes”, <em>Journal of Transport Geography</em>, doi: <a href="https://doi.org/10.1016/j.jtrangeo.2021.103255"><code>10.1016/j.jtrangeo.2021.103255</code></a></p>
             </div>
@@ -650,7 +659,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="5" data-categories="crime analysis,design methodology,statistical process control" data-listing-date-sort="1627772400000" data-listing-file-modified-sort="1675453039854" data-listing-reading-time-sort="1.345">
+        <li class="project" data-index="5" data-categories="crime analysis,design methodology,statistical process control" data-listing-date-sort="1627776000000" data-listing-file-modified-sort="1694514709422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong>, Jason Dykes, Chris Rooney and William Wong (2021) “Design Exposition Discussion Documents for Rich Design Discourse in Applied Visualization”, <em>IEEE Transactions on Visualization \&amp; Computer Graphics</em>, doi: <a href="https://doi.org/10.1109/TVCG.2020.2979433"><code>10.1109/TVCG.2020.2979433</code></a></p>
             </div>
@@ -690,7 +699,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="6" data-categories="deprivation,spatial treemaps,cartograms" data-listing-date-sort="1623970800000" data-listing-file-modified-sort="1675453039843" data-listing-reading-time-sort="1.075">
+        <li class="project" data-index="6" data-categories="deprivation,spatial treemaps,cartograms" data-listing-date-sort="1623974400000" data-listing-file-modified-sort="1694514709410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p>Rob Radburn and <strong>Roger Beecham</strong> (2021) “Mapping deprivation for each and every small area in England”, <em>Regional Studies, Regional Science</em>, doi: <a href="https://doi.org/10.1080/21681376.2021.1934528"><code>10.1080/21681376.2021.1934528</code></a></p>
             </div>
@@ -725,7 +734,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="7" data-categories="covid-19,multivariate visualization,glyphs,graphical inference" data-listing-date-sort="1609718400000" data-listing-file-modified-sort="1675453039941" data-listing-reading-time-sort="1.13">
+        <li class="project" data-index="7" data-categories="covid-19,multivariate visualization,glyphs,graphical inference" data-listing-date-sort="1609718400000" data-listing-file-modified-sort="1694514709494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong>,  <a href="https://www.gicentre.net/jsndyks">Jason Dykes</a>, Layik Hama, <a href="https://www.robinlovelace.net/">Nik Lomax</a> (2021) “On the Use of ‘Glyphmaps’ for Analysing the Scale and Temporal Spread of COVID-19 Reported Cases”, <em>International Journal of Geo-Infomation</em>, doi: <a href="https://doi.org/10.3390/ijgi10040213"><code>10.3390/ijgi10040213</code></a></p>
             </div>
@@ -773,7 +782,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="8" data-categories="bikeshare,transportation,equity" data-listing-date-sort="1597100400000" data-listing-file-modified-sort="1675453039953" data-listing-reading-time-sort="2.045">
+        <li class="project" data-index="8" data-categories="bikeshare,transportation,equity" data-listing-date-sort="1597104000000" data-listing-file-modified-sort="1694514709506" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
             <div class="project-content listing-pub-info">
                 <p><a href="https://www.robinlovelace.net/">Robin Lovelace</a>, <strong>Roger Beecham</strong> Eva Heinen, Eugeni Vidal Tortosa, <a href="https://yyuanxuan.github.io/">Yuanxuan Yang</a>, Chris Slade and Antonia Roberts (2020) “Is the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips”, <em>Transportation Research Part A: Policy and Practice</em>, doi: <a href="https://doi.org/10.1016/j.tra.2020.07.017"><code>10.1016/j.tra.2020.07.017</code></a></p>
             </div>
@@ -803,7 +812,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="9" data-categories="multilevel modelling,regularisation,cartograms,populism,political geography,geographically-weighted statistics" data-listing-date-sort="1583971200000" data-listing-file-modified-sort="1675453039982" data-listing-reading-time-sort="1.78">
+        <li class="project" data-index="9" data-categories="multilevel modelling,regularisation,cartograms,populism,political geography,geographically-weighted statistics" data-listing-date-sort="1583971200000" data-listing-file-modified-sort="1694514709522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong>, Nick Williams, Lex Comber (2020) “Regionally-structured explanations behind area-level populism: an update to recent ecological analyses”, <em>PLoS One</em>, doi: <a href="https://doi.org/10.1371/journal.pone.0229974"><code>10.1371/journal.pone.0229974</code></a></p>
             </div>
@@ -852,7 +861,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="10" data-categories="populism,political geography,cartograms" data-listing-date-sort="1583020800000" data-listing-file-modified-sort="1675453039894" data-listing-reading-time-sort="0.475">
+        <li class="project" data-index="10" data-categories="populism,political geography,cartograms" data-listing-date-sort="1583020800000" data-listing-file-modified-sort="1694514709450" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong> (2020) "Using position, angle and thickness to expose the shifting geographies of the 2019 UK General Election" <em>Environment and Planning A: Economy and Space</em>, doi: <a href="https://doi.org/10.1177/0308518X2090939"><code>10.1177/0308518X2090939</code></a></p>
             </div>
@@ -892,7 +901,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="11" data-categories="cartograms,multivariate visualization,glyphs,economic geography,flow maps" data-listing-date-sort="1568588400000" data-listing-file-modified-sort="1675453039986" data-listing-reading-time-sort="1.175">
+        <li class="project" data-index="11" data-categories="cartograms,multivariate visualization,glyphs,economic geography,flow maps" data-listing-date-sort="1568592000000" data-listing-file-modified-sort="1694514709526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong> and Aidan Slingsby (2019) “Characterising labour market self-containment in London with geographically arranged small multiples”, <em>Environment and Planning A: Economy and Space</em>, doi: <a href="https://doi.org/10.1177/0308518X19850580"><code>10.1177/0308518X19850580</code></a></p>
             </div>
@@ -943,7 +952,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="12" data-categories="multilevel modelling,geographically-weighted statistics,regularisation,political geography,populism" data-listing-date-sort="1530313200000" data-listing-file-modified-sort="1675453039810" data-listing-reading-time-sort="1.26">
+        <li class="project" data-index="12" data-categories="multilevel modelling,geographically-weighted statistics,regularisation,political geography,populism" data-listing-date-sort="1530316800000" data-listing-file-modified-sort="1694514709370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong>, Aidan Slingsby and Chris Brunsdon (2018) “Locally-varying explanations behind the United Kingdom's vote to leave the European Union”, <em>Journal of Spatial Information Science</em>, doi: <a href="http://dx.doi.org/10.5311/JOSIS.2018.16.377"><code>10.5311/JOSIS.2018.16.377</code></a></p>
             </div>
@@ -989,7 +998,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="13" data-categories="graphical inference,spatial autocorrelation,uncertainty analysis,just noticeable difference,crime analysis" data-listing-date-sort="1483228800000" data-listing-file-modified-sort="1675453039959" data-listing-reading-time-sort="1.61">
+        <li class="project" data-index="13" data-categories="graphical inference,spatial autocorrelation,uncertainty analysis,just noticeable difference,crime analysis" data-listing-date-sort="1483228800000" data-listing-file-modified-sort="1694514709510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong>, Jason Dykes, Wouter Meulemans, Aidan Slingsby, Cagatay Turkay and Jo Wood (2017) “Map line-ups: effects of spatial structure on graphical inference”, <em>IEEE Transactions on Visualization &amp; Computer Graphics</em>, doi: <a href="https://doi.org/10.1109/TVCG.2016.2598862"><code>10.1109/TVCG.2016.2598862</code></a></p>
             </div>
@@ -1040,7 +1049,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="14" data-categories="multivariate visualization,glyphs,crime analysis,exploratory data analysis" data-listing-date-sort="1464735600000" data-listing-file-modified-sort="1675453039857" data-listing-reading-time-sort="1.885">
+        <li class="project" data-index="14" data-categories="multivariate visualization,glyphs,crime analysis,exploratory data analysis" data-listing-date-sort="1464739200000" data-listing-file-modified-sort="1694514709426" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong>, Chris Rooney, Sebastian Meier, Jason Dykes, Aidan Slingsby, Cagatay Turkay, Jo Wood and William Wong (2016) “Faceted Views of Varying Emphasis (FaVVEs): a framework for visualising multi-perspective small multiples”, <em>Computer Graphics Forum</em>, doi: <a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.12900"><code>10.1111/cgf.12900</code></a></p>
             </div>
@@ -1088,7 +1097,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="15" data-categories="bikeshare,design methodology,origin-destination,transportation,urban analytics" data-listing-date-sort="1415232000000" data-listing-file-modified-sort="1675453039961" data-listing-reading-time-sort="1.63">
+        <li class="project" data-index="15" data-categories="bikeshare,design methodology,origin-destination,transportation,urban analytics" data-listing-date-sort="1415232000000" data-listing-file-modified-sort="1694514709510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p>Jo Wood, <strong>Roger Beecham</strong> and Jason Dykes (2014) “Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization”, <em>IEEE Transactions on Visualization &amp; Computer Graphics</em>, doi: <a href="https://doi.org/10.1109/TVCG.2014.2346323"><code>10.1109/TVCG.2014.2346323</code></a></p>
             </div>
@@ -1124,7 +1133,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="16" data-categories="bikeshare,origin-destination,transportation,urban analytics" data-listing-date-sort="1397775600000" data-listing-file-modified-sort="1675453039945" data-listing-reading-time-sort="1.78">
+        <li class="project" data-index="16" data-categories="bikeshare,origin-destination,transportation,urban analytics" data-listing-date-sort="1397779200000" data-listing-file-modified-sort="1694514709498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong> and Jo Wood (2014) “Characterising group-cycling journeys using interactive graphics”, <em>Transportation Research Part C: Emerging Technologies</em>, doi: <a href="https://doi.org/10.1016/j.trc.2014.03.007"><code>10.1016/j.trc.2014.03.007</code></a></p>
             </div>
@@ -1157,7 +1166,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="17" data-categories="bikeshare,origin-destination,transportation,urban analytics,economic geography" data-listing-date-sort="1388534400000" data-listing-file-modified-sort="1675453039830" data-listing-reading-time-sort="2.16">
+        <li class="project" data-index="17" data-categories="bikeshare,origin-destination,transportation,urban analytics,economic geography" data-listing-date-sort="1388534400000" data-listing-file-modified-sort="1694514709394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong>, Jo Wood and Audrey Bowerman (2014) “Studying commuting behaviours using collaborative visual analytics”, <em>Computers, Environment and Urban Systems</em>, doi: <a href="https://doi.org/10.1016/j.compenvurbsys.2013.10.007"><code>10.1016/j.compenvurbsys.2013.10.007</code></a></p>
             </div>
@@ -1193,7 +1202,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="18" data-categories="bikeshare,origin-destination,transportation,urban analytics,exploratory data analysis,flow maps" data-listing-date-sort="1380582000000" data-listing-file-modified-sort="1675453039896" data-listing-reading-time-sort="1.165">
+        <li class="project" data-index="18" data-categories="bikeshare,origin-destination,transportation,urban analytics,exploratory data analysis,flow maps" data-listing-date-sort="1380585600000" data-listing-file-modified-sort="1694514709450" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p><strong>Roger Beecham</strong> and Jo Wood (2014) “Exploring gendered cycling behaviours within a large-scale behavioural data-set”, <em>Transportation Planning and Technology</em>, doi: <a href="https://doi.org/10.1080/03081060.2013.844903"><code>10.1080/03081060.2013.844903</code></a></p>
             </div>
@@ -1232,7 +1241,7 @@ ul.task-list li input[type="checkbox"] {
                 </ul>
             </div>
         </li>
-        <li class="project" data-index="19" data-categories="social network analysis,multivariate visualization,urban analytics" data-listing-date-sort="1372633200000" data-listing-file-modified-sort="1675453039970" data-listing-reading-time-sort="1.835">
+        <li class="project" data-index="19" data-categories="social network analysis,multivariate visualization,urban analytics" data-listing-date-sort="1372636800000" data-listing-file-modified-sort="1694514709518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
             <div class="project-content listing-pub-info">
                 <p>Aidan Slingsby, <strong>Roger Beecham</strong> and Aidan Slingsby (2013) “Visual analysis of social networks in space and time using smartphone logs”, <em> Pervasive and Mobile Computing</em>, doi: <a href="https://doi.org/10.1016/j.pmcj.2013.07.002"><code>10.1016/j.pmcj.2013.07.002</code></a></p>
             </div>
@@ -1274,7 +1283,7 @@ No matching items
 <div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
 <div class="research project-list">
 <ul class="list">
-        <li class="project" data-index="0" data-categories="graphical inference,spatial autocorrelation,cognition" data-listing-date-sort="1627772400000" data-listing-file-modified-sort="1675453040021" data-listing-reading-time-sort="2.55">
+        <li class="project" data-index="0" data-categories="graphical inference,spatial autocorrelation,cognition" data-listing-date-sort="1627776000000" data-listing-file-modified-sort="1694514709538" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
             <div class="project-content listing-pub-info">
                 <p>Johanna Haider Doppler, Margit Pohl, <strong>Roger Beecham</strong> and Jason Dykes (2021) “Strategies for Detecting Difference in Map Line-Up Tasks”, <em>Lecture Notes in Computer Science</em>, doi: <a href="https://doi.org/10.1007/978-3-030-85613-7_36"><code>10.1007/978-3-030-85613-7_36</code></a></p>
             </div>
@@ -1391,9 +1400,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1458,6 +1481,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1501,7 +1610,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2023 Roger Beecham | Design by <a href="https://www.andrewheiss.com/">Andrew Heiss</a></span> <span class="faux-block">All content licensed under<br><a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-sa" aria-label="creative-commons-sa"></i> Creative Commons CC BY-SA 4.0</a></span></div>   
-      <div class="nav-footer-center"><span class="faux-block"><i class="fa-brands fa-orcid" aria-label="orcid"></i> <strong>ORCID</strong> <a href="https://orcid.org/0000-0001-8563-7251">0000-0001-8563-7251</a></span></div>
+    <div class="nav-footer-center"><span class="faux-block"><i class="fa-brands fa-orcid" aria-label="orcid"></i> <strong>ORCID</strong> <a href="https://orcid.org/0000-0001-8563-7251">0000-0001-8563-7251</a></span></div>
     <div class="nav-footer-right"><span class="faux-block">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></span> <span class="faux-block"><a href="https://github.com/rogerbeecham/rogerbeecham.github.io">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></span></div>
   </div>
 </footer>

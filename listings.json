@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/atom.html",
+    "listing": "/teaching/index.html",
     "items": []
   },
   {
@@ -28,9 +28,5 @@
       "/research/articles/nokia/index.html",
       "/research/conferences/strategies/index.html"
     ]
-  },
-  {
-    "listing": "/teaching/index.html",
-    "items": []
   }
 ]
