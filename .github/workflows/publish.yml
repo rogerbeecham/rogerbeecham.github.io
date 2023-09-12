@@ -21,5 +21,6 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          cname: roger-beecham.com
         env:
-          GITHUB_TO
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
