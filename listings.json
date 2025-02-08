@@ -6,10 +6,13 @@
   {
     "listing": "/research/index.html",
     "items": [
+      "/research/books/vis4sds/index.html",
+      "/research/articles/auli/index.html",
+      "/research/articles/strava/index.html",
       "/research/articles/bikeability/index.html",
       "/research/articles/contraflows/index.html",
-      "/research/articles/cid/index.html",
       "/research/articles/visinferences/index.html",
+      "/research/articles/cid/index.html",
       "/research/articles/biketube/index.html",
       "/research/articles/dexds/index.html",
       "/research/articles/deprivation/index.html",
