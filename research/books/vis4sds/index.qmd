@@ -1,0 +1,87 @@
+---
+title: "Visualization for Social Data Science"
+date: 2025-07-01
+author: 
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+categories: 
+  # - bikeshare
+  # - cartograms
+  # - cognition
+  # - covid-19
+  # - deprivation
+  - design methodology
+  - exploratory data analysis
+  # - flow maps
+  # - glyphs
+  - graphical inference
+  - multilevel modelling
+  # - multivariate visualization
+  # - origin-destination
+  # - political geography
+  # - reproducibility
+  # - road safety
+  # - spatial autocorrelation
+  # - spatial treemaps
+  # - transportation
+  - uncertainty analysis
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong> (forthcoming) “Visualization for Social Data Science”, <em>Chapman & Hall / CRC Press</em>, doi: <a href="https://www.routledge.com/Visualization-for-Social-Data-Science/Beecham/p/book/9781032259710"><code>publisher page</code></a>
+  links:
+    - name: Final version
+      url: https://vis4sds.github.io/vis4sds/
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/vis4sds/vis4sds/
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+haiku:
+---
+
+![](featured.png){width=60%}
+
+## Description
+
+**Visualization for Social Data Science** provides end-to-end skills in visual data analysis. The book demonstrates how data graphics and modern statistics can be used in tandem to process, explore, model and communicate data-driven social science. It is packed with detailed data analysis examples, pushing you to do visual data analysis. As well as introducing, and demonstrating with code, a wide range of data visualizations for exploring patterns in data, Visualization for Social Data Science shows how models can be integrated with graphics to emphasise important structure and de-emphasise spurious structure and the role of data graphics in scientific communication -- in building trust and integrity. Many of the book’s influences are from data journalism, as well as information visualization and cartography.
+
+ 
+
+Each chapter introduces statistical and graphical ideas for analysis, underpinned by real social science datasets. Those ideas are then implemented via principled, step-by-step, workflows in the programming environment R. Key features include:
+
+* Extensive real-world data sets and data analysis scenarios in Geography, Public Health, Transportation, Political Science;
+
+* Code examples fully-integrated into main text, with code that builds in complexity and sophistication;
+
+* Quarto template files for each chapter to support literate programming practices;
+
+* Functional programming examples, using tidyverse, for generating empirical statistics (bootstrap resamples, permutation tests) and working programmatically over model outputs;
+
+* Unusual but important programming tricks for generating sophisticated data graphics such as network visualizations, dot-density maps, OD maps, glyphmaps, icon arrays, hypothetical outcome plots and graphical line-ups plots. Every data graphic in the book is implemented via ggplot2.
+
+* Chapters on uncertainty visualization and data storytelling that are uniquely accompanied with detailed, worked examples.
+
+
+## Important links
+
+- [Publisher page](https://www.routledge.com/Visualization-for-Social-Data-Science/Beecham/p/book/9781032259710)
+- [Author version](https://vis4sds.github.io/vis4sds/)
+- [GitHub repository](https://github.com/vis4sds/vis4sds/)
+
+
+## BibTeX citation
+
+```bibtex
+@book{beecham_vis_2025,
+	author = {Roger Beecham},
+	publisher={Chapman & Hall / CRC Press},
+	title={Visualization for {S}ocial {D}ata {S}cience},
+	year = {2025}
+	}
+```
+
+

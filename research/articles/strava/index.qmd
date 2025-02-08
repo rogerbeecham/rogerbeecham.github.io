@@ -1,0 +1,80 @@
+---
+title: "Build it but will they come? Exploring the impact of introducing contraflow cycling on cycling volumes with crowd-sourced data"
+date: 2024-03-01
+author:
+  - name: Caroline Tait
+    url: https://environment.leeds.ac.uk/geography/pgr/2474/caroline-tait
+    orcid: 0000-0002-4781-4111
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Stuart Barber
+    url: https://eps.leeds.ac.uk/maths/staff/4005/dr-stuart-barber
+    orcid: 0000-0002-7611-7219
+    affiliation: School of Mathematics, University of Leeds
+  - name: Robin Lovelace
+    url: https://www.robinlovelace.net/
+    orcid: 0000-0001-5679-6536
+    affiliation: Institute for Transport Studies, University of Leeds
+categories: 
+  - cycle infrastructure
+  - transportation
+  - road safety
+pub-info:
+  reference: >-
+    Caroline Tait, <strong>Roger Beecham</strong>, Stuart Barber and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2023) “Build it but will they come? Exploring the impact of introducing contraflow cycling on cycling volumes with crowd-sourced data”, <em>Journal of Transport \& Health</em>, doi: <a href="https://doi.org/10.1016/j.jth.2024.101758"><code>10.1016/j.jth.2024.101758</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1016/j.jth.2024.101758
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: 
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+    - name: Twitter abstract
+      url: https://twitter.com/troublestrife/status/1594617455367929856
+      icon: fa-brands fa-twitter
+doi: 10.1016/j.jth.2024.101758
+haiku:
+---
+## Important links
+
+- [Paper](https://doi.org/10.1016/j.jth.2024.101758)
+- [GitHub repository]()
+
+
+## Abstract
+
+Contraflow cycling on one-way streets is a safe, low cost intervention that can improve the cycling experience. The evidence of its impact on cycling participation is patchy and limited. In this paper, we use crowd-sourced data to assess the impact of introducing contraflow cycling on cycling volumes and qualitatively assess factors that are associated with impact of such infrastructure.
+
+We matched roads where contraflow cycling was introduced in London in 2018/2019 with monthly Strava Metro cycling count data before and after the intervention. We generated expected counts adjusted for changes in Strava trips, users and seasonality by examining global change in Strava counts during the study period. We used national cycle infrastructure design guidance and Google Street View to qualitatively assess the contraflow infrastructure.
+
+Twenty-eight one-way streets and fourteen two-way streets (converted to one-way streets) introduced contraflow cycling. Illegal contraflow cycling was popular on some streets pre-introduction. Three streets experienced significant increases in mean contraflow trips (260, 630 and 1750 percent) and people after introduction that were much higher than expected. Many other streets had higher counts post-intervention. Count increases were less apparent for the former two-way roads. Qualitative assessment demonstrated that local context such as connectivity, physical infrastructure and external factors (e.g. construction) were important in determining whether the intervention increased contraflow cycling.
+
+We found that contraflow cycling introduction can increase cycling participation but that local factors are important in determining volumes. Large-scale adoption of such infrastructure could significantly improve cycle routes and networks. Legislative change to make all one-way streets contraflow by default would facilitate such implementation. Further work could utilise other data sources to assess the representativeness of the Strava Metro data and confirm these findings with a more comprehensive analysis that explore multiple factors including local factors and weather conditions.
+
+## Important figure
+
+![Figure 1: Monthly variation in observed and expected contraflow Strava trips on an existing one-way road segment before (pale colour) and after (darker colour) contraflow introduction (month of transition shown as vertical grey line).
+
+## BibTeX citation
+
+```bibtex
+
+@article{tait_infrastructure_2024,
+	author = {Caroline Tait and Roger Beecham and Robin Lovelace and Stuart Barber},
+	doi = {https://doi.org/10.1016/j.jth.2024.101758},
+	journal = {Journal of Transport & Health},
+	keywords = {Infrastructure, Contraflow, One-way streets, Cycling, Crowd-sourced data},
+	pages = {101758},
+	title = {Build it but will they come? Exploring the impact of introducing contraflow cycling on cycling volumes with crowd-sourced data},
+	url = {https://www.sciencedirect.com/science/article/pii/S2214140524000045},
+	volume = {35},
+	year = {2024}
+}
+```
+
+

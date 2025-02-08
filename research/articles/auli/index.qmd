@@ -1,0 +1,68 @@
+---
+title: "The Auckland Urban Liveability Index: A Mechanism for Quantifying and Evaluating Modern Urban Densification"
+date: 2025-01-19
+author:
+  - name: Jan Magnuszewski
+    url: https://jan.magnuszewski.com/
+    orcid: http://orcid.org/0009-0004-7205-6078
+    affiliation: CASA, University College London
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Luke Burns
+    url: 
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - urban analytics
+  - equity
+pub-info:
+  reference: >-
+    Jan Magnuszewski, <strong>Roger Beecham</strong>, and Luke Burns (2025) “The Auckland Urban Liveability Index: A Mechanism for Quantifying and Evaluating Modern Urban Densification”, <em>Applied Spatial Analysis and Policy</em>, doi: <a href="https://doi.org/10.1007/s12061-025-09643-9"><code>10.1007/s12061-025-09643-9</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1007/s12061-025-09643-9
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/jankomag/uli-nz
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+doi: 10.1007/s12061-025-09643-9
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://doi.org/10.1007/s12061-025-09643-9)
+- [GitHub repository](https://github.com/jankomag/uli-nz)
+
+
+## Abstract
+
+We present the Auckland Urban Liveability Index (AULI), an indicator that quantifies modern liveability at the neighbourhood level in Auckland. The index comprises 29 variables spanning several components of liveability: social infrastructure, green space, transportation, safety and diversity. Each is documented transparently with accompanying data and code. We find that neighbourhoods with the highest liveability scores have comparatively good public transport provision and are amenable to active travel, reflecting the principles of modern urban densification. Through local modelling frameworks, we provide useful context on the generalisability of index components that supports the transfer of our index to other cities in New Zealand and re-evaluation of our index in light of new data.
+
+
+## Important figure
+
+
+![Figure 4: Auckland Urban Liveability Index.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_connected_2023,
+	author = {Jan Magnuszewski and Roger Beecham and Luke Burns},
+	doi = {10.1007/s12061-025-09643-9},
+	publisher={Applied Spatial Analysis and Policy},
+	title={The Auckland Urban Liveability Index: A Mechanism for Quantifying and Evaluating Modern Urban Densification},
+  volume = {0},
+  number = {0},
+  pages = {},
+	year = {}
+	}
+```
+
+

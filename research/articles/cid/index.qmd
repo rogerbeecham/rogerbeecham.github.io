@@ -1,6 +1,6 @@
 ---
 title: "Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database"
-date: 2022-09-01
+date: 2022-01-01
 author:
   - name: Roger Beecham
     url: http://www.roger-beecham.com/

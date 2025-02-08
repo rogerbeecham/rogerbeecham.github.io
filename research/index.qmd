@@ -2,6 +2,11 @@
 title: "Research"
 description-meta: "{{< meta website.description >}}"
 listing:
+  - id: books
+    contents: "books/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+    categories: true
   - id: articles
     contents: "articles/*/index.qmd"
     sort: "date desc"
@@ -42,6 +47,12 @@ toc-location: right
 ---
 
 My research papers develop, evaluate and apply visual approaches to analysing social science datasets. They typically blend empirical and methodological contributions. A key domain area is Transport research. I am especially interested in how visualization can be used to explore, infer and communicate under uncertainty complex structure in behvaioural transport data.
+
+
+## Books
+
+:::{#books}
+:::
 
 
 ## Journal articles
