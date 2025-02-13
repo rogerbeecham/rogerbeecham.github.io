@@ -1,0 +1,21 @@
+- title: Inspiring Futures for Net Zero (INFUZE)
+  description: "Participatory mobility science project building data-enabled tools for transitioning away from individual car ownership."
+  university: University of Leeds w/ Royal College of Art and Lancaster University
+  number: 2024-2029
+  url: https://in-fuze.org.uk/
+  logo: logos/infuze_logo.png
+  funder:
+  - name: EPSRC
+    url: https://in-fuze.org.uk/
+
+- title: Navigating the garden of forking paths
+  description: "International team developing foundations for formalising interactive data analysis practice."
+  university: Alan Turing Institute w/ University of Leeds, University of Warwick (+ others)
+  number: 2024-2025
+  url: https://theory4ida.github.io/tmcf/
+  logo: logos/tmcf.jpg
+  funder:
+  - name: Alan Turing Institute
+    url: https://theory4ida.github.io/tmcf/
+
+

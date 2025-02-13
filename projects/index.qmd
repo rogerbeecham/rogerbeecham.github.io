@@ -1,15 +1,15 @@
 ---
-title: "Teaching"
+title: "Projects"
 description-meta: "{{< meta website.description >}}"
 listing:
   - id: current
     contents: current.yml
     sort: "date desc"
-    template: ../html/teaching/listing.ejs
+    template: ../html/projects/listing.ejs
   - id: previous
     contents: previous.yml
     sort: "date desc"
-    template: ../html/teaching/listing.ejs
+    template: ../html/projects/listing.ejs
 title-block-banner: "#d03231"
 page-layout: full
 toc: true

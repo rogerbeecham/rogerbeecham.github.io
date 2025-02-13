@@ -1,0 +1,33 @@
+- title: SaferActive -- Prioritising investment in traffic calming measures for vulnerable road users 
+  description: "Project developing and applying modern data science to build evidence base on road safety for use in national and local government."
+  university: University of Leeds 
+  number: 2020-2022
+  url: https://github.com/saferactive
+  logo: logos/saferactive.png
+  funder:
+  - name: Department for Transport
+    url: https://github.com/saferactive
+
+- title: Digital Twins and the Turing Geovisualisation Engine
+  description: "Project designing interactive exploratory geospatial analysis tools targeted at urban planning experts."
+  university: University of Leeds w/ Alan Turing Institute
+  number: 2019-2022
+  url: https://github.com/tgve
+  logo: logos/tgve.png
+  funder:
+  - name: EPSRC via Alan Turing Institute
+    url: https://github.com/tgve
+
+
+- title: Visual analytics for sense-making in criminal intelligence analysis (VALCRI)
+  description: "Multi-partner project building end-to-end tools for next generation crime analysis."
+  university: Middlesex University w/ City, University of London (and others)
+  number: 2014-2018
+  url: https://www.euprojectvalcri.org/index.html
+  logo: logos/valcri_logo.png
+  funder:
+  - name: European Union
+    url: https://www.euprojectvalcri.org/index.html
+
+
+  

@@ -45,6 +45,8 @@ website:
         text: CV
       - href: research/index.qmd
         text: Research
+      - href: projects/index.qmd
+        text: Projects
       - href: teaching/index.qmd
         text: Teaching
       - text: "Now"

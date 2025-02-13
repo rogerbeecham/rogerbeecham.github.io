@@ -23,7 +23,7 @@ categories:
   - road safety
 pub-info:
   reference: >-
-    Caroline Tait, <strong>Roger Beecham</strong>, Stuart Barber and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2023) “Build it but will they come? Exploring the impact of introducing contraflow cycling on cycling volumes with crowd-sourced data”, <em>Journal of Transport \& Health</em>, doi: <a href="https://doi.org/10.1016/j.jth.2024.101758"><code>10.1016/j.jth.2024.101758</code></a>
+    Caroline Tait, <strong>Roger Beecham</strong>, Stuart Barber and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2024) “Build it but will they come? Exploring the impact of introducing contraflow cycling on cycling volumes with crowd-sourced data”, <em>Journal of Transport \& Health</em>, doi: <a href="https://doi.org/10.1016/j.jth.2024.101758"><code>10.1016/j.jth.2024.101758</code></a>
   links:
     - name: Final version
       url: https://doi.org/10.1016/j.jth.2024.101758

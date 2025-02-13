@@ -1,0 +1,42 @@
+```{=html}
+<div class="project">
+    <% for (const project of items) { %>
+    <div class="project-entry">
+        <div class="logo">
+            <% if (project.url) { %>
+            <a href="<%= project.url %>" target="_blank"><img src="<%= project.logo %>" alt="<%= project.title %>" title="<%= project.title %>" /></a>
+            <% } else { %>
+            <img src="<%= project.logo %>" alt="<%= project.title %>" title="<%= project.title %>" />
+            <% } %>
+        </div>
+        <div class="body">
+            <p class="project-title">
+                <% if (project.url) { %>
+                <a href="<%= project.url %>" target="_blank"><%= project.title %></a> 
+                <% } else { %>
+                <%= project.title %> 
+                <% } %>
+            </p>
+            <p class="project-details">
+                <span class="project-number"><%= project.number %></span> | 
+                <span class="project-funder"><%= project.university %></span>
+                <% if (project.role) { %>
+                | <span class="project-role"><%= project.role %></span>
+                <% } %>
+            </p>
+            <p class="project-description"><%= project.description %></p>
+
+            <ul class="project-funder">
+                <% for (const funder of project.funder) { %>
+                <% if (funder.url) { %>
+                <li><a href="<%= funder.url %>"><i class="fa-solid fa-award"></i> <%= funder.name %></a></li>
+                <% } else { %> 
+                <li class="no-link"><i class="fa-solid fa-award"></i> <%= funder.name %></li>
+                <% } %>
+                <% } %>
+            </ul>
+        </div>
+    </div>
+    <% } %>
+</div>
+```
