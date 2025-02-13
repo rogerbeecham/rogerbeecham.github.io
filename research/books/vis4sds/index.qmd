@@ -8,13 +8,13 @@ author:
     affiliation: School of Geography, University of Leeds
 categories: 
   # - bikeshare
-  # - cartograms
+  - cartograms
   # - cognition
   # - covid-19
   # - deprivation
   - design methodology
   - exploratory data analysis
-  # - flow maps
+  - flow maps
   # - glyphs
   - graphical inference
   - multilevel modelling
@@ -32,7 +32,7 @@ pub-info:
     <strong>Roger Beecham</strong> (forthcoming) “Visualization for Social Data Science”, <em>Chapman & Hall / CRC Press</em>, doi: <a href="https://www.routledge.com/Visualization-for-Social-Data-Science/Beecham/p/book/9781032259710"><code>publisher page</code></a>
   links:
     - name: Final version
-      url: https://vis4sds.github.io/vis4sds/
+      url: https://www.routledge.com/Visualization-for-Social-Data-Science/Beecham/p/book/9781032259710
       icon: fa-solid fa-scroll
     - name: Code
       url: https://github.com/vis4sds/vis4sds/
