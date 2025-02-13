@@ -1,7 +1,7 @@
 ---
 title: What I'm doing now
 date: 2025-02-08
-description-meta: "{{< meta website.description >}}"
+description-meta: "{{< var description >}}"
 published-title: Last updated
 title-block-banner: "#274033"
 toc: false

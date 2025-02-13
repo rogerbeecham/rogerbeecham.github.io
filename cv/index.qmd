@@ -1,6 +1,6 @@
 ---
 title: Curriculum vitæ
-description-meta: "{{< meta website.description >}}"
+description-meta: "{{< var description >}}"
 date: 2023-11-08
 title-block-banner: "#274033"
 published-title: CV last updated

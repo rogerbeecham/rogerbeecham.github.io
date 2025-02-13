@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description-meta: "{{< meta website.description >}}"
+description-meta: "{{< var description >}}"
 listing:
   - id: books
     contents: "books/*/index.qmd"

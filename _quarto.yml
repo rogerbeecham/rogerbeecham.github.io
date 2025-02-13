@@ -16,14 +16,14 @@ csl: files/bib/chicago-author-date.csl
 
 
 # Metadata stuff
-pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
-description-meta: "{{< meta description >}}"
+pagetitle: "{{< var title >}}"
+description-meta: "{{< var description >}}"
 author-meta: "Roger Beecham"
 
 
 website:
   title: "Roger Beecham"
-  description: "Roger Beecham is Associate Professor in Visual Data Science at University of Leeds, researching, teaching and applying visual methods in social scince data analysis ."
+  description: "Roger Beecham is Associate Professor in Visual Data Science at University of Leeds, researching, teaching and applying visual methods in social science data analysis ."
   favicon: "/files/favicon.png"
   site-url: "https://github.com/rogerbeecham/rogerbeecham.github.io"
   repo-url: "https://www.roger-beecham.com"

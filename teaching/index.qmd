@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-description-meta: "{{< meta website.description >}}"
+description-meta: "{{< var description >}}"
 listing:
   - id: current
     contents: current.yml

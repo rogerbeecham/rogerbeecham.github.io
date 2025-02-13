@@ -1,7 +1,7 @@
 ---
 title: "Roger Beecham"
-pagetitle: "{{< meta website.title >}}"
-description-meta: "{{< meta website.description >}}"
+pagetitle: "{{< var title >}}"
+description-meta: "{{< var description >}}"
 main-photo: files/profiles/profile.png
 main-photo-square: files/profiles/profile.png
 title-block-banner: "#274033"
