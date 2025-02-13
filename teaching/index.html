@@ -42,8 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-9e228d6d4d66c12a9d11739da31c2b1c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-96dbb2072bbaad76500244452b4f4970.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-cdcbfb0ef8b560f660a9081ade32373c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -89,6 +89,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-current'] = new List('listing-current', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-previous .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-url','listing-logo','listing-semester',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-url","listing-logo","listing-semester"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-previous'] = new List('listing-previous', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -175,6 +203,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../teaching/index.html" aria-current="page"> 
@@ -277,12 +309,23 @@ window.Quarto = {
             <ul class="course-semesters">
                 
                 
-                <li><a href="https://www.roger-beecham.com/teaching"><i class="fa-solid fa-building-columns"></i> Summer 2024</a></li>
+                <li><a href="https://www.roger-beecham.com/teaching"><i class="fa-solid fa-building-columns"></i> Summer 2025</a></li>
                 
                 
             </ul>
         </div>
     </div>
+    
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="previous" class="level2">
+<h2 class="anchored" data-anchor-id="previous">Previous</h2>
+<div id="listing-previous" class="quarto-listing quarto-listing-container-custom">
+<div class="teaching">
     
     <div class="course-entry">
         <div class="logo">
@@ -306,7 +349,7 @@ window.Quarto = {
             <ul class="course-semesters">
                 
                 
-                <li><a href="https://www.roger-beecham.com/teaching"><i class="fa-solid fa-building-columns"></i> Spring 2024</a></li>
+                <li><a href="https://www.roger-beecham.com/teaching"><i class="fa-solid fa-building-columns"></i> Spring 2018--2022</a></li>
                 
                 
             </ul>
@@ -317,12 +360,6 @@ window.Quarto = {
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-</section>
-<section id="previous" class="level2">
-<h2 class="anchored" data-anchor-id="previous">Previous</h2>
-<div id="previous">
-
 </div>
 
 
