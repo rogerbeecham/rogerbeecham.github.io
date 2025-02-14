@@ -53,17 +53,14 @@ website:
         href: now/index.qmd
         
     right:
-      - icon: envelope
-        aria-label: email
+      - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
         href: "mailto:r.j.beecham@leeds.ac.uk"
-      - icon: github
-        aria-label: github
+      - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
         href: https://github.com/rogerbeecham
-      - icon: twitter
-        aria-label: twitter
-        href: https://twitter.com/rjbeecham
-      - icon: linkedin
-        aria-label: linkedin
+      - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
+        href: https://bsky.app/profile/rjbeecham.bsky.social
+        rel: me
+      - text: "{{< iconify bi linkedin size=1.1em title='LinkedIn' >}}"
         href: https://www.linkedin.com/in/roger-beecham-a98860241/
     rel: me
 
