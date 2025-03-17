@@ -89,8 +89,6 @@ include_graphics("access_non.png", error = FALSE)
 
 ```
 
-TODO : Build in annotations -- explain random arrangement 
-
 
 ## Reordering neighbourhoods by attitudes to switching 
 
