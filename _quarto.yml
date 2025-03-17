@@ -43,6 +43,8 @@ website:
         text: About
       - href: cv/index.qmd
         text: CV
+      - text: Blog
+        file: blog/index.qmd
       - href: research/index.qmd
         text: Research
       - href: projects/index.qmd
