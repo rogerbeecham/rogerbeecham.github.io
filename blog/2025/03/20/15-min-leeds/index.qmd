@@ -15,7 +15,6 @@ categories:
   - national travel attitudes survey
   - ggplot
 
-
 format:
   html:
     shift-heading-level-by: 1

@@ -18,11 +18,8 @@ toc-location: left
 
 freeze: true
 
-# Default knitr options
-execute:
-  echo: true
-  message: true
-  warning: true
+execute: 
+    freeze: auto
 
 # Default author
 author:
