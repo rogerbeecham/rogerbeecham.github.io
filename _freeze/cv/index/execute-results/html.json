@@ -1,17 +1,12 @@
 {
-  "hash": "ccaa01158d1e97eeb6789215e5dd91a5",
+  "hash": "253bb634e36aa86f3fabf53dd371716a",
   "result": {
-    "engine": "knitr",
-    "markdown": "---\ntitle: Curriculum vitæ\ndescription-meta: \"{{< var description >}}\"\ndate: 2025-02-08\ntitle-block-banner: \"#274033\"\npublished-title: CV last updated\nengine: knitr \ncv:\n  pdf: \"2025-02_roger-beecham-cv.pdf\"\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.embed-container {\n    position: relative;\n    padding-bottom: 129%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n}\n.embed-container iframe,\n.embed-container object,\n.embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n</style>\n:::\n\n```{=html}\n<p class=\"text-center\">\n  <a class=\"btn btn-primary btn-lg cv-download\" href=\"2025-02_roger-beecham-cv.pdf\" target=\"_blank\">\n    <i class=\"fa-solid fa-file-arrow-down\"></i>&ensp;Download current CV\n  </a>\n</p>\n<div class=\"embed-container\">\n  <iframe src=\"2025-02_roger-beecham-cv.pdf\" style=\"border: 0.5px\"></iframe>\n</div>\n```",
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Curriculum vitæ\ndescription-meta: \"{{< var description >}}\"\ndate: 2025-02-08\ntitle-block-banner: \"#274033\"\npublished-title: CV last updated\ncv:\n  pdf: \"2025-02_roger-beecham-cv.pdf\"\n---\n\n```{css echo=FALSE}\n.embed-container {\n    position: relative;\n    padding-bottom: 129%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n}\n.embed-container iframe,\n.embed-container object,\n.embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n```\n\n```{=html}\n<p class=\"text-center\">\n  <a class=\"btn btn-primary btn-lg cv-download\" href=\"`r rmarkdown::metadata$cv$pdf`\" target=\"_blank\">\n    <i class=\"fa-solid fa-file-arrow-down\"></i>&ensp;Download current CV\n  </a>\n</p>\n<div class=\"embed-container\">\n  <iframe src=\"`r rmarkdown::metadata$cv$pdf`\" style=\"border: 0.5px\"></iframe>\n</div>\n```\n\n",
     "supporting": [
-      "index_files"
+      "index_files/figure-html"
     ],
-    "filters": [
-      "rmarkdown/pagebreak.lua"
-    ],
-    "includes": {},
-    "engineDependencies": {},
-    "preserve": {},
-    "postProcess": true
+    "filters": [],
+    "includes": {}
   }
 }
