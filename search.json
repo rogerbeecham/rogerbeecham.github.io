@@ -469,6 +469,20 @@
     "text": "Hi! Thanks for visiting my website. If you find anything useful here, or on my github, and would like to know more, do get in touch.\nI’m an Associate Professor in visual data science at the School of Geography, University of Leeds and Director of Research & Innovation at Leeds Institute for Data Analytics. I joined Leeds in 2017 after completing a PhD and postdoc at the giCentre. I publish methods-oriented research in data visualization (IEEE TVCG | CGF) and spatial analysis (GA), as well as applied studies in transport (AAP | TRC | TRA) and geography (E&P A | E&P B | JoTG).\nMy work typically proposes, tests and applies visual methods that help analysts to understand and communicate complex (spatial) processes under uncertainty; I’m especially interested in how visualization relates to statistical issues (see Beecham and Lovelace 2023 and my recent Turing Methods Challenge w/ Cagatay Turkay). Many of these ideas are explored in my book, to be published with CRC Press in 2025 (development version).\n This is what I’m doing right now."
   },
   {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "{css, echo=FALSE} #title-block-header .description {     display: none; }"
+  },
+  {
+    "objectID": "blog/index.html#section",
+    "href": "blog/index.html#section",
+    "title": "Blog",
+    "section": "2025",
+    "text": "2025\n\n\n    \n\n\nNo matching items"
+  },
+  {
     "objectID": "cv/index.html",
     "href": "cv/index.html",
     "title": "Curriculum vitæ",
