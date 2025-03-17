@@ -17,11 +17,11 @@ comments: false
 # freeze: false
 ---
 
-```{css, echo=FALSE}
+<!-- ```{css, echo=FALSE}
 #title-block-header .description {
     display: none;
 }
-```
+``` -->
 
 ## 2025
 

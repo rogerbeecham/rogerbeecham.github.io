@@ -1,10 +1,10 @@
 {
-  "hash": "e1c70547824f3240162d84588bb5224f",
+  "hash": "06d6648b0f8bb2911b20ae9b3ea4649f",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Blog\"\nauthor: \"\"\ndescription: \"Roger Beecham's blog\"\nlisting:\n  - id: posts_2025\n    contents: \"2025/**/index.qmd\"\n    sort: \"date desc\"\n    template: ../html/blog/listing.ejs\n    categories: true\npage-layout: full\ntoc-title: Year\ntoc-location: right\ndate-format: \"MMMM D, YYYY\"\ncode-tools: false\ncomments: false\n# freeze: false\n---\n\n```{css, echo=FALSE}\n#title-block-header .description {\n    display: none;\n}\n```\n\n\n\n\n## 2025\n\n:::{#posts_2025}\n:::\n\n",
+    "markdown": "---\ntitle: \"Blog\"\nauthor: \"\"\ndescription: \"Roger Beecham's blog\"\nlisting:\n  - id: posts_2025\n    contents: \"2025/**/index.qmd\"\n    sort: \"date desc\"\n    template: ../html/blog/listing.ejs\n    categories: true\npage-layout: full\ntoc-title: Year\ntoc-location: right\ndate-format: \"MMMM D, YYYY\"\ncode-tools: false\ncomments: false\n# freeze: false\n---\n\n```{css, echo=FALSE, eval=FALSE}\n#title-block-header .description {\n    display: none;\n}\n```\n\n\n\n\n## 2025\n\n:::{#posts_2025}\n:::\n\n",
     "supporting": [
-      "index_files/figure-html"
+      "index_files"
     ],
     "filters": [],
     "includes": {}
