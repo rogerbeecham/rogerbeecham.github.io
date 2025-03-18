@@ -1,0 +1,16 @@
+---
+title: "Roger Beecham's blog"
+search: false
+listing:
+  sort: "date desc"
+  feed: 
+    title: "Roger Beecham's blog"
+    description: "Roger Beecham's blog"
+    items: 60
+    type: full
+    language: en
+  contents:
+    - "blog/**/index.qmd"
+    - "!blog/index.qmd"
+---
+
