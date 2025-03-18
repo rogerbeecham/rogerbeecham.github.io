@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Roger Beecham&#39;s blog</title>
+<link>https://github.com/rogerbeecham/rogerbeecham.github.io/rss.html</link>
+<atom:link href="https://github.com/rogerbeecham/rogerbeecham.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+<description>Roger Beecham&#39;s blog</description>
+<language>en</language>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Wed, 19 Mar 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Can we achieve transformational change through tweaking the transport system?</title>
+  <dc:creator>Roger Beecham</dc:creator>
+  <link>https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/</link>
+  <description><![CDATA[ Roger Beecham is Associate Professor in Visual Data Science at University of Leeds, researching, teaching and applying visual methods in social science data analysis. ]]></description>
+  <category>agent based models</category>
+  <category>journey time statistics</category>
+  <category>national travel attitudes survey</category>
+  <category>ggplot</category>
+  <guid>https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/</guid>
+  <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/access_non.png" medium="image" type="image/png" height="131" width="144"/>
+</item>
+</channel>
+</rss>

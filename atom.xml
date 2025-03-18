@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Roger Beecham&#39;s blog</title>
+<link>https://github.com/rogerbeecham/rogerbeecham.github.io/atom.html</link>
+<atom:link href="https://github.com/rogerbeecham/rogerbeecham.github.io/atom.xml" rel="self" type="application/rss+xml"/>
+<description>Roger Beecham&#39;s blog</description>
+<language>en</language>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Wed, 19 Mar 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Can we achieve transformational change through tweaking the transport system?</title>
+  <dc:creator>Roger Beecham</dc:creator>
+  <link>https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>Through <a href="https://in-fuze.org.uk/">Infuze</a> we will build models that simulate individuals’ everyday travel activities and evaluate how well – quickly, comfortably, affordably – existing and newly proposed transport options support those activities. Attending to everyday journeys is undoubtly necessary. But people are not empty economic units. It would be wrong to assume that individuals’ transport behaviours can be reduced simply to efficiency in meeting, or ‘utility maximising’ their travel routines.</p>
+<p>In this short blog post, I take a look at data from the Census, the Department for Transport’s <a href="https://www.gov.uk/government/collections/journey-time-statistics">Journey Time Statistics</a> and <a href="https://www.gov.uk/government/collections/national-travel-attitudes-study-ntas">National Travel Attitudes Survey</a>, and produce some graphics that profile how neighbourhoods in Leeds are already supported by transport alternatives to the car. In each I consider how transport provision maps to levels of car ownership and attitudes towards shifting away from car use. The point of this being that, if shifting behaviour away from car ownership and use were only about provisioning car alternatives, then neighbourhoods with the most viable alternatives should be those the with the lowest levels of car ownership and greater willingness to shift ownership.</p>
+</section>
+<section id="car-ownership-in-small-area-neighbourhoods-of-leeds" class="level3">
+<h3 class="anchored" data-anchor-id="car-ownership-in-small-area-neighbourhoods-of-leeds">Car ownership in small area neighbourhoods of Leeds</h3>
+<p>First, let’s introduce our units of analysis: Lower Super Output Areas. These are small area neighbourhoods containing roughly 1500 people. There are 482 LSOAs in Leeds.</p>
+<p>In the map below I encode each as a square and colour the squares according to the average number of cars owned per household. I then reorder the neighbourhood squares highest to lowest on levels of car ownership. Despite the unfortunate (and silly) political loading, I’ll then use the idea of the 15-minute city to evaluate neighbourhood-level transport provision.</p>
+<!-- When contemplating an environment in which it is possible to live agreeably without a private car, it is hard not use the 15-minute city as a reference point – despite the unfortunate (and silly) political loading. So in the remaining graphics I use this idea to evaluate neighbourhood-level transport provision. -->
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="neighbourhoods.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/neighbourhoods.png" class="img-fluid figure-img" width="1096"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="the-private-car-guarantees-15-minute-travel-for-most-neighbourhoods" class="level3">
+<h3 class="anchored" data-anchor-id="the-private-car-guarantees-15-minute-travel-for-most-neighbourhoods">The private car guarantees 15-minute travel for most neighbourhoods</h3>
+<p>In the first example I colour squares according to average travel time by car to the nearest key activity services – GPs, secondary schools and town centres. Note the squares remain ordered by car ownership. As you might expect, the private car really does compress travel times. Almost every neighbourhood has key facilities accessible in less than a 15-minute journey by car.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="access_car.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/access_car.png" class="img-fluid figure-img" width="1306"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options" class="level3">
+<h3 class="anchored" data-anchor-id="neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options">Neighbourhoods with lower car ownership are (sometimes) those with better non-car options</h3>
+<p>Next, the issue we’re really interested in. If shifting individuals away from private car use was <em>only</em> about the provision of non-car modes, then we might expect neighbourhoods with the most excess car ownership to be the least well served by alternatives to the car.</p>
+<p>In the graphic below I colour according to the average travel time by foot, bike and public transport combined. From this, it is generally true that neighbourhoods with lower levels of car ownership are, in relative terms, better provided for by car-alternatives – lighter squares (longer travel times) are towards the bottom of the graphics. However, the association between car ownership and non-car accessibility is far from linear. In fact, I had to test that I wasn’t hallucinating this trend of more car intensive neighbourhoods being associated with longer non-car travel times. It does – just about!</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="access_non.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/access_non.png" class="img-fluid figure-img" width="1314"></a></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="reordering-neighbourhoods-by-attitudes-to-switching" class="level3">
+<h3 class="anchored" data-anchor-id="reordering-neighbourhoods-by-attitudes-to-switching">Reordering neighbourhoods by attitudes to switching</h3>
+<p>TODO : MRP on NTAS and represent using ordering on propensity to shift. Problem: NTAS wave 1 has: To what extent <em>I am willing to reduce the amount I travel by car?</em>. But only that wave ~1500 respondents. Other surveys?</p>
+</section>
+<section id="some-caveats-on-a-contrived-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="some-caveats-on-a-contrived-analysis">Some caveats on a contrived analysis</h3>
+<p>I mainly collected these data and ran this quick analysis to help plan our Infuze modelling work. There are of course many issues and factors not properly considered and some obvious explanations on why we do not see a clean association between neighbourhood-level car ownership and the relative supply of non-car alternatives, judged by average travel times.</p>
+<p>First, car ownership does not straightforwardly imply <em>dependency</em>. A household may choose to own a car, or several cars, for reasons other than necessity. In the 1990s pollsters used car ownership as <em>the</em> proxy for income; and we know that incomes vary systematically across neighbourhoods in Leeds. After income, other factors such as household composition, size, age profile are also likely to explain differences in car ownership – all of which vary by neighbourhood.</p>
+<p>Second, our measures of the enabling environment for non-car alternatives – average travel times by foot, bike, public transport – is a reductive one. Taking cycling as an example, average travel times by bike are unlikely to be the key determinant of a neighbourhood’s likely cycling uptake. We should instead be considering the bikeability of neighbourhoods – for example based on infrastructure and the ‘agreebleness’ of the general cycling environment, which can be estimated using open data <span class="citation" data-cites="beecham_connected_2023">(Beecham et al. 2023)</span>. Local cultural attitudes and identities also play a large role in shaping cycling behaviour <span class="citation" data-cites="aldred_why_2014">(Aldred and Jungnickel 2014)</span>. Quantifying these sorts of attitudes at a neighbourhood-level could be challenging, but is possible using survey-based approaches.</p>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>So what does this quick analysis of neighbourhood-level transport stats imply for the modelling work we’re planning through Infuze?</p>
+<p>Firstly, that yes, it will be important to consider how effectively non-car options can meet the everyday travel needs of residents. And clearly it will be hard to ‘beat’ the private car in models that look to optimise on travel time. But the link between car ownership and use and the provision of transport alternatives, is non-linear.</p>
+<p>Intuitively this makes sense. We will need, through our modelling, to explore and capture neighbourhood-level <em>enabling environments</em> for alternatives to car in a more detailed and rich way, and consider a wide set of individual circumstances and travel needs. We also need good <em>theory</em> on how individuals’ circumstances and the neighbourhood context in which they live interacts to inform attitudes and behaviour – and the extent to which these attitudes and behaviours can shift.</p>
+<p>This latter aspect means engaging with people’s values, social learning and diffusion. Tricky concepts, but necessary if we are to imagine truly shifting society away from the current status quo – for fundamental, “paradigmatic” change. This understanding is, in any case, our <a href="https://in-fuze.org.uk/project/">starting point with Infuze</a>.</p>
+<!-- But to , we must engage with -->
+<!-- -- and to consider how this local context differently interacts with a range of individual needs and personal circumstances.  
+We can collect data that captures neighbourhood-level context in a rich and detailed way, and our modelling will  -->
+
+
+<!-- -->
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-aldred_why_2014" class="csl-entry">
+Aldred, Rachel, and Katrina Jungnickel. 2014. <span>“Why Culture Matters for Transport Policy: The Case of Cycling in the UK.”</span> <em>Journal of Transport Geography</em> 34:78–87. https://doi.org/<a href="https://doi.org/10.1016/j.jtrangeo.2013.11.004">https://doi.org/10.1016/j.jtrangeo.2013.11.004</a>.
+</div>
+<div id="ref-beecham_connected_2023" class="csl-entry">
+Beecham, R., Y. and Yang, C. Tait, and R. Lovelace. 2023. <span>“Connected Bikeability in London: Which Localities Are Better Connected by Bike and Does This Matter?”</span> <em>Environment and Planning B: Urban Analytics and City Science</em> 0 (0): 23998083231165122. <a href="https://doi.org/10.1177/23998083231165122">https://doi.org/10.1177/23998083231165122</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{beecham2025,
+  author = {Beecham, Roger},
+  title = {Can We Achieve Transformational Change Through Tweaking the
+    Transport System?},
+  date = {2025-03-19},
+  url = {https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-beecham2025" class="csl-entry quarto-appendix-citeas">
+Beecham, Roger. 2025. <span>“Can We Achieve Transformational Change
+Through Tweaking the Transport System?”</span> March 19, 2025. <a href="https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/">https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/</a>.
+</div></div></section></div> ]]></description>
+  <category>agent based models</category>
+  <category>journey time statistics</category>
+  <category>national travel attitudes survey</category>
+  <category>ggplot</category>
+  <guid>https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/</guid>
+  <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://github.com/rogerbeecham/rogerbeecham.github.io/blog/2025/03/20/15-min-leeds/access_non.png" medium="image" type="image/png" height="131" width="144"/>
+</item>
+</channel>
+</rss>

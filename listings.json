@@ -4,16 +4,6 @@
     "items": []
   },
   {
-    "listing": "/projects/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/2025/03/20/15-min-leeds/index.html"
-    ]
-  },
-  {
     "listing": "/research/index.html",
     "items": [
       "/research/books/vis4sds/index.html",
@@ -40,6 +30,28 @@
       "/research/articles/gender/index.html",
       "/research/articles/nokia/index.html",
       "/research/conferences/strategies/index.html"
+    ]
+  },
+  {
+    "listing": "/atom.html",
+    "items": [
+      "/blog/2025/03/20/15-min-leeds/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2025/03/20/15-min-leeds/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": []
+  },
+  {
+    "listing": "/rss.html",
+    "items": [
+      "/blog/2025/03/20/15-min-leeds/index.html"
     ]
   }
 ]
