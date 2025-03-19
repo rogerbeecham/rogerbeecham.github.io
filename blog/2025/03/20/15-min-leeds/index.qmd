@@ -43,7 +43,11 @@ library(fontawesome)
 
 Through [Infuze](https://in-fuze.org.uk/) we will build models that simulate individuals' everyday travel activities and evaluate how well -- quickly, comfortably, affordably -- existing and newly proposed transport options support those activities. Attending to everyday journeys is undoubtly necessary. But people are not empty economic units.  It would be wrong to assume that individuals' transport behaviours can be reduced simply to efficiency in meeting, or 'utility maximising', their travel routines.  
 
-In this short blog post, I take a look at data from the Census, the Department for Transport's [Journey Time Statistics](https://www.gov.uk/government/collections/journey-time-statistics) and [National Travel Attitudes Survey](https://www.gov.uk/government/collections/national-travel-attitudes-study-ntas), and produce some graphics that profile how neighbourhoods in Leeds are already supported by transport alternatives to the car. In each I consider how transport provision maps to levels of car ownership and attitudes towards shifting away from car use. The point of this being that, if shifting behaviour away from car ownership and use were only about provisioning car alternatives, then neighbourhoods with the most viable alternatives should be those the with the lowest levels of car ownership and greater willingness to shift ownership. 
+In this short blog post, I take a look at data from the Census, the Department for Transport's [Journey Time Statistics](https://www.gov.uk/government/collections/journey-time-statistics) and [National Travel Attitudes Survey](https://www.gov.uk/government/collections/national-travel-attitudes-study-ntas), and produce some graphics that profile how neighbourhoods in Leeds are already supported by transport alternatives to the car. In each I consider how transport provision maps to levels of car ownership. The point of this being that, if shifting behaviour away from cars was only about provisioning car alternatives, then neighbourhoods with the most viable alternatives might be those the with the lowest levels of existing car ownership. 
+
+<!-- and greater willingness to shift ownership.  -->
+
+<!-- and attitudes towards shifting away from car use.  -->
 
 ## Car ownership in small area neighbourhoods of Leeds
 
@@ -79,7 +83,7 @@ include_graphics("access_car.png", error = FALSE)
 
 ## Neighbourhoods with lower car ownership are (sometimes) those with better non-car options 
 
-Next, the issue we're really interested in. If shifting individuals away from private car use was *only* about the provision of non-car modes, then we might expect neighbourhoods with the most excess car ownership to be the least well served by alternatives to the car. 
+If shifting individuals away from private car use was *only* about the provision of non-car modes, then we might expect neighbourhoods with the most excess car ownership to be the least well served by alternatives to the car. 
 
 In the graphic below I colour according to the average travel time by foot, bike and public transport combined. From this, it is generally true that neighbourhoods with lower levels of car ownership are, in relative terms, better provided for by car-alternatives --  lighter squares (longer travel times) are towards the bottom of the graphics. However, the association between car ownership and non-car accessibility is far from linear. In fact, I had to test that I wasn't hallucinating this trend of more car intensive neighbourhoods being associated with longer non-car travel times. It does -- just about!
 ```{r}
@@ -109,11 +113,12 @@ Second, our measures of the enabling environment for non-car alternatives  -- av
 
 So what does this quick analysis of neighbourhood-level transport stats imply for the modelling work we're planning through Infuze? 
 
-Firstly, that yes, it will be important to consider how effectively non-car options can meet the everyday travel needs of residents. And clearly it will be hard to 'beat' the private car in models that look to optimise on travel time. But the link between car ownership and use and the provision of transport alternatives, is non-linear. 
+That yes, it will be important to consider how effectively non-car options can meet the everyday travel needs of residents. And clearly it will be hard to 'beat' the private car in models that look to optimise on travel time. But the link between car ownership and use and the provision of transport alternatives is non-linear and complex. In addition to incorporating detailed observational data on neighbourhood-level *enabling environments* for car alternatives, and using survey data to represent a wide set of individual circumstances, we must think carefully about how this context informs *behaviour*. 
 
-Intuitively this makes sense.  We will need, through our modelling, to explore and capture neighbourhood-level *enabling environments* for alternatives to car in a more detailed and rich way, and consider a wide set of individual circumstances and travel needs. We also need good *theory* on how individuals' circumstances and the neighbourhood context in which they live interacts to inform attitudes and behaviour -- and the extent to which these attitudes and behaviours can shift. 
+ <!-- Certain attitudes and behaviours may be more sticky than others. This stickiness could be explained by individual-level circumstances, the wider neighbourhood and city-level context, and possibly by values and beliefs. But these factors 
+ow individuals' circumstances and the neighbourhood context in which they live *interacts* to inform attitudes and behaviour -- and the extent to which -->
 
-This latter aspect means engaging with people's values, social learning and diffusion. Tricky concepts, but necessary if we are to imagine truly shifting society away from the current status quo -- for fundamental, "paradigmatic" change. This understanding is, in any case, our [starting point with Infuze](https://in-fuze.org.uk/project/). 
+This will require *theory* on the fluidity and stickiness behaviours, and the relative importance of individual circumstances, environmental context (neighbourhood and city-level) and even values and beliefs. As we are modelling *future* scenarios, we will want to engage with social learning and diffusion that takes place as these circumstances and this context changes. Tricky concepts, but necessary if we are to imagine truly shifting society away from the current status quo -- for fundamental, "paradigmatic" change. This understanding is, in any case, our [starting point with Infuze](https://in-fuze.org.uk/project/). 
 
 
 <!-- But to , we must engage with -->
