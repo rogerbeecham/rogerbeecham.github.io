@@ -25,8 +25,8 @@ website:
   title: "Roger Beecham"
   description: "Roger Beecham is Associate Professor in Visual Data Science at University of Leeds, researching, teaching and applying visual methods in social science data analysis ."
   favicon: "/files/favicon.png"
-  site-url: "https://github.com/rogerbeecham/rogerbeecham.github.io"
-  repo-url: "https://www.roger-beecham.com"
+  repo-url: "https://github.com/rogerbeecham/rogerbeecham.github.io"
+  site-url: "https://www.roger-beecham.com"
   
   twitter-card: 
     image: "/files/profiles/profile.png"

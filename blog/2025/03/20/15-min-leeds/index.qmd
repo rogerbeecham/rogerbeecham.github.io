@@ -83,7 +83,7 @@ include_graphics("access_car.png", error = FALSE)
 
 ## Neighbourhoods with lower car ownership are (sometimes) those with better non-car options 
 
-If shifting individuals away from private car use was *only* about the provision of non-car modes, then we might expect neighbourhoods with the most excess car ownership to be the least well served by alternatives to the car. 
+If shifting individuals away from private car use was *only* about the provision of non-car modes, then we might expect neighbourhoods with the most excess car ownership to be the least well-served by *alternatives* to the car. 
 
 In the graphic below I colour according to the average travel time by foot, bike and public transport combined. From this, it is generally true that neighbourhoods with lower levels of car ownership are, in relative terms, better provided for by car-alternatives --  lighter squares (longer travel times) are towards the bottom of the graphics. However, the association between car ownership and non-car accessibility is far from linear. In fact, I had to test that I wasn't hallucinating this trend of more car intensive neighbourhoods being associated with longer non-car travel times. It does -- just about!
 ```{r}
@@ -106,7 +106,7 @@ I mainly collected these data and ran this quick analysis to help plan our Infuz
 
 First, car ownership does not straightforwardly imply *dependency*.  A household may choose to own a car, or several cars, for reasons  other than necessity. In the 1990s pollsters used car ownership as *the* proxy for income; and we know that incomes vary systematically across neighbourhoods in Leeds. After income, other factors such as household composition, size, age profile are also likely to explain differences in car ownership -- all of which vary by neighbourhood. 
 
-Second, our measures of the enabling environment for non-car alternatives  -- average travel times by foot, bike, public transport -- is a reductive one. Taking cycling as an example, average travel times by bike are unlikely to be the key determinant of a neighbourhood's likely cycling uptake. We should instead be considering the bikeability of neighbourhoods -- for example based on infrastructure and the 'agreeableness' of the general cycling environment, which can be estimated using open data [@beecham_connected_2023]. Local cultural attitudes and identities also play a large role in shaping cycling behaviour [@aldred_why_2014]. Quantifying these sorts of attitudes at a neighbourhood-level could be challenging, but is possible using survey-based approaches. 
+Second, our measure of the enabling environment for non-car alternatives  -- average travel times by foot, bike, public transport -- is a reductive one. Taking cycling as an example, average travel times by bike are unlikely to be the key determinant of a neighbourhood's cycling uptake. We should instead be considering the bikeability of neighbourhoods -- for example based on infrastructure and the 'agreeableness' of the general cycling environment, which can be estimated using open data [@beecham_connected_2023]. Local cultural attitudes and identities also play a large role in shaping cycling behaviour [@aldred_why_2014]. Quantifying these sorts of attitudes at a neighbourhood-level could be challenging, but is possible using survey-based approaches. 
 
 
 ## Conclusion
