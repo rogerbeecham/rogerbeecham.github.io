@@ -1,1 +1,1 @@
-Sitemap: https://github.com/rogerbeecham/rogerbeecham.github.io/sitemap.xml
+Sitemap: https://www.roger-beecham.com/sitemap.xml
