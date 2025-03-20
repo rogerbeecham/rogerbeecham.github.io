@@ -6,11 +6,10 @@ listing:
   feed: 
     title: "Roger Beecham's blog"
     description: "Roger Beecham's blog"
-    items: 60
+    items: 20
     type: full
     language: en
   contents:
     - "blog/**/index.qmd"
     - "!blog/index.qmd"
 ---
-
