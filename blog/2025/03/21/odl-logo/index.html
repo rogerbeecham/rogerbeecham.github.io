@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -103,22 +137,22 @@ div.csl-indent {
 
 
 <meta property="og:title" content="Roger Beecham">
-<meta property="og:description" content="The agent-based models we’re building through Infuze will help us explore how alternatives to the private car can meet everyday travel needs. But we need to design into them quite slippery things – like social learning, interactions between environmental context, personal circumstances and values – if we want to model transformational change.">
-<meta property="og:image" content="https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/access_non.png">
+<meta property="og:description" content="I’ve recently started as Programme Lead on our GIScience Distance Learning MSc. Naturally I spent some time playing around with logos. Here’s my attempt using {ggplot2} + {sf}, data via {osmdata}.">
+<meta property="og:image" content="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/odl_logo.png">
 <meta property="og:site_name" content="Roger Beecham">
-<meta property="og:image:height" content="2394">
-<meta property="og:image:width" content="2627">
+<meta property="og:image:height" content="2000">
+<meta property="og:image:width" content="5000">
 <meta name="twitter:title" content="Roger Beecham">
-<meta name="twitter:description" content="The agent-based models we’re building through Infuze will help us explore how alternatives to the private car can meet everyday travel needs. But we need to design into them quite slippery things – like social learning, interactions between environmental context, personal circumstances and values – if we want to model transformational change.">
-<meta name="twitter:image" content="https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/access_non.png">
+<meta name="twitter:description" content="I’ve recently started as Programme Lead on our GIScience Distance Learning MSc. Naturally I spent some time playing around with logos. Here’s my attempt using {ggplot2} + {sf}, data via {osmdata}.">
+<meta name="twitter:image" content="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/odl_logo.png">
 <meta name="twitter:creator" content="@rjbeecham">
 <meta name="twitter:site" content="@rjbeecham">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="2394">
-<meta name="twitter:image-width" content="2627">
+<meta name="twitter:image-height" content="2000">
+<meta name="twitter:image-width" content="5000">
 </head>
 
-<body class="floating nav-fixed">
+<body class="floating nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -196,17 +230,15 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default blog-post page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Can we achieve transformational change through tweaking the transport system?</h1>
+      <h1 class="title">Designing a course logo in {ggplot2}</h1>
                   <div>
         <div class="description">
-          The agent-based models we’re building through Infuze will help us explore how alternatives to the private car can meet everyday travel needs. But we need to design into them quite slippery things – like social learning, interactions between environmental context, personal circumstances and values – if we want to model transformational change.
+          I’ve recently started as Programme Lead on our GIScience Distance Learning MSc. Naturally I spent some time playing around with logos. Here’s my attempt using {ggplot2} + {sf}, data via {osmdata}.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">agent based models</div>
-                <div class="quarto-category">journey time statistics</div>
-                <div class="quarto-category">national travel attitudes survey</div>
                 <div class="quarto-category">ggplot</div>
+                <div class="quarto-category">osm data</div>
               </div>
                   </div>
   </div>
@@ -224,19 +256,11 @@ div.csl-indent {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">Wednesday, March 19, 2025</p>
+        <p class="date">Monday, March 24, 2025</p>
       </div>
     </div>
     
       
-      <div>
-      <div class="quarto-title-meta-heading">Doi</div>
-      <div class="quarto-title-meta-contents">
-        <p class="doi">
-          <a href="https://doi.org/10.59350/hkkjp-exc03">10.59350/hkkjp-exc03</a>
-        </p>
-      </div>
-    </div>
     </div>
     
   
@@ -248,12 +272,10 @@ div.csl-indent {
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#car-ownership-in-small-area-neighbourhoods-of-leeds" id="toc-car-ownership-in-small-area-neighbourhoods-of-leeds" class="nav-link" data-scroll-target="#car-ownership-in-small-area-neighbourhoods-of-leeds">Car ownership in small area neighbourhoods of Leeds</a></li>
-  <li><a href="#the-private-car-guarantees-15-minute-travel-for-most-neighbourhoods" id="toc-the-private-car-guarantees-15-minute-travel-for-most-neighbourhoods" class="nav-link" data-scroll-target="#the-private-car-guarantees-15-minute-travel-for-most-neighbourhoods">The private car guarantees 15-minute travel for most neighbourhoods</a></li>
-  <li><a href="#neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options" id="toc-neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options" class="nav-link" data-scroll-target="#neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options">Neighbourhoods with lower car ownership are (sometimes) those with better non-car options</a></li>
-  <li><a href="#reordering-neighbourhoods-by-attitudes-to-switching" id="toc-reordering-neighbourhoods-by-attitudes-to-switching" class="nav-link" data-scroll-target="#reordering-neighbourhoods-by-attitudes-to-switching">Reordering neighbourhoods by attitudes to switching</a></li>
-  <li><a href="#some-caveats-on-a-contrived-analysis" id="toc-some-caveats-on-a-contrived-analysis" class="nav-link" data-scroll-target="#some-caveats-on-a-contrived-analysis">Some caveats on a contrived analysis</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#setup-and-collect-osm-data" id="toc-setup-and-collect-osm-data" class="nav-link" data-scroll-target="#setup-and-collect-osm-data">Setup and collect OSM data</a></li>
+  <li><a href="#adding-a-stylised-circular-mask" id="toc-adding-a-stylised-circular-mask" class="nav-link" data-scroll-target="#adding-a-stylised-circular-mask">Adding a stylised circular mask</a></li>
+  <li><a href="#plotting-the-polygon-files" id="toc-plotting-the-polygon-files" class="nav-link" data-scroll-target="#plotting-the-polygon-files">Plotting the polygon files</a></li>
+  <li><a href="#adding-programme-name-and-other-text" id="toc-adding-programme-name-and-other-text" class="nav-link" data-scroll-target="#adding-programme-name-and-other-text">Adding Programme name and other text</a></li>
   </ul>
 </nav>
 </nav>
@@ -262,105 +284,182 @@ div.csl-indent {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
 
-<section id="introduction" class="level3">
+<section id="introduction" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>Through <a href="https://in-fuze.org.uk/">Infuze</a> we will build models that simulate individuals’ everyday travel activities and evaluate how well – quickly, comfortably, affordably – existing and newly proposed transport options support those activities. Attending to everyday journeys is undoubtly necessary. But people are not empty economic units. It would be wrong to assume that individuals’ transport behaviours can be reduced simply to efficiency in meeting, or ‘utility maximising’, their travel routines.</p>
-<p>In this short blog post, I take a look at data from the Census, the Department for Transport’s <a href="https://www.gov.uk/government/collections/journey-time-statistics">Journey Time Statistics</a> and <a href="https://www.gov.uk/government/collections/national-travel-attitudes-study-ntas">National Travel Attitudes Survey</a>, and produce some graphics that profile how neighbourhoods in Leeds are already supported by transport alternatives to the car. In each I consider how transport provision maps to levels of car ownership. The point of this being that, if shifting behaviour away from cars was only about provisioning car alternatives, then neighbourhoods with the most viable alternatives might be those the with the lowest levels of existing car ownership.</p>
-<!-- and greater willingness to shift ownership.  -->
-<!-- and attitudes towards shifting away from car use.  -->
-</section>
-<section id="car-ownership-in-small-area-neighbourhoods-of-leeds" class="level3">
-<h3 class="anchored" data-anchor-id="car-ownership-in-small-area-neighbourhoods-of-leeds">Car ownership in small area neighbourhoods of Leeds</h3>
-<p>First, let’s introduce our units of analysis: Lower Super Output Areas. These are small area neighbourhoods containing roughly 1500 people. There are 482 LSOAs in Leeds.</p>
-<p>In the map below I encode each as a square and colour the squares according to the average number of cars owned per household. I then reorder the neighbourhood squares highest to lowest on levels of car ownership. Despite the unfortunate (and silly) political loading, I’ll then use the idea of the 15-minute city to evaluate neighbourhood-level transport provision.</p>
-<!-- When contemplating an environment in which it is possible to live agreeably without a private car, it is hard not use the 15-minute city as a reference point – despite the unfortunate (and silly) political loading. So in the remaining graphics I use this idea to evaluate neighbourhood-level transport provision. -->
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><a href="neighbourhoods.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="neighbourhoods.png" class="img-fluid figure-img" width="1096"></a></p>
+<p>Our <a href="https://courses.leeds.ac.uk/d985/geographical-information-science-msc">Distance Learning GIScience</a> course is pretty established at Leeds. Students enrol part-time and complete it over a 3-year period; the final year is 100% focussed on research (dissertation). The programme draws students from a range of backgrounds and they often combine study with work in industry or government, usually GIScience or adjacent roles. It’s a great way to study for an MSc and a pleasure to teach: I run my main <a href="../../../../../teaching">vis course</a> through the ODL. If you’re interested, see <a href="https://environment.leeds.ac.uk/geography-masters/dir-record/student-alumni-profiles/1651/ilya-ilyankou">this profile</a>, by <a href="https://ilyankou.com/">Ilya Ilyankou</a>, a not too distant alumnus.</p>
+<p>As students are remote and never see campus, I wanted to make a logo that anchored a little on Leeds. The idea is not especially original, but I thought using OSM buildings data surrounding campus might be a good idea. Here I render the logo using {ggplot} + {sf}, with OSM data harvested via the excellent <a href="https://docs.ropensci.org/osmdata/">{osmdata}</a> package.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="odl_logo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="The new logo for our GIScience ODL programme."><img src="odl_logo.png" class="img-fluid figure-img" width="2500" alt="The new logo for our GIScience ODL programme."></a></p>
+<figcaption class="margin-caption">The new logo for our GIScience ODL programme.</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </section>
-<section id="the-private-car-guarantees-15-minute-travel-for-most-neighbourhoods" class="level3">
-<h3 class="anchored" data-anchor-id="the-private-car-guarantees-15-minute-travel-for-most-neighbourhoods">The private car guarantees 15-minute travel for most neighbourhoods</h3>
-<p>In the first example I colour squares according to average travel time by car to the nearest key activity services – GPs, secondary schools and town centres. Note the squares remain ordered by car ownership. As you might expect, the private car really does compress travel times. Almost every neighbourhood has key facilities accessible in less than a 15-minute journey by car.</p>
+<section id="setup-and-collect-osm-data" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="setup-and-collect-osm-data">Setup and collect OSM data</h3>
+<p>First, some standard packages as well as <a href="https://docs.ropensci.org/osmdata/">{osmdata}</a> <span class="citation" data-cites="padgham_osmdata_2017">(<a href="#ref-padgham_osmdata_2017" role="doc-biblioref">Mark Padgham et al. 2017</a>)</span>, a wrapper to the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>.</p>
 <div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><a href="access_car.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="access_car.png" class="img-fluid figure-img" width="1306"></a></p>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># General. </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(patchwork)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Spatial.</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sp)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(spdep)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(nominatimlite)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># OSM</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(osmdata)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Google font.</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(showtext)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">font_add_google</span>(<span class="st">"Jost"</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">showtext_auto</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>To collect the buildings outlines I generate an Overpass query (<code>opq()</code>) paramterised with a bounding box around the university and on the <code>building</code> feature. Included in the bounding box are the main university buildings, some surrounding victorian terraces and to the north, <a href="https://en.wikipedia.org/wiki/Woodhouse_Moor">Woodhouse Moor Park</a>, of course with no buildings.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="buildings.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Building polygons returned by the Overpass query."><img src="buildings.svg" class="img-fluid figure-img" alt="Building polygons returned by the Overpass query."></a></p>
+<figcaption class="margin-caption">Building polygons returned by the Overpass query.</figcaption>
 </figure>
 </div>
 </div>
 </div>
-</section>
-<section id="neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options" class="level3">
-<h3 class="anchored" data-anchor-id="neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options">Neighbourhoods with lower car ownership are (sometimes) those with better non-car options</h3>
-<p>If shifting individuals away from private car use was <em>only</em> about the provision of non-car modes, then we might expect neighbourhoods with the most excess car ownership to be the least well-served by <em>alternatives</em> to the car.</p>
-<p>In the graphic below I colour according to the average travel time by foot, bike and public transport combined. From this, it is generally true that neighbourhoods with lower levels of car ownership are, in relative terms, better provided for by car-alternatives – lighter squares (longer travel times) are towards the bottom of the graphics. However, the association between car ownership and non-car accessibility is far from linear. In fact, I had to test that I wasn’t hallucinating this trend of more car intensive neighbourhoods being associated with longer non-car travel times. It does – just about!</p>
+<p>The bounding box is created as a <a href="https://r-spatial.github.io/sf/">simple features</a> geometry object with <code>bbox_to_poly()</code>. I return from this query a simple features geometry object (<code>osmdata_sf()</code>); select out the polygon data only; and express coordinates in <a href="https://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid">British National Grid</a> space (<code>crs=27700</code>).</p>
 <div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><a href="access_non.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="access_non.png" class="img-fluid figure-img" width="1314"></a></p>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Search area around University of Leeds (long-lat).</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>bbox <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="sc">-</span><span class="fl">1.5692</span>, <span class="fl">53.8014</span>, <span class="sc">-</span><span class="fl">1.5451</span>, <span class="fl">53.8157</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>bbox_sf <span class="ot">&lt;-</span> <span class="fu">bbox_to_poly</span>(bbox)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Get buildings within bbox.</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>leeds_buildings <span class="ot">&lt;-</span> bbox_sf <span class="sc">|&gt;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">opq</span>() <span class="sc">|&gt;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">add_osm_feature</span>(<span class="at">key =</span> <span class="st">"building"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">osmdata_sf</span>() </span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract osm_polyogns.</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>leeds_buildings <span class="ot">&lt;-</span> leeds_buildings<span class="sc">$</span>osm_polygon <span class="sc">|&gt;</span> <span class="fu">st_transform</span>(<span class="at">crs=</span><span class="dv">27700</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="adding-a-stylised-circular-mask" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="adding-a-stylised-circular-mask">Adding a stylised circular mask</h3>
+<p>I used {ggplot}, with <code>geom_sf()</code>, to render the simple features geometry file. You will see that all buildings intersecting the bounding box are returned by the Overpass query.</p>
+<p>For the logo, I wanted a circular crop that you often see with stylised maps. There are different ways to effect this. Without giving this too much consideration, I generated a polygon object to overlay on the map itself – so defined in the same coordinate space as the map.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="buildings_crop.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Building polygons overlayed with a circular mask (a polygon-with-a-hole)."><img src="buildings_crop.svg" class="img-fluid figure-img" alt="Building polygons overlayed with a circular mask (a polygon-with-a-hole)."></a></p>
+<figcaption class="margin-caption">Building polygons overlayed with a circular mask (a polygon-with-a-hole).</figcaption>
 </figure>
 </div>
 </div>
 </div>
+<p>Generating this cutout object is quite straightforward. I find centroid coordinates of the buildings and record the width and height of that box. Then I create a squarified polygon, with <code>st_buffer()</code> centred on the buildings, but slightly <em>larger</em> than its spatial extent; a circular polygon slightly <em>smaller</em> than the bounding box; and use the function <code>st_sym_difference()</code> to put a hole in the larger (square) polygon.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Search area around University of Leeds (long-lat).</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># And bbox around osm_polygons.</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>buildings_box <span class="ot">&lt;-</span> <span class="fu">st_bbox</span>(leeds_buildings)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>buildings_width <span class="ot">&lt;-</span> buildings_box<span class="sc">$</span>xmax<span class="sc">-</span>buildings_box<span class="sc">$</span>xmin</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>buildings_height <span class="ot">&lt;-</span> buildings_box<span class="sc">$</span>ymax<span class="sc">-</span>buildings_box<span class="sc">$</span>ymin</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a circular buffer around centroid of buildings.</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> buildings_box<span class="sc">$</span>xmin <span class="sc">+</span> .<span class="dv">5</span><span class="sc">*</span>buildings_width</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> buildings_box<span class="sc">$</span>ymin <span class="sc">+</span> .<span class="dv">5</span><span class="sc">*</span>buildings_height</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Create an overlay to effect a curcular crop.</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>t <span class="ot">&lt;-</span> <span class="fu">st_buffer</span>(<span class="fu">st_as_sf</span>(<span class="fu">tibble</span>(x,y), <span class="at">coords=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>), <span class="at">crs=</span><span class="dv">27700</span>), <span class="at">dist=</span>buildings_width<span class="sc">*</span>.<span class="dv">51</span>, <span class="at">endCapStyle=</span><span class="st">"SQUARE"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>u <span class="ot">&lt;-</span> <span class="fu">st_buffer</span>(<span class="fu">st_as_sf</span>(<span class="fu">tibble</span>(x,y), <span class="at">coords=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>), <span class="at">crs=</span><span class="dv">27700</span>), <span class="at">dist=</span>buildings_width<span class="sc">*</span>.<span class="dv">42</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> <span class="fu">st_sym_difference</span>(u,t)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="reordering-neighbourhoods-by-attitudes-to-switching" class="level3">
-<h3 class="anchored" data-anchor-id="reordering-neighbourhoods-by-attitudes-to-switching">Reordering neighbourhoods by attitudes to switching</h3>
-<p>TODO : MRP on NTAS and represent using ordering on propensity to shift. Problem: NTAS wave 1 has: To what extent <em>I am willing to reduce the amount I travel by car?</em>. But only that wave ~1500 respondents. Other surveys?</p>
+<section id="plotting-the-polygon-files" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="plotting-the-polygon-files">Plotting the polygon files</h3>
+<p>The {ggplot2} code is pretty paired back: <code>geom_sf()</code> will draw out the polygon files. I just make sure to layer the plot specification such that the circular mask (rendered solid white <code>#ffffff</code>) appears after the buildings.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample 1:4 for each row of the buildings dataset.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>randoms <span class="ot">&lt;-</span> <span class="fu">map_dbl</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(leeds_buildings), <span class="sc">~</span><span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>,<span class="dv">1</span>))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>plot <span class="ot">&lt;-</span> leeds_buildings <span class="sc">|&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add in the sampled colour positions. Factor variable, for use in manual scale.</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">colour=</span><span class="fu">factor</span>(randoms)) <span class="sc">|&gt;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Draw buildings.</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="fu">aes</span>(<span class="at">fill=</span>colour, <span class="at">colour=</span>colour)) <span class="sc">+</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Draw mask.</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="at">data=</span>v, <span class="at">fill=</span><span class="st">"#ffffff"</span>, <span class="at">colour=</span><span class="st">"#ffffff"</span>) <span class="sc">+</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Du Bois palette.</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_colour_manual</span>(<span class="at">values=</span><span class="fu">c</span>( <span class="st">"#e94837"</span>, <span class="st">"#393a68"</span>, <span class="st">"#f3b241"</span>, <span class="st">"#190f11"</span>), <span class="at">guide=</span><span class="st">"none"</span>) <span class="sc">+</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values=</span><span class="fu">c</span>( <span class="st">"#e94837"</span>, <span class="st">"#393a68"</span>, <span class="st">"#f3b241"</span>, <span class="st">"#190f11"</span>), <span class="at">guide=</span><span class="st">"none"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>On <strong>colour</strong>, I used a <a href="https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/">Du Bois</a>-inspired palette. It is beautiful, but also reflects wider efforts across the School of Geography to decolonise our programmes <span class="citation" data-cites="olman_decolonizing_2022">(see also <a href="#ref-olman_decolonizing_2022" role="doc-biblioref">Olman 2022</a>)</span>.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="buildings_colour.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Building polygons coloured using a Du Bois-inspired palette."><img src="buildings_colour.svg" class="img-fluid figure-img" alt="Building polygons coloured using a Du Bois-inspired palette."></a></p>
+<figcaption class="margin-caption">Building polygons coloured using a Du Bois-inspired palette.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>To do this, I <code>scale_fill_manual()</code> with the hex codes of four Du Bois colours. I wanted to randomly colour buildings and so, for each building (row of the <code>leeds_buildings</code> dataset), randomly sample integer values from 1:4 and create a new column (<code>colour</code>) with these values. When passing this column to <code>aes(fill=)</code> and applying a manual colour scale, it must not be a numeric variable and so I cast <code>colour</code> as a <a href="https://r4ds.had.co.nz/factors.html">factor</a>.</p>
 </section>
-<section id="some-caveats-on-a-contrived-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="some-caveats-on-a-contrived-analysis">Some caveats on a contrived analysis</h3>
-<p>I mainly collected these data and ran this quick analysis to help plan our Infuze modelling work. There are of course many issues and factors not properly considered and some obvious explanations on why we do not see a clean association between neighbourhood-level car ownership and the relative supply of non-car alternatives, judged by average travel times.</p>
-<p>First, car ownership does not straightforwardly imply <em>dependency</em>. A household may choose to own a car, or several cars, for reasons other than necessity. In the 1990s pollsters used car ownership as <em>the</em> proxy for income; and we know that incomes vary systematically across neighbourhoods in Leeds. After income, other factors such as household composition, size, age profile are also likely to explain differences in car ownership – all of which vary by neighbourhood.</p>
-<p>Second, our measure of the enabling environment for non-car alternatives – average travel times by foot, bike, public transport – is a reductive one. Taking cycling as an example, average travel times by bike are unlikely to be the key determinant of a neighbourhood’s cycling uptake. We should instead be considering the bikeability of neighbourhoods – for example based on infrastructure and the ‘agreeableness’ of the general cycling environment, which can be estimated using open data <span class="citation" data-cites="beecham_connected_2023">(<a href="#ref-beecham_connected_2023" role="doc-biblioref">Beecham et al. 2023</a>)</span>. Local cultural attitudes and identities also play a large role in shaping cycling behaviour <span class="citation" data-cites="aldred_why_2014">(<a href="#ref-aldred_why_2014" role="doc-biblioref">Aldred and Jungnickel 2014</a>)</span>. Quantifying these sorts of attitudes at a neighbourhood-level could be challenging, but is possible using survey-based approaches.</p>
-</section>
-<section id="conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
-<p>So what does this quick analysis of neighbourhood-level transport stats imply for the modelling work we’re planning through Infuze?</p>
-<p>That yes, it will be important to consider how effectively non-car options can meet the everyday travel needs of residents. And clearly it will be hard to ‘beat’ the private car in models that look to optimise on travel time. But the link between car ownership and use and the provision of transport alternatives is non-linear and complex. In addition to incorporating detailed observational data on neighbourhood-level <em>enabling environments</em> for car alternatives, and using survey data to represent a wide set of individual circumstances, we must think carefully about how this context informs <em>behaviour</em>.</p>
-<p><!-- Certain attitudes and behaviours may be more sticky than others. This stickiness could be explained by individual-level circumstances, the wider neighbourhood and city-level context, and possibly by values and beliefs. But these factors 
-ow individuals' circumstances and the neighbourhood context in which they live *interacts* to inform attitudes and behaviour -- and the extent to which --></p>
-<p>This will require <em>theory</em> on the fluidity and stickiness behaviours, and the relative importance of individual circumstances, environmental context (neighbourhood and city-level) and even values and beliefs. As we are modelling <em>future</em> scenarios, we will want to engage with social learning and diffusion that takes place as these circumstances and this context changes. Tricky concepts, but necessary if we are to imagine truly shifting society away from the current status quo – for fundamental, “paradigmatic” change. This understanding is, in any case, our <a href="https://in-fuze.org.uk/project/">starting point with Infuze</a>.</p>
-<!-- But to , we must engage with -->
-<!-- -- and to consider how this local context differently interacts with a range of individual needs and personal circumstances.  
-We can collect data that captures neighbourhood-level context in a rich and detailed way, and our modelling will  -->
+<section id="adding-programme-name-and-other-text" class="level3">
+<h3 class="anchored" data-anchor-id="adding-programme-name-and-other-text">Adding Programme name and other text</h3>
+<p>Again, many different ways of doing this. Here, I cast the buildings object (<code>plot</code>) as a grob and add it as a ggplot2 layer with <code>annotation_custom()</code>. I can now position the text in relative plot space, rather than working in geographic coordinate space.</p>
+<p>The text labels are generated with <code>annotate()</code> and manually positioned and sized with some trial-and-error. Note that I extent the plot space, with <code>scale_x_manual()</code>, in order to accomodate the course title.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add buildings as a plot layer, rescaled in plot coordinate space.</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotation_custom</span>(cowplot<span class="sc">::</span><span class="fu">as_grob</span>(p), <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Add programme name.</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">label=</span><span class="st">"GISc"</span>,</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="dv">1</span>, <span class="at">y=</span>.<span class="dv">78</span>,  <span class="at">hjust=</span><span class="st">"left"</span>, <span class="at">vjust=</span><span class="st">"top"</span>, <span class="at">size=</span><span class="dv">220</span>, <span class="at">colour=</span><span class="st">"#190f11"</span>) <span class="sc">+</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">label=</span><span class="st">"Distance Learning"</span>, </span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="dv">1</span>, <span class="at">y=</span>.<span class="dv">4</span>,   <span class="at">hjust=</span><span class="st">"left"</span>, <span class="at">vjust=</span><span class="st">"top"</span>, <span class="at">size=</span><span class="dv">70</span>, <span class="at">colour=</span><span class="st">"#190f11"</span>) <span class="sc">+</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"text"</span>, <span class="at">label=</span><span class="st">"School of Geography | University of Leeds"</span>,  </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="dv">1</span>, <span class="at">y=</span>.<span class="dv">25</span>, <span class="at">hjust=</span><span class="st">"left"</span>, <span class="at">vjust=</span><span class="st">"top"</span>, <span class="at">size=</span><span class="dv">30</span>, <span class="at">colour=</span><span class="st">"#190f11"</span>) <span class="sc">+</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Extend plot in x to accomodate labels.</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">limits=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">3</span>), <span class="at">expand=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>)) <span class="sc">+</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="at">expand=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-aldred_why_2014" class="csl-entry" role="listitem">
-Aldred, Rachel, and Katrina Jungnickel. 2014. <span>“Why Culture Matters for Transport Policy: The Case of Cycling in the UK.”</span> <em>Journal of Transport Geography</em> 34:78–87. https://doi.org/<a href="https://doi.org/10.1016/j.jtrangeo.2013.11.004">https://doi.org/10.1016/j.jtrangeo.2013.11.004</a>.
+<div id="ref-padgham_osmdata_2017" class="csl-entry" role="listitem">
+Mark Padgham, Bob Rudis, Robin Lovelace, and Maëlle Salmon. 2017. <span>“Osmdata.”</span> <em>Journal of Open Source Software</em> 2 (14): 305. <a href="https://doi.org/10.21105/joss.00305">https://doi.org/10.21105/joss.00305</a>.
 </div>
-<div id="ref-beecham_connected_2023" class="csl-entry" role="listitem">
-Beecham, R., Y. and Yang, C. Tait, and R. Lovelace. 2023. <span>“Connected Bikeability in London: Which Localities Are Better Connected by Bike and Does This Matter?”</span> <em>Environment and Planning B: Urban Analytics and City Science</em> 0 (0): 23998083231165122. <a href="https://doi.org/10.1177/23998083231165122">https://doi.org/10.1177/23998083231165122</a>.
+<div id="ref-olman_decolonizing_2022" class="csl-entry" role="listitem">
+Olman, Lynda C. 2022. <span>“Decolonizing the Color-Line: A Topological Analysis of w.e.b. Du Bois’s Infographics for the 1900 Paris Exposition.”</span> <em>Journal of Business and Technical Communication</em> 36 (2): 127–64. <a href="https://doi.org/10.1177/10506519211064613">https://doi.org/10.1177/10506519211064613</a>.
 </div>
 </div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{beecham2025,
   author = {Beecham, Roger},
-  title = {Can We Achieve Transformational Change Through Tweaking the
-    Transport System?},
-  date = {2025-03-19},
-  url = {https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/},
-  doi = {10.59350/hkkjp-exc03},
+  title = {Designing a Course Logo in \{Ggplot2\}},
+  date = {2025-03-24},
+  url = {https://www.roger-beecham.com/blog/2025/03/21/odl-logo/},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-beecham2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Beecham, Roger. 2025. <span>“Can We Achieve Transformational Change
-Through Tweaking the Transport System?”</span> March 19, 2025. <a href="https://doi.org/10.59350/hkkjp-exc03">https://doi.org/10.59350/hkkjp-exc03</a>.
+Beecham, Roger. 2025. <span>“Designing a Course Logo in
+{Ggplot2}.”</span> March 24, 2025. <a href="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/">https://www.roger-beecham.com/blog/2025/03/21/odl-logo/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

@@ -11,7 +11,666 @@
 <description>Roger Beecham&#39;s blog</description>
 <language>en</language>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Wed, 19 Mar 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 24 Mar 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Designing a course logo in {ggplot2}</title>
+  <dc:creator>Roger Beecham</dc:creator>
+  <link>https://www.roger-beecham.com/blog/2025/03/21/odl-logo/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="introduction" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>Our <a href="https://courses.leeds.ac.uk/d985/geographical-information-science-msc">Distance Learning GIScience</a> course is pretty established at Leeds. Students enrol part-time and complete it over a 3-year period; the final year is 100% focussed on research (dissertation). The programme draws students from a range of backgrounds and they often combine study with work in industry or government, usually GIScience or adjacent roles. It’s a great way to study for an MSc and a pleasure to teach: I run my main <a href="../../../../../teaching">vis course</a> through the ODL. If you’re interested, see <a href="https://environment.leeds.ac.uk/geography-masters/dir-record/student-alumni-profiles/1651/ilya-ilyankou">this profile</a>, by <a href="https://ilyankou.com/">Ilya Ilyankou</a>, a not too distant alumnus.</p>
+<p>As students are remote and never see campus, I wanted to make a logo that anchored a little on Leeds. The idea is not especially original, but I thought using OSM buildings data surrounding campus might be a good idea. Here I render the logo using {ggplot} + {sf}, with OSM data harvested via the excellent <a href="https://docs.ropensci.org/osmdata/">{osmdata}</a> package.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="odl_logo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="The new logo for our GIScience ODL programme."><img src="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/odl_logo.png" class="img-fluid figure-img" width="2500" alt="The new logo for our GIScience ODL programme."></a></p>
+<figcaption class="margin-caption">The new logo for our GIScience ODL programme.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="setup-and-collect-osm-data" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="setup-and-collect-osm-data">Setup and collect OSM data</h3>
+<p>First, some standard packages as well as <a href="https://docs.ropensci.org/osmdata/">{osmdata}</a> <span class="citation" data-cites="padgham_osmdata_2017">(Mark Padgham et al. 2017)</span>, a wrapper to the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># General. </span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(here)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(patchwork)</span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Spatial.</span></span>
+<span id="cb1-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(sf)</span>
+<span id="cb1-8"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(sp)</span>
+<span id="cb1-9"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(spdep)</span>
+<span id="cb1-10"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(nominatimlite)</span>
+<span id="cb1-11"></span>
+<span id="cb1-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># OSM</span></span>
+<span id="cb1-13"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(osmdata)</span>
+<span id="cb1-14"></span>
+<span id="cb1-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Google font.</span></span>
+<span id="cb1-16"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(showtext)</span>
+<span id="cb1-17"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">font_add_google</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Jost"</span>)</span>
+<span id="cb1-18"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">showtext_auto</span>()</span></code></pre></div>
+</div>
+<p>To collect the buildings outlines I generate an Overpass query (<code>opq()</code>) paramterised with a bounding box around the university and on the <code>building</code> feature. Included in the bounding box are the main university buildings, some surrounding victorian terraces and to the north, <a href="https://en.wikipedia.org/wiki/Woodhouse_Moor">Woodhouse Moor Park</a>, of course with no buildings.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="buildings.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Building polygons returned by the Overpass query."><img src="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/buildings.svg" class="img-fluid figure-img" alt="Building polygons returned by the Overpass query."></a></p>
+<figcaption class="margin-caption">Building polygons returned by the Overpass query.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The bounding box is created as a <a href="https://r-spatial.github.io/sf/">simple features</a> geometry object with <code>bbox_to_poly()</code>. I return from this query a simple features geometry object (<code>osmdata_sf()</code>); select out the polygon data only; and express coordinates in <a href="https://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid">British National Grid</a> space (<code>crs=27700</code>).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Search area around University of Leeds (long-lat).</span></span>
+<span id="cb2-2">bbox <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.5692</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">53.8014</span>, <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.5451</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">53.8157</span>)</span>
+<span id="cb2-3">bbox_sf <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">bbox_to_poly</span>(bbox)</span>
+<span id="cb2-4"></span>
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Get buildings within bbox.</span></span>
+<span id="cb2-6">leeds_buildings <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> bbox_sf <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb2-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">opq</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb2-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">add_osm_feature</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">key =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"building"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb2-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">osmdata_sf</span>() </span>
+<span id="cb2-10"></span>
+<span id="cb2-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Extract osm_polyogns.</span></span>
+<span id="cb2-12">leeds_buildings <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> leeds_buildings<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>osm_polygon <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_transform</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">crs=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">27700</span>)</span></code></pre></div>
+</div>
+</section>
+<section id="adding-a-stylised-circular-mask" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="adding-a-stylised-circular-mask">Adding a stylised circular mask</h3>
+<p>I used {ggplot}, with <code>geom_sf()</code>, to render the simple features geometry file. You will see that all buildings intersecting the bounding box are returned by the Overpass query.</p>
+<p>For the logo, I wanted a circular crop that you often see with stylised maps. There are different ways to effect this. Without giving this too much consideration, I generated a polygon object to overlay on the map itself – so defined in the same coordinate space as the map.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="buildings_crop.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Building polygons overlayed with a circular mask (a polygon-with-a-hole)."><img src="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/buildings_crop.svg" class="img-fluid figure-img" alt="Building polygons overlayed with a circular mask (a polygon-with-a-hole)."></a></p>
+<figcaption class="margin-caption">Building polygons overlayed with a circular mask (a polygon-with-a-hole).</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Generating this cutout object is quite straightforward. I find centroid coordinates of the buildings and record the width and height of that box. Then I create a squarified polygon, with <code>st_buffer()</code> centred on the buildings, but slightly <em>larger</em> than its spatial extent; a circular polygon slightly <em>smaller</em> than the bounding box; and use the function <code>st_sym_difference()</code> to put a hole in the larger (square) polygon.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Search area around University of Leeds (long-lat).</span></span>
+<span id="cb3-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># And bbox around osm_polygons.</span></span>
+<span id="cb3-3">buildings_box <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_bbox</span>(leeds_buildings)</span>
+<span id="cb3-4">buildings_width <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> buildings_box<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>xmax<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>buildings_box<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>xmin</span>
+<span id="cb3-5">buildings_height <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> buildings_box<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>ymax<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>buildings_box<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>ymin</span>
+<span id="cb3-6"></span>
+<span id="cb3-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Create a circular buffer around centroid of buildings.</span></span>
+<span id="cb3-8">x <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> buildings_box<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>xmin <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> .<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>buildings_width</span>
+<span id="cb3-9">y <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> buildings_box<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>ymin <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> .<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>buildings_height</span>
+<span id="cb3-10"></span>
+<span id="cb3-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Create an overlay to effect a curcular crop.</span></span>
+<span id="cb3-12">t <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_buffer</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_as_sf</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tibble</span>(x,y), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">coords=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">crs=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">27700</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">dist=</span>buildings_width<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>.<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">51</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">endCapStyle=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"SQUARE"</span>)</span>
+<span id="cb3-13">u <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_buffer</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_as_sf</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">tibble</span>(x,y), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">coords=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">crs=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">27700</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">dist=</span>buildings_width<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>.<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">42</span>)</span>
+<span id="cb3-14">v <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_sym_difference</span>(u,t)</span></code></pre></div>
+</div>
+</section>
+<section id="plotting-the-polygon-files" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="plotting-the-polygon-files">Plotting the polygon files</h3>
+<p>The {ggplot2} code is pretty paired back: <code>geom_sf()</code> will draw out the polygon files. I just make sure to layer the plot specification such that the circular mask (rendered solid white <code>#ffffff</code>) appears after the buildings.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Sample 1:4 for each row of the buildings dataset.</span></span>
+<span id="cb4-2">randoms <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">map_dbl</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">nrow</span>(leeds_buildings), <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sample</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>))</span>
+<span id="cb4-3">plot <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> leeds_buildings <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb4-4">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add in the sampled colour positions. Factor variable, for use in manual scale.</span></span>
+<span id="cb4-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(randoms)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb4-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-7">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Draw buildings.</span></span>
+<span id="cb4-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_sf</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill=</span>colour, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour=</span>colour)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-9">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Draw mask.</span></span>
+<span id="cb4-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_sf</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data=</span>v, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#ffffff"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#ffffff"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-11">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Du Bois palette.</span></span>
+<span id="cb4-12">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_colour_manual</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>( <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#e94837"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#393a68"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#f3b241"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#190f11"</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">guide=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"none"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>( <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#e94837"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#393a68"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#f3b241"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#190f11"</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">guide=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"none"</span>) </span></code></pre></div>
+</div>
+<p>On <strong>colour</strong>, I used a <a href="https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/">Du Bois</a>-inspired palette. It is beautiful, but also reflects wider efforts across the School of Geography to decolonise our programmes <span class="citation" data-cites="olman_decolonizing_2022">(see also Olman 2022)</span>.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><a href="buildings_colour.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Building polygons coloured using a Du Bois-inspired palette."><img src="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/buildings_colour.svg" class="img-fluid figure-img" alt="Building polygons coloured using a Du Bois-inspired palette."></a></p>
+<figcaption class="margin-caption">Building polygons coloured using a Du Bois-inspired palette.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>To do this, I <code>scale_fill_manual()</code> with the hex codes of four Du Bois colours. I wanted to randomly colour buildings and so, for each building (row of the <code>leeds_buildings</code> dataset), randomly sample integer values from 1:4 and create a new column (<code>colour</code>) with these values. When passing this column to <code>aes(fill=)</code> and applying a manual colour scale, it must not be a numeric variable and so I cast <code>colour</code> as a <a href="https://r4ds.had.co.nz/factors.html">factor</a>.</p>
+</section>
+<section id="adding-programme-name-and-other-text" class="level3">
+<h3 class="anchored" data-anchor-id="adding-programme-name-and-other-text">Adding Programme name and other text</h3>
+<p>Again, many different ways of doing this. Here, I cast the buildings object (<code>plot</code>) as a grob and add it as a ggplot2 layer with <code>annotation_custom()</code>. I can now position the text in relative plot space, rather than working in geographic coordinate space.</p>
+<p>The text labels are generated with <code>annotate()</code> and manually positioned and sized with some trial-and-error. Note that I extent the plot space, with <code>scale_x_manual()</code>, in order to accomodate the course title.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-2">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add buildings as a plot layer, rescaled in plot coordinate space.</span></span>
+<span id="cb5-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">annotation_custom</span>(cowplot<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as_grob</span>(p), <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-4">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add programme name.</span></span>
+<span id="cb5-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">annotate</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"text"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">label=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"GISc"</span>,</span>
+<span id="cb5-6">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y=</span>.<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">78</span>,  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">hjust=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"left"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">vjust=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"top"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">220</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#190f11"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">annotate</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"text"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">label=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Distance Learning"</span>, </span>
+<span id="cb5-8">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y=</span>.<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>,   <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">hjust=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"left"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">vjust=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"top"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">70</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#190f11"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">annotate</span>(</span>
+<span id="cb5-10">    <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"text"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">label=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"School of Geography | University of Leeds"</span>,  </span>
+<span id="cb5-11">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y=</span>.<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">25</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">hjust=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"left"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">vjust=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"top"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">30</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#190f11"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-12">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Extend plot in x to accomodate labels.</span></span>
+<span id="cb5-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_x_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">limits=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">expand=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-14">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">limits=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">expand=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)) </span></code></pre></div>
+</div>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-padgham_osmdata_2017" class="csl-entry">
+Mark Padgham, Bob Rudis, Robin Lovelace, and Maëlle Salmon. 2017. <span>“Osmdata.”</span> <em>Journal of Open Source Software</em> 2 (14): 305. <a href="https://doi.org/10.21105/joss.00305">https://doi.org/10.21105/joss.00305</a>.
+</div>
+<div id="ref-olman_decolonizing_2022" class="csl-entry">
+Olman, Lynda C. 2022. <span>“Decolonizing the Color-Line: A Topological Analysis of w.e.b. Du Bois’s Infographics for the 1900 Paris Exposition.”</span> <em>Journal of Business and Technical Communication</em> 36 (2): 127–64. <a href="https://doi.org/10.1177/10506519211064613">https://doi.org/10.1177/10506519211064613</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{beecham2025,
+  author = {Beecham, Roger},
+  title = {Designing a Course Logo in \{Ggplot2\}},
+  date = {2025-03-24},
+  url = {https://www.roger-beecham.com/blog/2025/03/21/odl-logo/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-beecham2025" class="csl-entry quarto-appendix-citeas">
+Beecham, Roger. 2025. <span>“Designing a Course Logo in
+{Ggplot2}.”</span> March 24, 2025. <a href="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/">https://www.roger-beecham.com/blog/2025/03/21/odl-logo/</a>.
+</div></div></section></div> ]]></description>
+  <category>ggplot</category>
+  <category>osm data</category>
+  <guid>https://www.roger-beecham.com/blog/2025/03/21/odl-logo/</guid>
+  <pubDate>Mon, 24 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/odl_logo.png" medium="image" type="image/png" height="58" width="144"/>
+</item>
 <item>
   <title>Can we achieve transformational change through tweaking the transport system?</title>
   <dc:creator>Roger Beecham</dc:creator>
@@ -59,7 +718,7 @@
 </section>
 <section id="neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options" class="level3">
 <h3 class="anchored" data-anchor-id="neighbourhoods-with-lower-car-ownership-are-sometimes-those-with-better-non-car-options">Neighbourhoods with lower car ownership are (sometimes) those with better non-car options</h3>
-<p>If shifting individuals away from private car use was <em>only</em> about the provision of non-car modes, then we might expect neighbourhoods with the most excess car ownership to be the least well served by alternatives to the car.</p>
+<p>If shifting individuals away from private car use was <em>only</em> about the provision of non-car modes, then we might expect neighbourhoods with the most excess car ownership to be the least well-served by <em>alternatives</em> to the car.</p>
 <p>In the graphic below I colour according to the average travel time by foot, bike and public transport combined. From this, it is generally true that neighbourhoods with lower levels of car ownership are, in relative terms, better provided for by car-alternatives – lighter squares (longer travel times) are towards the bottom of the graphics. However, the association between car ownership and non-car accessibility is far from linear. In fact, I had to test that I wasn’t hallucinating this trend of more car intensive neighbourhoods being associated with longer non-car travel times. It does – just about!</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -79,7 +738,7 @@
 <h3 class="anchored" data-anchor-id="some-caveats-on-a-contrived-analysis">Some caveats on a contrived analysis</h3>
 <p>I mainly collected these data and ran this quick analysis to help plan our Infuze modelling work. There are of course many issues and factors not properly considered and some obvious explanations on why we do not see a clean association between neighbourhood-level car ownership and the relative supply of non-car alternatives, judged by average travel times.</p>
 <p>First, car ownership does not straightforwardly imply <em>dependency</em>. A household may choose to own a car, or several cars, for reasons other than necessity. In the 1990s pollsters used car ownership as <em>the</em> proxy for income; and we know that incomes vary systematically across neighbourhoods in Leeds. After income, other factors such as household composition, size, age profile are also likely to explain differences in car ownership – all of which vary by neighbourhood.</p>
-<p>Second, our measures of the enabling environment for non-car alternatives – average travel times by foot, bike, public transport – is a reductive one. Taking cycling as an example, average travel times by bike are unlikely to be the key determinant of a neighbourhood’s likely cycling uptake. We should instead be considering the bikeability of neighbourhoods – for example based on infrastructure and the ‘agreeableness’ of the general cycling environment, which can be estimated using open data <span class="citation" data-cites="beecham_connected_2023">(Beecham et al. 2023)</span>. Local cultural attitudes and identities also play a large role in shaping cycling behaviour <span class="citation" data-cites="aldred_why_2014">(Aldred and Jungnickel 2014)</span>. Quantifying these sorts of attitudes at a neighbourhood-level could be challenging, but is possible using survey-based approaches.</p>
+<p>Second, our measure of the enabling environment for non-car alternatives – average travel times by foot, bike, public transport – is a reductive one. Taking cycling as an example, average travel times by bike are unlikely to be the key determinant of a neighbourhood’s cycling uptake. We should instead be considering the bikeability of neighbourhoods – for example based on infrastructure and the ‘agreeableness’ of the general cycling environment, which can be estimated using open data <span class="citation" data-cites="beecham_connected_2023">(Beecham et al. 2023)</span>. Local cultural attitudes and identities also play a large role in shaping cycling behaviour <span class="citation" data-cites="aldred_why_2014">(Aldred and Jungnickel 2014)</span>. Quantifying these sorts of attitudes at a neighbourhood-level could be challenging, but is possible using survey-based approaches.</p>
 </section>
 <section id="conclusion" class="level3">
 <h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
@@ -92,8 +751,6 @@ ow individuals' circumstances and the neighbourhood context in which they live *
 <!-- -- and to consider how this local context differently interacts with a range of individual needs and personal circumstances.  
 We can collect data that captures neighbourhood-level context in a rich and detailed way, and our modelling will  -->
 
-
-<!-- -->
 
 
 </section>
@@ -111,11 +768,12 @@ Beecham, R., Y. and Yang, C. Tait, and R. Lovelace. 2023. <span>“Connected Bik
     Transport System?},
   date = {2025-03-19},
   url = {https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/},
+  doi = {10.59350/hkkjp-exc03},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-beecham2025" class="csl-entry quarto-appendix-citeas">
 Beecham, Roger. 2025. <span>“Can We Achieve Transformational Change
-Through Tweaking the Transport System?”</span> March 19, 2025. <a href="https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/">https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/</a>.
+Through Tweaking the Transport System?”</span> March 19, 2025. <a href="https://doi.org/10.59350/hkkjp-exc03">https://doi.org/10.59350/hkkjp-exc03</a>.
 </div></div></section></div> ]]></description>
   <category>agent based models</category>
   <category>journey time statistics</category>

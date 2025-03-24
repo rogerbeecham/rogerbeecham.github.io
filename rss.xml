@@ -11,7 +11,18 @@
 <description>Roger Beecham&#39;s blog</description>
 <language>en</language>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Wed, 19 Mar 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 24 Mar 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Designing a course logo in {ggplot2}</title>
+  <dc:creator>Roger Beecham</dc:creator>
+  <link>https://www.roger-beecham.com/blog/2025/03/21/odl-logo/</link>
+  <description><![CDATA[ Roger Beecham is Associate Professor in Visual Data Science at University of Leeds, researching, teaching and applying visual methods in social science data analysis. ]]></description>
+  <category>ggplot</category>
+  <category>osm data</category>
+  <guid>https://www.roger-beecham.com/blog/2025/03/21/odl-logo/</guid>
+  <pubDate>Mon, 24 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/odl_logo.png" medium="image" type="image/png" height="58" width="144"/>
+</item>
 <item>
   <title>Can we achieve transformational change through tweaking the transport system?</title>
   <dc:creator>Roger Beecham</dc:creator>
