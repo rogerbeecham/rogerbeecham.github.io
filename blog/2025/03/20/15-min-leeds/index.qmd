@@ -2,6 +2,7 @@
 title: "Can we achieve transformational change through tweaking the transport system?"
 date: 2025-03-19
 description: "The agent-based models we're building through Infuze will help us explore how alternatives to the private car can meet everyday travel needs. But we need to design into them quite slippery things -- like social learning, interactions between environmental context, personal circumstances and values -- if we want to model transformational change."
+title-block-banner: "#32251f"
 
 image: access_non.png
 twitter-card: 
@@ -24,6 +25,7 @@ format:
     shift-heading-level-by: 1
     lightbox: true
 
+doi: 10.59350/hkkjp-exc03
 citation: true
 ---
 
@@ -34,10 +36,7 @@ citation: true
 #| message: false
 #| warning: false
 library(knitr)
-library(kableExtra)
-library(fontawesome)
 ```
-
 
 ## Introduction
 

@@ -14,7 +14,7 @@ toc-location: right
 date-format: "MMMM D, YYYY"
 code-tools: false
 comments: false
-# freeze: false
+title-block-banner: "#32251f"
 ---
 
 <!-- ```{css, echo=FALSE}

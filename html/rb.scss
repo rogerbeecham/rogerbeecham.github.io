@@ -122,7 +122,7 @@ body {
 
 // Shrink blocks of code
 pre.text, pre.sourceCode, .cell-output pre {
-    font-size: 0.775em;
+    font-size: 0.9em;
 }
 
 .navbar {
@@ -345,8 +345,8 @@ pre.text, pre.sourceCode, .cell-output pre {
         margin-top: 1.5em;
 
         .quarto-category {
-            background-color: shift-color($blue, -25%);
-            border-color: shift-color($blue, -45%);
+            background-color: shift-color($grey, -25%);
+            border-color: shift-color($grey, -45%);
             color: $white;
             font-size: 0.65em;
             opacity: 1;
