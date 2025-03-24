@@ -182,7 +182,7 @@ include_graphics("buildings_colour.svg", error = FALSE)
 
 To do this, I `scale_fill_manual()` with the hex codes of four Du Bois colours.  I wanted to randomly colour buildings and so, for each building (row of the `leeds_buildings` dataset), randomly sample integer values from 1:4 and create a new column (`colour`) with these values. When passing this column to `aes(fill=)` and applying a manual colour scale, it must not be a numeric variable and so I cast `colour` as a [factor](https://r4ds.had.co.nz/factors.html).
 
-## Adding Programme name and other text
+## Inserting the programme name and other text
 
 Again, many different ways of doing this. Here, I cast the  buildings object (`plot`) as a grob and add it as a ggplot2 layer with `annotation_custom()`. I can now position the text in relative plot space, rather than working in geographic coordinate space. 
 
