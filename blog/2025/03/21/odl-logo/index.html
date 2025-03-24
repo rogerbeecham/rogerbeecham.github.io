@@ -283,7 +283,7 @@ div.csl-indent {
   <li><a href="#setup-and-collect-osm-data" id="toc-setup-and-collect-osm-data" class="nav-link" data-scroll-target="#setup-and-collect-osm-data">Setup and collect OSM data</a></li>
   <li><a href="#adding-a-stylised-circular-mask" id="toc-adding-a-stylised-circular-mask" class="nav-link" data-scroll-target="#adding-a-stylised-circular-mask">Adding a stylised circular mask</a></li>
   <li><a href="#plotting-the-polygon-files" id="toc-plotting-the-polygon-files" class="nav-link" data-scroll-target="#plotting-the-polygon-files">Plotting the polygon files</a></li>
-  <li><a href="#adding-programme-name-and-other-text" id="toc-adding-programme-name-and-other-text" class="nav-link" data-scroll-target="#adding-programme-name-and-other-text">Adding Programme name and other text</a></li>
+  <li><a href="#inserting-the-programme-name-and-other-text" id="toc-inserting-the-programme-name-and-other-text" class="nav-link" data-scroll-target="#inserting-the-programme-name-and-other-text">Inserting the programme name and other text</a></li>
   </ul>
 </nav>
 </nav>
@@ -371,8 +371,8 @@ div.csl-indent {
 <div class="cell-output-display page-columns page-full">
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><a href="buildings_crop.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Building polygons overlayed with a circular mask (a polygon-with-a-hole)."><img src="buildings_crop.svg" class="img-fluid figure-img" alt="Building polygons overlayed with a circular mask (a polygon-with-a-hole)."></a></p>
-<figcaption class="margin-caption">Building polygons overlayed with a circular mask (a polygon-with-a-hole).</figcaption>
+<p><a href="buildings_crop.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Building polygons overlaid with a circular mask (a polygon-with-a-hole)."><img src="buildings_crop.svg" class="img-fluid figure-img" alt="Building polygons overlaid with a circular mask (a polygon-with-a-hole)."></a></p>
+<figcaption class="margin-caption">Building polygons overlaid with a circular mask (a polygon-with-a-hole).</figcaption>
 </figure>
 </div>
 </div>
@@ -426,8 +426,8 @@ div.csl-indent {
 </div>
 <p>To do this, I <code>scale_fill_manual()</code> with the hex codes of four Du Bois colours. I wanted to randomly colour buildings and so, for each building (row of the <code>leeds_buildings</code> dataset), randomly sample integer values from 1:4 and create a new column (<code>colour</code>) with these values. When passing this column to <code>aes(fill=)</code> and applying a manual colour scale, it must not be a numeric variable and so I cast <code>colour</code> as a <a href="https://r4ds.had.co.nz/factors.html">factor</a>.</p>
 </section>
-<section id="adding-programme-name-and-other-text" class="level3">
-<h3 class="anchored" data-anchor-id="adding-programme-name-and-other-text">Adding Programme name and other text</h3>
+<section id="inserting-the-programme-name-and-other-text" class="level3">
+<h3 class="anchored" data-anchor-id="inserting-the-programme-name-and-other-text">Inserting the programme name and other text</h3>
 <p>Again, many different ways of doing this. Here, I cast the buildings object (<code>plot</code>) as a grob and add it as a ggplot2 layer with <code>annotation_custom()</code>. I can now position the text in relative plot space, rather than working in geographic coordinate space.</p>
 <p>The text labels are generated with <code>annotate()</code> and manually positioned and sized with some trial-and-error. Note that I extent the plot space, with <code>scale_x_manual()</code>, in order to accomodate the course title.</p>
 <div class="cell">
