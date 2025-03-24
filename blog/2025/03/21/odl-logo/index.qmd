@@ -120,7 +120,7 @@ leeds_buildings <- leeds_buildings$osm_polygon |> st_transform(crs=27700)
 ```{r}
 #| eval: true
 #| echo: false
-#| fig-cap: "Building polygons overlayed with a circular mask (a polygon-with-a-hole)."
+#| fig-cap: "Building polygons overlaid with a circular mask (a polygon-with-a-hole)."
 include_graphics("buildings_crop.svg", error = FALSE)
 ```
 
