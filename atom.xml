@@ -659,11 +659,12 @@ Olman, Lynda C. 2022. <span>“Decolonizing the Color-Line: A Topological Analys
   title = {Designing a Course Logo in \{Ggplot2\}},
   date = {2025-03-24},
   url = {https://www.roger-beecham.com/blog/2025/03/21/odl-logo/},
+  doi = {10.59350/b0ppe-4sq67},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-beecham2025" class="csl-entry quarto-appendix-citeas">
 Beecham, Roger. 2025. <span>“Designing a Course Logo in
-{Ggplot2}.”</span> March 24, 2025. <a href="https://www.roger-beecham.com/blog/2025/03/21/odl-logo/">https://www.roger-beecham.com/blog/2025/03/21/odl-logo/</a>.
+{Ggplot2}.”</span> March 24, 2025. <a href="https://doi.org/10.59350/b0ppe-4sq67">https://doi.org/10.59350/b0ppe-4sq67</a>.
 </div></div></section></div> ]]></description>
   <category>ggplot</category>
   <category>osm data</category>
