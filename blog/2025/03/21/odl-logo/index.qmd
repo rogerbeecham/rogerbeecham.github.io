@@ -22,6 +22,7 @@ format:
     shift-heading-level-by: 1
     lightbox: true
 
+doi: 10.59350/b0ppe-4sq67
 citation: true
 ---
 
