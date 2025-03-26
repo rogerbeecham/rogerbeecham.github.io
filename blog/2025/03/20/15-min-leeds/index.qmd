@@ -95,9 +95,9 @@ include_graphics("access_non.png", error = FALSE)
 ```
 
 
-## Reordering neighbourhoods by attitudes to switching 
+<!-- ## Reordering neighbourhoods by attitudes to switching 
 
-TODO : MRP on NTAS and represent using ordering on propensity to shift. Problem: NTAS wave 1 has: To what extent *I am willing to reduce the amount I travel by car?*. But only that wave ~1500 respondents. Other surveys?
+TODO : MRP on NTAS and represent using ordering on propensity to shift. Problem: NTAS wave 1 has: To what extent *I am willing to reduce the amount I travel by car?*. But only that wave ~1500 respondents. Other surveys? -->
 
 ## Some caveats on a contrived analysis
 
