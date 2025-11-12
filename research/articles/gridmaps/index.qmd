@@ -1,0 +1,71 @@
+---
+title: "gridmappr: An R package for creating small multiple gridmap layouts"
+date: 2025-09-09
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Martijn Tennekes
+    url: 
+    orcid: 
+    affiliation: Statistics Netherlands, The Hague, Netherlands
+  - name: Jo Wood
+    url: 
+    orcid: 
+    affiliation: City St. George's, University of London
+categories: 
+  - cartograms 
+  - glyphs
+  - gridmaps
+  - R packages
+  - origin-destination
+  - flow maps
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong>,Martijn Tennekes and Jo Wood (2025) “gridmappr: An R package for creating small multiple gridmap layouts”, <em>Environment & Planning B: Urban Analytics and City Science</em>, doi: <a href="https://doi.org/10.1177/23998083251374737"><code>10.1177/23998083251374737</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1177/23998083251374737
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/rogerbeecham/gridmappr
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+doi: 10.1177/23998083251374737
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://doi.org/10.1177/23998083251374737)
+- [GitHub repository](https://github.com/rogerbeecham/gridmappr)
+
+
+## Abstract
+
+We present gridmappr, an R package that automates the process of generating gridmaps – small multiple data graphics of regular size, laid out with an approximate geographic arrangement. Given a set of real geographic point locations, gridmappr allocates points to a regularly sized grid of stated row–column dimensions. This allocation is constrained such that the distance between points in real and grid space is minimised and with a parameter that affects how compactly points are allocated to the regular grid. For geographies with features such as large bodies of water, fixed spacers can be introduced – reserved cells that cannot be allocated points. Layout examples are presented using different parameterisations, and code for generating a family of information-rich glyphmap and origin-destination maps is demonstrated using standard ggplot2.
+
+## Important figure
+
+
+![Figure 1. Candidate gridmap layouts and displacement vectors for France’s 96 départements.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_gridmappr_2025,
+	author = {Roger Beecham and Martijn Tennekes and Jo Wood},
+	doi = {10.1177/23998083251374737},
+	publisher={Environment and Planning B: Urban Analytics and City Science},
+	title={gridmappr: An R package for creating small multiple gridmap layouts},
+  volume = {},
+  number = {},
+  pages = {},
+	year = {2025}
+	}
+```
+
+

@@ -1,6 +1,6 @@
 ---
 title: "Visualization for Social Data Science"
-date: 2025-07-01
+date: 2025-09-05
 author: 
   - name: Roger Beecham
     url: http://www.roger-beecham.com/
@@ -29,7 +29,7 @@ categories:
   - uncertainty analysis
 pub-info:
   reference: >-
-    <strong>Roger Beecham</strong> (forthcoming) “Visualization for Social Data Science”, <em>Chapman & Hall / CRC Press</em>, doi: <a href="https://www.routledge.com/Visualization-for-Social-Data-Science/Beecham/p/book/9781032259710"><code>publisher page</code></a>
+    <strong>Roger Beecham</strong> (2025) “Visualization for Social Data Science”, <em>Chapman & Hall / CRC Press</em>, doi: <a href="https://www.routledge.com/Visualization-for-Social-Data-Science/Beecham/p/book/9781032259710"><code>publisher page</code></a>
   links:
     - name: Final version
       url: https://www.routledge.com/Visualization-for-Social-Data-Science/Beecham/p/book/9781032259710
@@ -44,6 +44,27 @@ haiku:
 ---
 
 ![](featured.png){width=60%}
+
+## Reviews
+
+> *A book that gives learners the inspiration, knowledge and worked examples to create cutting edge visualisations of their own.* <br>
+> -- **James Chesire**, Professor of Geographic Information and Cartography, University College London, co-author of  [Atlas of the Invisible](https://www.atlasoftheinvisible.com/), [Where the Animals Go](https://www.penguin.co.uk/books/289070/where-the-animals-go-by-uberti-james-cheshire-and-oliver/9780141982229) and [London: The Information Capital](https://www.penguin.co.uk/books/263939/london-the-information-capital-by-uberti-james-cheshire-and-oliver/9780141978796).
+
+> *Balance is at the root of good design, and resonates throughout Visualization for Social Data Science. The book’s harmony of concepts and techniques, precision and creativity, provide a perfect tonic for any social scientist seeking to scale up their visualization and data science knowledge and skills.* <br>
+> -- **Matt Duckham**, Director of Information in Society EIP, RMIT, Melbourne
+
+> *If a picture is worth a thousand words, a book demonstrating the how and why of effective visualisation that complements and strengthens data analytics is priceless. Beecham’s volume is such a prize, pairing examples and applications from across the social sciences with code and data to illustrate the power of statistical and visual analysis working in tandem.* <br>
+> -- **Rachel Franklin**, Executive Director, Center for Geographic Analysis, Harvard University 
+
+> *This is an important book on an important topic.  I particularly like the examples showing different visualizations of the same data and the parallel presentation of graphics and code.  And I absolutely love the chapter on visual storytelling.  I can't wait to use this book in my classes.* <br>
+> -- **Andrew Gelman**, Department of Statistics and Department of Political Science, Columbia University, New York
+
+> *This is a very well-structured, clearly-written introduction to visualizing social data, especially data with a strong spatial component. The examples are accessible, instructive, and beautifully developed within each chapter. While the book is an excellent introduction to methods and techniques, it never loses sight of why we want to look at data in the first place.* <br>
+> -- **Kieran Healy**, Duke University and author of [Data Visualization: A practical introduction](https://socviz.co/)
+
+
+> *Novel sources of “found” data are creating new opportunities and greater responsibilities for understanding data to avoid specious discoveries.  Visualization for Social Data Science enables social scientists to be careful, thoughtful and effective social data scientists by illuminating both how and why to incorporate visualization into scientific discovery.* <br>
+> —- **Harvey Miller**, Bob and Mary Reusche Chair, Center for Urban and Regional Analysis, The Ohio State University
 
 ## Description
 

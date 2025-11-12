@@ -1,3 +1,13 @@
+- title: Navigating the garden of forking paths
+  description: "International team developing foundations for formalising data-driven science practice."
+  university: Alan Turing Institute w/ University of Leeds, University of Warwick (+ others)
+  number: 2024-2025
+  url: https://theory4ida.github.io/tmcf/
+  logo: logos/tmcf.jpg
+  funder:
+  - name: Alan Turing Institute
+    url: https://theory4ida.github.io/tmcf/
+
 - title: SaferActive -- Prioritising investment in traffic calming measures for vulnerable road users 
   description: "Project developing and applying modern data science to build evidence base on road safety for use in national and local government."
   university: University of Leeds 

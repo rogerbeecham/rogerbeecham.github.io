@@ -1,0 +1,78 @@
+---
+title: "Using OpenPrescribing.net to evaluate neighbourhood-level prescribing of inhalers for asthma and COPD"
+date: 2025-05-24
+author:
+  - name: Thomas Richards
+    url: 
+    orcid: 
+    affiliation: University of Exter
+  - name: Alison Heppenstall
+    url: 
+    orcid: 
+    affiliation: School of Social and Political Science, University of Glasgow
+  - name: Rachel Oldroyd
+    url: 
+    orcid: 
+    affiliation: School of Geography, University of Leeds
+  - name: Victoria Barr
+    url: 
+    orcid: 
+    affiliation: Menston and Guiseley Surgery, Leeds
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - deprivation
+  - equity
+  - statistical process control
+  - health geography
+pub-info:
+  reference: >-
+    Thomas Richards, Alison Heppenstall, Rachel Oldroyd, Victoria Barr and <strong>Roger Beecham</strong> (2025) “Using OpenPrescribing.net to evaluate neighbourhood-level prescribing of inhalers for asthma and COPD”, <em>Scientific Reports</em>, doi: <a href="https://doi.org/10.1038/s41598-025-02969-x"><code>10.1038/s41598-025-02969-x</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1038/s41598-025-02969-x
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/TCR1990/neighbourhood-prescribing-inhalers
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+doi: 10.1038/s41598-025-02969-x
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://doi.org/10.1038/s41598-025-02969-x)
+- [GitHub repository](https://github.com/TCR1990/neighbourhood-prescribing-inhalers)
+
+
+## Abstract
+
+Prescribing of inhalers for asthma and chronic obstructive pulmonary disease is complicated due to multiple treatment pathways, diverse products, and variability in patients’ needs and usage habits. Factors such as social deprivation, air quality, and differences in access to primary care influence both demand on respiratory medications and the rate and manner in which they are prescribed. Inhaler prescribing metrics are valuable for analysing temporal and geographic prescribing patterns across socio-economic groups, whether to identify areas with higher disease incidence or to assess problematic prescribing practices. Using data from OpenPrescribing.net, we estimate prescription items dispensed for different inhaler drugs in England at Lower Layer Super Output Area or ‘neighbourhood’ level. Generating metrics at small-area level enables analysis of the interactions between individuals, their environment, and the localised health system within which they are being treated. This approach complements a patient-centred clinical model that considers individual patient needs. To explore changes pre- and post- the March 2020 COVID-19 lockdown, we profile prescribing temporally and by neighbourhood-level deprivation, measured by the Index of Multiple Deprivation. We develop and apply seven prescribing measures informed by national clinical guidelines which facilitate contextual comparison of prescribing behaviour between neighbourhoods. We find inequalities in prescribing behaviour, with the most deprived neighbourhoods associated with higher rates of emergency or ’rescue’ inhaler prescribing - a pattern that was interrupted during the March 2020 lockdown. Additionally, we find an increase in the prescribing of less environmentally friendly inhalers, contrary to national prescribing guidelines. This trend persisted until early 2022, when the trend began to reverse. Whilst many complex factors influence prescribing behaviour and safety, area-level deprivation appears to be an important dimension.
+
+
+## Important figure
+
+
+![Figure 3: (A) Median values for prescribing measures at LSOA level. Dashed white lines show the national median, red and green lines show the median for LSOAs in the most and least deprived deciles, respectively. The distribution of the sample is displayed with ribbons showing the 50th, 80th, and 95th percentile in black, dark grey, and light grey, respectively. See Table 2 for interpretation. Vertical dashed lines indicate dates when national lockdowns were announced. (B) The median value for each prescribing measure aggregated to pre-lockdown, lockdown, and post-lockdown time periods for the LSOAs in the least deprived decile, the national median, and the LSOAs in the most deprived decile. Pre-lockdown includes all 38 months from January 2017–February 2020. Lockdown includes March 2020. Post-lockdown includes all 38 months from April 2020–May 2023. Data extend to December 2023, but we assess equal number of months pre/post. combo combination therapy, ICS inhaled corticosteroid, pppm per person per month, LABA long-acting beta agonist, LAMA long-acting muscarinic antagonist, LSOA lower layer super output area, mono monotherapy, SABA short-acting beta agonist.](featured.png)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_connected_2023,
+	author = {Thomas Richards and Alison Heppenstall and Rachel Oldroyd and Victoria Barr and Roger Beecham},
+	doi = {10.1038/s41598-025-02969-x},
+	publisher={Scientific Reports},
+	title={Using OpenPrescribing.net to evaluate neighbourhood-level prescribing of inhalers for asthma and COPD},
+  volume = {15},
+  number = {18089},
+  pages = {},
+	year = {2025}
+	}
+```
+
+

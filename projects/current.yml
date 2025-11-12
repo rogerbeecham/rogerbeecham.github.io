@@ -1,21 +1,35 @@
+- title: MRP-SMART
+  description: "MRP (and Bayesian hierarchical modelling) for de-biased estimates of population outcomes from non-representative smart data."
+  university: University of Leeds and Smart Data Foundry
+  number: 2025-2026
+  url: https://www.roger-beecham.com/mrp-smart/
+  logo: logos/mrp-smart.png
+  funder:
+  - name: EPSRC -- SDRUK
+    url: https://www.sdruk.ukri.org
+
+
+
+- title: PHIRST REACH (Responsive Evaluation and Analytics for Community Health)
+  description: "Multifaceted team delivering high quality, timely, place-based evaluations to inform evidence-based decision making in public health policies/services."
+  university: University of York, Leeds and Bradford Institute for Health Research
+  number: 2025-2030
+  url: https://www.fundingawards.nihr.ac.uk/award/NIHR170113
+  logo: logos/nihr.png
+  funder:
+  - name: NIHR
+    url: https://www.nihr.ac.uk
+
+
 - title: Inspiring Futures for Net Zero (INFUZE)
   description: "Participatory mobility science project building data-enabled tools for transitioning away from individual car ownership."
   university: University of Leeds w/ Royal College of Art and Lancaster University
   number: 2024-2029
   url: https://in-fuze.org.uk/
-  logo: logos/infuze_logo.png
+  logo: logos/infuze.png
   funder:
   - name: EPSRC
-    url: https://in-fuze.org.uk/
+    url: https://www.ukri.org/councils/epsrc/
 
-- title: Navigating the garden of forking paths
-  description: "International team developing foundations for formalising data-driven science practice."
-  university: Alan Turing Institute w/ University of Leeds, University of Warwick (+ others)
-  number: 2024-2025
-  url: https://theory4ida.github.io/tmcf/
-  logo: logos/tmcf.jpg
-  funder:
-  - name: Alan Turing Institute
-    url: https://theory4ida.github.io/tmcf/
 
 
