@@ -10,7 +10,7 @@
 <atom:link href="https://www.roger-beecham.com/rss.xml" rel="self" type="application/rss+xml"/>
 <description>Roger Beecham&#39;s blog</description>
 <language>en</language>
-<generator>quarto-1.6.42</generator>
+<generator>quarto-1.8.26</generator>
 <lastBuildDate>Mon, 24 Mar 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Designing a course logo in {ggplot2}</title>
