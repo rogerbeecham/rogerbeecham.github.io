@@ -7,6 +7,8 @@
     "listing": "/research/index.html",
     "items": [
       "/research/books/vis4sds/index.html",
+      "/research/articles/simulating/index.html",
+      "/research/articles/open/index.html",
       "/research/articles/gridmaps/index.html",
       "/research/articles/openprescribing/index.html",
       "/research/articles/auli/index.html",
@@ -38,14 +40,16 @@
     "listing": "/atom.html",
     "items": [
       "/blog/2025/03/21/odl-logo/index.html",
-      "/blog/2025/03/20/15-min-leeds/index.html"
+      "/blog/2025/03/20/15-min-leeds/index.html",
+      "/blog/2020/04/28/visualizing-the-pandemic/index.html"
     ]
   },
   {
     "listing": "/blog/index.html",
     "items": [
       "/blog/2025/03/21/odl-logo/index.html",
-      "/blog/2025/03/20/15-min-leeds/index.html"
+      "/blog/2025/03/20/15-min-leeds/index.html",
+      "/blog/2020/04/28/visualizing-the-pandemic/index.html"
     ]
   },
   {
@@ -56,7 +60,8 @@
     "listing": "/rss.html",
     "items": [
       "/blog/2025/03/21/odl-logo/index.html",
-      "/blog/2025/03/20/15-min-leeds/index.html"
+      "/blog/2025/03/20/15-min-leeds/index.html",
+      "/blog/2020/04/28/visualizing-the-pandemic/index.html"
     ]
   }
 ]

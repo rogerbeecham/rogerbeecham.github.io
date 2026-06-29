@@ -10,7 +10,7 @@
 <atom:link href="https://www.roger-beecham.com/atom.xml" rel="self" type="application/rss+xml"/>
 <description>Roger Beecham&#39;s blog</description>
 <language>en</language>
-<generator>quarto-1.8.26</generator>
+<generator>quarto-1.9.38</generator>
 <lastBuildDate>Mon, 24 Mar 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Designing a course logo in {ggplot2}</title>
@@ -730,10 +730,9 @@ Beecham, Roger. 2025. <span>“Designing a Course Logo in
 </div>
 </div>
 </div>
-</section>
-<section id="reordering-neighbourhoods-by-attitudes-to-switching" class="level3">
-<h3 class="anchored" data-anchor-id="reordering-neighbourhoods-by-attitudes-to-switching">Reordering neighbourhoods by attitudes to switching</h3>
-<p>TODO : MRP on NTAS and represent using ordering on propensity to shift. Problem: NTAS wave 1 has: To what extent <em>I am willing to reduce the amount I travel by car?</em>. But only that wave ~1500 respondents. Other surveys?</p>
+<!-- ## Reordering neighbourhoods by attitudes to switching 
+
+TODO : MRP on NTAS and represent using ordering on propensity to shift. Problem: NTAS wave 1 has: To what extent *I am willing to reduce the amount I travel by car?*. But only that wave ~1500 respondents. Other surveys? -->
 </section>
 <section id="some-caveats-on-a-contrived-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="some-caveats-on-a-contrived-analysis">Some caveats on a contrived analysis</h3>
@@ -783,6 +782,33 @@ Through Tweaking the Transport System?”</span> March 19, 2025. <a href="https:
   <guid>https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/</guid>
   <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
   <media:content url="https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/access_non.png" medium="image" type="image/png" height="131" width="144"/>
+</item>
+<item>
+  <title>Visualizing the Pandemic</title>
+  <dc:creator>Roger Beecham</dc:creator>
+  <link>https://www.roger-beecham.com/blog/2020/04/28/visualizing-the-pandemic/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are constantly told, and those of us in data-driven domains may earnestly tell ourselves, that new data, new technology and new ways of doing science are transforming how we approach the world’s problems. I generally cringe at this sort of guff. The whole “data is the new oil” speak has long past its peak. But it’s difficult to disagree that, over a pretty short timespan, access to data, and more importantly access to tools for working with data, has grown remorselessly. I’ve nothing to verify this claim, but I bet the volume and quality of data analysis around the 2008 crash was nothing like that for the current pandemic. Enter “Covid19 github” into a search and you’ll be confronted with hundreds of repositories demonstrating how a bewildering array of data related to the pandemic can be collected, processed and analysed.</p>
+<p>This is great. There’s a (slightly nerdy) constituency of people using freely available data to hold governments and decision-makers to account. And as a self-proclaimed data vis person I was initially enthused about coding data graphics for communicating exponential growth, log scales, variation in model ensembles and, inevitably, some snazzy animated maps of disease spread. I’ve nevertheless resisted this urge, at least for now. Two reasons: 1. it’s easy to make mistakes, <a href="https://twitter.com/EvanMPeck/status/1235568532840120321?s=20">especially when creating maps</a>; and 2. a handful of data journalists are currently doing this science communication incredibly well. There are of course outliers, and it’ll be great to refresh my showcase of Fox News fails for next year’s teaching with <a href="https://www.statschat.org.nz/wp-content/uploads/2020/04/fox-axis.jpeg">this beauty</a> (y-axis!! – how is this even possible?). Anyway, here’s a quick round-up of the more impressive work I’ve seen and some thoughts on challenges.</p>
+<p>On the empirical (cases and deaths) data, best in class goes to the FT’s <a href="https://twitter.com/jburnmurdoch/status/1253459733073334272">John Burn-Murdoch</a> (non-paywalled equivalent presented with humility by <a href="https://blog.datawrapper.de/coronaviruscharts/">Lisa Charlotte-Rost</a>). I’m sure many of you have seen this, but it compares daily growth in deaths between countries, expressed as a 7-day rolling average. Each country has a common start point in terms of disease presence, rather than absolute time. And because growth is exponential a log-scale is used, with annotation lines providing useful reference-points (deaths doubling every day, week, month). A trawl through John’s twitter thread reveals some fierce criticism of this sort of direct comparison. Transmission rates are confounded with a country’s population size and density, busyness/connectivity and death rates by underlying demographics. All valid (though the population size critique <a href="https://twitter.com/JonMinton/status/1239832173450010624">can be rebuffed</a>) – and this is before factoring differences in how cases and deaths are recorded between countries. Nevertheless, with different governments instituting different forms of lockdown, these sorts of between country- within-region comparisons seem important.</p>
+<p>There have of course been many other variants of between-country comparison, some introducing graphical variety for the sake of it, which is a common pitfall in visualization design. <a href="https://twitter.com/romsson/status/1249429612737724419/photo/1">Romain Viellemot’s</a> is an exception and nicely uses layout and angle to emphasise variation in the speed at which country-level death “milestones” have been reached. There are also different forms of empirical data and I’ve noticed a few data vis fails in high-profile publications here. Euler diagrams are rarely ever successful, but somehow found their way into a <a href="https://www.nature.com/articles/d41586-020-00154-w">Nature News</a> article to analyse co-occurrence of symptoms reported by 1.5 million in the UK using a smartphone app. <a href="https://twitter.com/ngehlenborg/status/1250307095200555015">Nils Gehlenborg’s</a> take-down of this is excellent, especially so since he provides comprehensive documentation and an array of lightweight tools (Python, R and Vega-Lite) for implementing his <a href="http://upset.plus/covid19symptoms/">UpSet alternative</a>.</p>
+<p>A separate class of early-Covid data vis activity was on representing data produced by models – remember all that <a href="https://www.nytimes.com/article/flatten-curve-coronavirus.html">curve flattening</a> talk? My favourite here, and a really excellent use of animation, is by Washington Post’s <a href="https://www.washingtonpost.com/graphics/2020/world/corona-simulator/">Harry Stevens</a>. The purpose of all this was to persuade us on social distancing – that there could be a range of Covid-realities, which we as responsible citizens have agency in affecting. It’s important to remember that this is essentially based on a set of assumptions about an unknown disease on which there is (or was) relatively little empirical data. Something for those of us working in data vis to think about is therefore not only conveying the different estimated risks (or Covid-realities) derived under different model scenarios but also a sense of the uncertainty associated with those risks. Tricky statistical concepts that I’ve yet to see addressed in the Covid data vis, and I’d recommend reading <a href="https://twitter.com/mjskay/status/1245917296796688384">Matt Kay’s</a> thoughts on this.</p>
+<p>Alarmingly I’m well beyond the 500-word watermark already and so won’t reveal too much more of my recent browsing history. My view is that the excess mortality data – how many more deaths there are over a specific time range than would be expected – will now become increasingly prominent for quantifying the impact and collateral damage of the virus, particularly second-order effects. The recent releases of these data make for grim reading, but are necessary right now for <a href="https://medium.com/wintoncentre/covid-and-excess-deaths-in-the-week-ending-april-10th-20ca7d355ec4">evaluating lockdown</a> as a policy.</p>
+
+
+
+ ]]></description>
+  <category>data visualization</category>
+  <category>Covid-19</category>
+  <category>data journalism</category>
+  <guid>https://www.roger-beecham.com/blog/2020/04/28/visualizing-the-pandemic/</guid>
+  <pubDate>Tue, 28 Apr 2020 00:00:00 GMT</pubDate>
+  <media:content url="https://www.roger-beecham.com/blog/2020/04/28/visualizing-the-pandemic/cum_deaths.png" medium="image" type="image/png" height="113" width="144"/>
 </item>
 </channel>
 </rss>
