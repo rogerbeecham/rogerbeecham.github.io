@@ -2,8 +2,18 @@
   description: "Machine learning, spatial microsimulation and agent-based modelling for analysing cosumer behaviour"
   university: University of Leeds
   number: GEOG 5927
-  url: https://www.roger-beecham.com/teaching
+  url: https://www.roger-beecham.com/predictive-analytics/
   logo: logos/pa.png
   semester:
   - name: Spring 2018--2022
-    url: https://www.roger-beecham.com/teaching
+    url: https://www.roger-beecham.com/predictive-analytics/
+
+- title: Data Science practicals in R
+  description: "Practical exercises in R for data science and spatial analysis"
+  university: City, University of London
+  number: 
+  url: https://www.roger-beecham.com/data-science-practicals/
+  logo: 
+  semester: 
+  - name: Spring 2017
+    url: https://www.roger-beecham.com/data-science-practicals/
