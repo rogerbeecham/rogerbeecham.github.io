@@ -1,0 +1,74 @@
+---
+title: "Simulating area-Level population outcomes: Should we use Multilevel Regression and Poststratification over Spatial Microsimulation?"
+date: 2026-06-25
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Stephen Clark
+    url: https://environment.leeds.ac.uk/geography/staff/1016/dr-stephen-clark
+    orcid: 0000-0003-4090-6002
+    affiliation: School of Geography, University of Leeds
+  - name: Jose Pina-Sánchez
+    url: https://jmpinasanchez.github.io
+    orcid: 0000-0002-9416-6022
+    affiliation: School of Law, University of Leeds
+categories: 
+  - Bayesian modelling
+  - uncertainty analysis
+  - regularisation
+  - multilevel modelling
+  - small-area estimation
+  - health geography
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong>, Stephen Clark and <a href="https://jmpinasanchez.github.io">Jose Pina-Sánchez</a> (2026) “Simulating area-Level population outcomes: Should we use Multilevel Regression and Poststratification over Spatial Microsimulation?”, <em>Geographical Analysis</em>, doi: <a href="https://doi.org/10.1111/gean.70049"><code>10.1111/gean.70049</code></a>
+  links:
+    - name: Final version
+      url: https://onlinelibrary.wiley.com/doi/10.1111/gean.70049
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/rogerbeecham/mrp-sae
+      icon: fa-brands fa-github
+    - name: Data
+      url: "#data-and-code"
+      icon: fa-solid fa-table
+
+doi: 10.1111/gean.70049
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://onlinelibrary.wiley.com/doi/10.1111/gean.70049)
+- [GitHub repository](https://github.com/rogerbeecham/mrp-sae)
+
+
+## Abstract
+
+Estimating unknown outcomes at small-area population level is a routine task in spatial analysis. We demonstrate how multilevel regression and poststratification (MRP), widely used in political polling, overcomes some deficiencies in spatial microsimulation (SPM), the de facto approach in quantitative geography. Using individual-level data from the Health Survey for England and population-level data from the 2021 UK Census, we evaluate MRP and SPM at estimating two known health outcomes that occur with high and low frequency in the population. With few SPM constraints, covariates in MRP, there are only slight differences in estimation between the two approaches. With more constraints, extreme errors in the SPM estimates begin to accumulate, and these are particularly pronounced for the low-frequency outcome. Additionally, where uncertainty ranges from MRP posteriors begin to widen we find they map to absolute errors, providing a useful validity check when the true population distribution is unknown. This is the first direct comparison of MRP and SPM for small-area estimation. Alongside metrics for evaluating estimates, we highlight the value of non-compositional area-level variables that may constrain outcomes or capture varying processes over spatial units, and of a principled approach to model specification and uncertainty quantification—both central to MRP practice.
+
+
+## Important figures
+
+![Summary of model performance in MRP and SPM for simulated estimates of self-reported good health at MSOA level. Plot row labels identify the different model specifications—variables used as covariates in MRP and constraints in SPM.](featured.png)
+
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_simulating_2026,
+	author = {Beecham, R., Clark, S. and Pina-Sánchez, J.},
+	doi = {10.1111/gean.70049},
+  jounral = {Geographical Analysis},
+	title = {Simulating area-Level population outcomes: Should we use Multilevel Regression and Poststratification over Spatial Microsimulation?},
+volume = {58},
+number = {3},
+pages = {e70049},
+year = {2026}
+}
+
+```
+
+

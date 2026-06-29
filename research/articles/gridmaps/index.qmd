@@ -23,7 +23,7 @@ categories:
   - flow maps
 pub-info:
   reference: >-
-    <strong>Roger Beecham</strong>,Martijn Tennekes and Jo Wood (2025) “gridmappr: An R package for creating small multiple gridmap layouts”, <em>Environment & Planning B: Urban Analytics and City Science</em>, doi: <a href="https://doi.org/10.1177/23998083251374737"><code>10.1177/23998083251374737</code></a>
+    <strong>Roger Beecham</strong>,Martijn Tennekes and Jo Wood (2026) “gridmappr: An R package for creating small multiple gridmap layouts”, <em>Environment & Planning B: Urban Analytics and City Science</em>, doi: <a href="https://doi.org/10.1177/23998083251374737"><code>10.1177/23998083251374737</code></a>
   links:
     - name: Final version
       url: https://doi.org/10.1177/23998083251374737
@@ -56,16 +56,18 @@ We present gridmappr, an R package that automates the process of generating grid
 ## BibTeX citation
 
 ```bibtex
-@article{beecham_gridmappr_2025,
+@article{beecham_gridmappr_2026,
 	author = {Roger Beecham and Martijn Tennekes and Jo Wood},
 	doi = {10.1177/23998083251374737},
 	publisher={Environment and Planning B: Urban Analytics and City Science},
 	title={gridmappr: An R package for creating small multiple gridmap layouts},
-  volume = {},
-  number = {},
-  pages = {},
-	year = {2025}
+  volume = {53},
+  number = {3},
+  pages = {487--493},
+	year = {2026}
 	}
 ```
+
+
 
 

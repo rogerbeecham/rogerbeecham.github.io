@@ -1,4 +1,4 @@
-description-meta: "{{< meta website.description >}}"
+description-meta: "{{< var description >}}"
 
 # Date format
 date-format: "MMMM YYYY"

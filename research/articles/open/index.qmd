@@ -1,0 +1,42 @@
+---
+title: "Open spatial science as routine practice: Urban Data/Code contributions from GISRUK 2024"
+date: 2026-04-01
+author:
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: Dani Arribas-Bel
+    url: https://darribas.org
+    orcid: 
+    affiliation: Department of Geography & Planning, University of Liverpool
+categories: 
+  - reproducibility
+pub-info:
+  reference: >-
+    <strong>Roger Beecham</strong> and Dani Arribas-Bel (2026) “Open spatial science as routine practice: Urban Data/Code contributions from GISRUK 2024”, <em>Environment & Planning B: Urban Analytics and City Science</em>, doi: <a href="https://doi.org/10.1177/23998083261431404"><code>10.1177/23998083261431404</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1177/23998083261431404
+      icon: fa-solid fa-scroll
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://doi.org/10.1177/23998083261431404)
+
+
+## BibTeX citation
+
+```bibtex
+@article{beecham_gridmappr_2025,
+	author = {Roger Beecham and Dani Arribas-Bel},
+	doi = {10.1177/23998083261431404},
+	publisher={Environment and Planning B: Urban Analytics and City Science},
+	title={Open spatial science as routine practice: Urban Data/Code contributions from GISRUK 2024},
+  volume = {53},
+  number = {3},
+  pages = {482--486},
+	year = {2026}
+	}
+```

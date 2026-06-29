@@ -1,12 +1,12 @@
 ---
 title: Curriculum vitæ
 description-meta: "{{< var description >}}"
-date: 2025-11-12
+date: 2026-06-24
 title-block-banner: "#274033"
 published-title: CV last updated
 engine: knitr 
 cv:
-  pdf: "2025-11_roger-beecham-cv.pdf"
+  pdf: "2026-06_roger-beecham-cv.pdf"
 ---
 
 ```{css echo=FALSE}

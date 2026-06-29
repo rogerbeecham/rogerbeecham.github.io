@@ -1,23 +1,26 @@
 ---
 title: What I'm doing now
-date: 2025-11-12
+date: 2026-06-23
 description-meta: "{{< var description >}}"
 published-title: Last updated
 title-block-banner: "#274033"
 toc: false
 ---
 
-As of November 2025, I am focussing on:
+As of June 2026, I am focussing on:
 
 **Projects**
 
-- Starting as PI on an ESRC-funded grant, [MRP-SMART](https://www.roger-beecham.com/mrp-smart/proposal/), a collaboration with [FINDS](https://smartdatafoundry.com/solutions/financial-data-service). We'll produce code and data products that apply MRP (and Bayesian hierarchical modelling) to generate de-biased estimates of population outcomes from non-representative smart data.
--  The EPSRC-funded [INFUZE](https://in-fuze.org.uk/) programme led by [Greg Mardsen](https://environment.leeds.ac.uk/transport/staff/958/professor-greg-marsden). I'm working with some excellent PDRAs and PGRs on developing and communicating data-driven models that simulate and evaluate policy interventions to reduce car dependency.
+- My ESRC-funded grant, [MRP-SMART](https://www.roger-beecham.com/mrp-smart/proposal/), a collaboration with [FINDS](https://smartdatafoundry.com/solutions/financial-data-service). We're producing code and data products that apply MRP (and Bayesian hierarchical modelling) to generate de-biased estimates of population outcomes from non-representative smart data.
+-  The EPSRC-funded [INFUZE](https://in-fuze.org.uk/) programme grant led by [Greg Mardsen](https://environment.leeds.ac.uk/transport/staff/958/professor-greg-marsden). I'm working with some excellent PDRAs and PGRs on developing and communicating data-driven models that simulate and evaluate policy interventions to reduce car dependency.
 - The NIHR-funded [PHIRST REACH](https://www.fundingawards.nihr.ac.uk/award/NIHR170113), a 5-year programme in which we perform quantitative impact evaluations on public health interventions related to transport and the environment.
 
-**Larger papers**
+**Workshops / Themed research**
 
--  Follow-up work from my [Turing Methods Challenge Fortnight](https://theory4ida.github.io/tmcf/), with [Cagatay Turkay](https://warwick.ac.uk/fac/cross_fac/cim/people/cagatay-turkay/). Coming soon is our paper on [***WIDE*** *data analysis*](https://theory4ida.github.io/tmcf/files/slides/workshop.html#/27) -- and a call for Expressions of Interest for our linked Special Issue. 
+-  Follow-up work from my [Turing Methods Challenge Fortnight](https://theory4ida.github.io/tmcf/), with [Cagatay Turkay](https://warwick.ac.uk/fac/cross_fac/cim/people/cagatay-turkay/). Coming soon is our paper on [***WIDE*** *data analysis*](https://theory4ida.github.io/tmcf/files/slides/workshop.html#/27).
+
+- After the success of our [2025 Cars & Crime Symposium](https://essl.leeds.ac.uk/law/news/article/2276/the-cars-and-crime-symposium), we have a follow-on Symposium ([here](https://jmpinasanchez.github.io/static/Programme%20and%20abstracts_15thMay.pdf)) with various exciting papers in preparation -- e.g. [The Road Violence Toll Of Urban Sprawl](https://osf.io/preprints/socarxiv/skcfr_v2).
+
 
 **Supervision**
 
@@ -25,18 +28,17 @@ As of November 2025, I am focussing on:
 -  [Juliana Novaes Bueno de Camargo](https://environment.leeds.ac.uk/geography/pgr/11302/juliana-novaes) (w/ [Dan Birks](https://essl.leeds.ac.uk/law/staff/261/dr-daniel-birks))
 - [Seán Ó Héir](https://sohanseth.github.io/author/sean-o-heir/) (w/ [Sohan Seth](https://sohanseth.github.io/) and [Gary Watmough](https://www.research.ed.ac.uk/en/persons/gary-watmough))
 - [Feiyang Ren](https://environment.leeds.ac.uk/geography/pgr/21520/feiyang-ren) (w/ [Ed Manley](https://mobscilab.com/people/ed-manley/)) 
+- [Youlong Gu](https://environment.leeds.ac.uk/pgr/21655/youlong-gu) (w/ [Ed Manley](https://mobscilab.com/people/ed-manley/)) 
 
 <!-- and several follow-up projects with [Caroline Tait](https://environment.leeds.ac.uk/geography/pgr/2474/caroline-tait) ([`@troublestrife`](https://twitter.com/troublestrife)). -->
 
-**Leadership**
+<!-- **Leadership**
 
--  Various exciting projects and initiatives as Director of Research & Innovation at [Leeds Institute for Data Analytics](https://lida.leeds.ac.uk/).
--  Work as Programme Lead on [GISc ODL](https://courses.leeds.ac.uk/d985/geographical-information-science-msc) at Leeds SoG
+-  Work as Programme Lead on [GISc ODL](https://courses.leeds.ac.uk/d985/geographical-information-science-msc) at Leeds SoG -->
 
 **Teaching**
 
-- [GEOG5009](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&M=GEOG-5009M),
- [GEOG5022](https://webprod3.leeds.ac.uk/catalogue/dynmodules.asp?Y=202324&M=GEOG-5022M) 
-and [Course 1R -- Essex Summer School](https://essexsummerschool.com/summer-school-facts/courses/ess-2025-course-list/1R/).
+- [GEOG5009](https://catalogue.leeds.ac.uk/Module/TP/GEOG/5009M/202526),
+[Course 1R -- Essex Summer School](https://essexsummerschool.com/summer-school-facts/courses/ess-2025-course-list/1R/) and my upcoming UG vis module [GEOG3965](https://catalogue.leeds.ac.uk/Module/UG/GEOG/3965/202627).
 
  <!-- <br> {{< fa bullhorn size=large >}} We're recruiting [2x postdocs](https://in-fuze.org.uk/research-at-infuze/) and 2x [fully-funded PhDs](https://in-fuze.org.uk/research-at-infuze/). -->

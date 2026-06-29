@@ -13,3 +13,5 @@ docs
 CNAME
 .DS_Store
 
+
+**/*.quarto_ipynb

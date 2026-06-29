@@ -8,6 +8,11 @@ listing:
     sort: "date desc"
     template: ../html/blog/listing.ejs
     categories: true
+  - id: posts_2020
+    contents: "2020/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    categories: true
 page-layout: full
 toc-title: Year
 toc-location: right
@@ -16,6 +21,8 @@ code-tools: false
 comments: false
 title-block-banner: "#32251f"
 ---
+
+
 
 <!-- ```{css, echo=FALSE}
 #title-block-header .description {
@@ -26,4 +33,10 @@ title-block-banner: "#32251f"
 ## 2025
 
 :::{#posts_2025}
+:::
+
+
+## 2020
+
+:::{#posts_2020}
 :::
