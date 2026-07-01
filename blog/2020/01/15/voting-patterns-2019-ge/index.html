@@ -28,28 +28,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//files/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-9de9f6925d305bcf5b7eb9351f368d06.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-67f0d37af992fd666b47db6cece04c87.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../">
+<link href="../../../../..//files/favicon.png" rel="icon" type="image/png">
+<script src="../../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-9de9f6925d305bcf5b7eb9351f368d06.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap-67f0d37af992fd666b47db6cece04c87.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,83 +75,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
+      .quarto-title-block .quarto-title-banner {
+        background: #32251f;
       }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+</style>
 
-<link rel="alternate" type="application/rss+xml" title="Roger Beecham's blog" href="rss.xml" data-external="1"><meta name="twitter:title" content="Roger Beecham">
-<meta name="twitter:image" content="https://www.roger-beecham.com/files/profiles/profile.png">
+
+<meta property="og:title" content="Roger Beecham">
+<meta property="og:description" content="RGS geovisualisation explainer on UK 2019 General Election voting patterns.">
+<meta property="og:image" content="https://www.roger-beecham.com/blog/2020/01/15/voting-patterns-2019-ge/con_lab_swing.png">
+<meta property="og:site_name" content="Roger Beecham">
+<meta property="og:image:height" content="3561">
+<meta property="og:image:width" content="5905">
+<meta name="twitter:title" content="Roger Beecham">
+<meta name="twitter:description" content="RGS geovisualisation explainer on UK 2019 General Election voting patterns.">
+<meta name="twitter:image" content="https://www.roger-beecham.com/blog/2020/01/15/voting-patterns-2019-ge/con_lab_swing.png">
 <meta name="twitter:creator" content="@rjbeecham">
 <meta name="twitter:site" content="@rjbeecham">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="872">
-<meta name="twitter:image-width" content="665">
+<meta name="twitter:image-height" content="3561">
+<meta name="twitter:image-width" content="5905">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../../../index.html">
     <span class="navbar-title">Roger Beecham</span>
     </a>
   </div>
@@ -164,37 +117,37 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv/index.html"> 
+    <a class="nav-link" href="../../../../../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html"> 
+    <a class="nav-link" href="../../../../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../../../../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching/index.html"> 
+    <a class="nav-link" href="../../../../../teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./now/index.html"> 
+    <a class="nav-link" href="../../../../../now/index.html"> 
 <span class="menu-text">Now</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./atom.xml"> 
+    <a class="nav-link" href="../../../../../atom.xml"> 
 <span class="menu-text"><iconify-icon role="img" inline="" icon="bi:rss" style="font-size: 1.1em;" aria-label="Icon rss from bi Iconify.design set." title="RSS"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
@@ -221,191 +174,69 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Roger Beecham’s blog</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<header id="title-block-header" class="quarto-title-block default blog-post page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Voting patterns in the 2019 general election</h1>
+                  <div>
+        <div class="description">
+          RGS geovisualisation explainer on UK 2019 General Election voting patterns.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">political geography</div>
+                <div class="quarto-category">data visualization</div>
+                <div class="quarto-category">elections</div>
+              </div>
+                  </div>
   </div>
+    
   
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://www.roger-beecham.com/">Roger Beecham</a> <a href="https://orcid.org/0000-0001-8563-7251" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Wednesday, January 15, 2020</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</header>
 
 
 
+<meta http-equiv="refresh" content="0; url=https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election">
+<script>
+  window.location.replace("https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election");
+</script>
+<p>Redirecting to the RGS page. If you are not redirected, <a href="https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election">click here</a>.</p>
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Z2dwbG90JTJDb3NtJTIwZGF0YQ==" data-listing-date-sort="1742774400000" data-listing-file-modified-sort="1782914538519" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1008">
-<div class="thumbnail"><a href="./blog/2025/03/21/odl-logo/index.html" class="no-external">
-
-<img loading="lazy" src="./blog/2025/03/21/odl-logo/odl_logo.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2025/03/21/odl-logo/index.html" class="no-external">Designing a course logo in {ggplot2}</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2025/03/21/odl-logo/index.html" class="no-external">
-<p>I’ve recently started as Programme Lead on our GIScience Distance Learning MSc. Naturally I spent some time playing around with logos. Here’s my attempt using {ggplot2} + {sf}, data via {osmdata}.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2025/03/21/odl-logo/index.html" class="no-external">
-<div class="listing-date">
-Mar 24, 2025
-</div>
-<div class="listing-author">
-Roger Beecham
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="YWdlbnQlMjBiYXNlZCUyMG1vZGVscyUyQ2pvdXJuZXklMjB0aW1lJTIwc3RhdGlzdGljcyUyQ25hdGlvbmFsJTIwdHJhdmVsJTIwYXR0aXR1ZGVzJTIwc3VydmV5JTJDZ2dwbG90" data-listing-date-sort="1742342400000" data-listing-file-modified-sort="1782914538512" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1193">
-<div class="thumbnail"><a href="./blog/2025/03/20/15-min-leeds/index.html" class="no-external">
-
-<img loading="lazy" src="./blog/2025/03/20/15-min-leeds/access_non.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2025/03/20/15-min-leeds/index.html" class="no-external">Can we achieve transformational change through tweaking the transport system?</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2025/03/20/15-min-leeds/index.html" class="no-external">
-<p>The agent-based models we’re building through Infuze will help us explore how alternatives to the private car can meet everyday travel needs. But we need to design into them quite slippery things – like social learning, interactions between environmental context, personal circumstances and values – if we want to model transformational change.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2025/03/20/15-min-leeds/index.html" class="no-external">
-<div class="listing-date">
-Mar 19, 2025
-</div>
-<div class="listing-author">
-Roger Beecham
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="QUklMkNhdXRvbWF0ZWQlMjBhbmFseXNpcyUyQ2ludGVncmF0aXZlJTIwbW9kZWxsaW5n" data-listing-date-sort="1719273600000" data-listing-file-modified-sort="1782914538511" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="./blog/2024/06/25/tmcf-models/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2024/06/25/tmcf-models/index.html" class="no-external">Some risks and opportunities of automated data analysis</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2024/06/25/tmcf-models/index.html" class="no-external">
-<p>Some thoughts arising from our TMCF 2024 workshop at the Alan Turing Institute.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2024/06/25/tmcf-models/index.html" class="no-external">
-<div class="listing-date">
-Jun 25, 2024
-</div>
-<div class="listing-author">
-Roger Beecham
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNDb3ZpZC0xOSUyQ2RhdGElMjBqb3VybmFsaXNt" data-listing-date-sort="1588032000000" data-listing-file-modified-sort="1782914538511" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="818">
-<div class="thumbnail"><a href="./blog/2020/04/28/visualizing-the-pandemic/index.html" class="no-external">
-
-<img loading="lazy" src="./blog/2020/04/28/visualizing-the-pandemic/cum_deaths.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2020/04/28/visualizing-the-pandemic/index.html" class="no-external">Visualizing the Pandemic</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2020/04/28/visualizing-the-pandemic/index.html" class="no-external">
-<p>An overview and commentary on the data analyst community’s response to the emerging Covid-19 pandemic.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2020/04/28/visualizing-the-pandemic/index.html" class="no-external">
-<div class="listing-date">
-Apr 28, 2020
-</div>
-<div class="listing-author">
-Roger Beecham
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="cG9saXRpY2FsJTIwZ2VvZ3JhcGh5JTJDZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNlbGVjdGlvbnM=" data-listing-date-sort="1579046400000" data-listing-file-modified-sort="1782914538508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="./blog/2020/01/15/voting-patterns-2019-ge/index.html" class="no-external">
-
-<img loading="lazy" src="./blog/2020/01/15/voting-patterns-2019-ge/con_lab_swing.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2020/01/15/voting-patterns-2019-ge/index.html" class="no-external">Voting patterns in the 2019 general election</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2020/01/15/voting-patterns-2019-ge/index.html" class="no-external">
-<p>RGS geovisualisation explainer on UK 2019 General Election voting patterns.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2020/01/15/voting-patterns-2019-ge/index.html" class="no-external">
-<div class="listing-date">
-Jan 15, 2020
-</div>
-<div class="listing-author">
-Roger Beecham
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="ZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNzcGF0aWFsJTIwYW5hbHlzaXMlMkNnZ3Bsb3Qy" data-listing-date-sort="1530835200000" data-listing-file-modified-sort="1782914538498" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="./blog/2018/07/06/od-vis-frameworks-part-1/index.html" class="no-external">
-
-<img loading="lazy" src="./blog/2018/07/06/od-vis-frameworks-part-1/map_map.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2018/07/06/od-vis-frameworks-part-1/index.html" class="no-external">Upgrading spatial analysis of Origin-Destination data using modern vis frameworks, part 1 of 2</a>
-</h3>
-<div class="delink listing-description"><a href="./blog/2018/07/06/od-vis-frameworks-part-1/index.html" class="no-external">
-<p>Spatially arranged Beziers and OD-matrices in ggplot2.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog/2018/07/06/od-vis-frameworks-part-1/index.html" class="no-external">
-<div class="listing-date">
-Jul 6, 2018
-</div>
-<div class="listing-author">
-Roger Beecham
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

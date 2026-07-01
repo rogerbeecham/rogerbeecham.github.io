@@ -784,6 +784,31 @@ Through Tweaking the Transport System?”</span> March 19, 2025. <a href="https:
   <media:content url="https://www.roger-beecham.com/blog/2025/03/20/15-min-leeds/access_non.png" medium="image" type="image/png" height="131" width="144"/>
 </item>
 <item>
+  <title>Some risks and opportunities of automated data analysis</title>
+  <dc:creator>Roger Beecham</dc:creator>
+  <link>https://www.roger-beecham.com/blog/2024/06/25/tmcf-models/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<meta http-equiv="refresh" content="0; url=https://theory4ida.github.io/tmcf/posts/01-models/">
+<script>
+  window.location.replace("https://theory4ida.github.io/tmcf/posts/01-models/");
+</script>
+<p>Redirecting to the TMCF post. If you are not redirected, <a href="https://theory4ida.github.io/tmcf/posts/01-models/">click here</a>.</p>
+
+
+
+ ]]></description>
+  <category>AI</category>
+  <category>automated analysis</category>
+  <category>integrative modelling</category>
+  <guid>https://www.roger-beecham.com/blog/2024/06/25/tmcf-models/</guid>
+  <pubDate>Tue, 25 Jun 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Visualizing the Pandemic</title>
   <dc:creator>Roger Beecham</dc:creator>
   <link>https://www.roger-beecham.com/blog/2020/04/28/visualizing-the-pandemic/</link>
@@ -809,6 +834,58 @@ Through Tweaking the Transport System?”</span> March 19, 2025. <a href="https:
   <guid>https://www.roger-beecham.com/blog/2020/04/28/visualizing-the-pandemic/</guid>
   <pubDate>Tue, 28 Apr 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.roger-beecham.com/blog/2020/04/28/visualizing-the-pandemic/cum_deaths.png" medium="image" type="image/png" height="113" width="144"/>
+</item>
+<item>
+  <title>Voting patterns in the 2019 general election</title>
+  <dc:creator>Roger Beecham</dc:creator>
+  <link>https://www.roger-beecham.com/blog/2020/01/15/voting-patterns-2019-ge/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<meta http-equiv="refresh" content="0; url=https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election">
+<script>
+  window.location.replace("https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election");
+</script>
+<p>Redirecting to the RGS page. If you are not redirected, <a href="https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election">click here</a>.</p>
+
+
+
+ ]]></description>
+  <category>political geography</category>
+  <category>data visualization</category>
+  <category>elections</category>
+  <guid>https://www.roger-beecham.com/blog/2020/01/15/voting-patterns-2019-ge/</guid>
+  <pubDate>Wed, 15 Jan 2020 00:00:00 GMT</pubDate>
+  <media:content url="https://www.roger-beecham.com/blog/2020/01/15/voting-patterns-2019-ge/con_lab_swing.png" medium="image" type="image/png" height="87" width="144"/>
+</item>
+<item>
+  <title>Upgrading spatial analysis of Origin-Destination data using modern vis frameworks, part 1 of 2</title>
+  <dc:creator>Roger Beecham</dc:creator>
+  <link>https://www.roger-beecham.com/blog/2018/07/06/od-vis-frameworks-part-1/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<meta http-equiv="refresh" content="0; url=https://medium.com/@roger.beecham.231/upgrading-spatial-analysis-of-origin-destination-data-using-modern-vis-frameworks-part-1-of-2-ee1c6481a595">
+<script>
+  window.location.replace("https://medium.com/@roger.beecham.231/upgrading-spatial-analysis-of-origin-destination-data-using-modern-vis-frameworks-part-1-of-2-ee1c6481a595");
+</script>
+<p>Redirecting to the Medium post. If you are not redirected, <a href="https://medium.com/@roger.beecham.231/upgrading-spatial-analysis-of-origin-destination-data-using-modern-vis-frameworks-part-1-of-2-ee1c6481a595">click here</a>.</p>
+
+
+
+ ]]></description>
+  <category>data visualization</category>
+  <category>spatial analysis</category>
+  <category>ggplot2</category>
+  <guid>https://www.roger-beecham.com/blog/2018/07/06/od-vis-frameworks-part-1/</guid>
+  <pubDate>Fri, 06 Jul 2018 00:00:00 GMT</pubDate>
+  <media:content url="https://www.roger-beecham.com/blog/2018/07/06/od-vis-frameworks-part-1/map_map.png" medium="image" type="image/png" height="62" width="144"/>
 </item>
 </channel>
 </rss>
