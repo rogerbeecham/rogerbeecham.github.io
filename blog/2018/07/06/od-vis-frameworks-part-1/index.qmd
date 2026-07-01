@@ -1,0 +1,29 @@
+---
+title: "Upgrading spatial analysis of Origin-Destination data using modern vis frameworks, part 1 of 2"
+date: 2018-07-06
+description: "Spatially arranged Beziers and OD-matrices in ggplot2."
+title-block-banner: "#32251f"
+
+categories:
+  - data visualization
+  - spatial analysis
+  - ggplot2
+
+image: map_map.png
+twitter-card: 
+    image: "map_map.png"
+open-graph: 
+    image: "map_map.png"
+
+format:
+  html:
+    shift-heading-level-by: 1
+---
+
+```{=html}
+<meta http-equiv="refresh" content="0; url=https://medium.com/@roger.beecham.231/upgrading-spatial-analysis-of-origin-destination-data-using-modern-vis-frameworks-part-1-of-2-ee1c6481a595">
+<script>
+  window.location.replace("https://medium.com/@roger.beecham.231/upgrading-spatial-analysis-of-origin-destination-data-using-modern-vis-frameworks-part-1-of-2-ee1c6481a595");
+</script>
+<p>Redirecting to the Medium post. If you are not redirected, <a href="https://medium.com/@roger.beecham.231/upgrading-spatial-analysis-of-origin-destination-data-using-modern-vis-frameworks-part-1-of-2-ee1c6481a595">click here</a>.</p>
+```

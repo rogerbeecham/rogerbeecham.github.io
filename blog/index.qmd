@@ -8,8 +8,18 @@ listing:
     sort: "date desc"
     template: ../html/blog/listing.ejs
     categories: true
+  - id: posts_2024
+    contents: "2024/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    categories: true
   - id: posts_2020
     contents: "2020/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    categories: true
+  - id: posts_2018
+    contents: "2018/**/index.qmd"
     sort: "date desc"
     template: ../html/blog/listing.ejs
     categories: true
@@ -36,7 +46,19 @@ title-block-banner: "#32251f"
 :::
 
 
+## 2024
+
+:::{#posts_2024}
+:::
+
+
 ## 2020
 
 :::{#posts_2020}
+:::
+
+
+## 2018
+
+:::{#posts_2018}
 :::

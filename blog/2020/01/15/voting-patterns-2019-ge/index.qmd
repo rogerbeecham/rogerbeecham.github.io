@@ -1,0 +1,29 @@
+---
+title: "Voting patterns in the 2019 general election"
+date: 2020-01-15
+description: "RGS geovisualisation explainer on UK 2019 General Election voting patterns."
+title-block-banner: "#32251f"
+
+categories:
+  - political geography
+  - data visualization
+  - elections
+
+image: con_lab_swing.png
+twitter-card: 
+    image: "con_lab_swing.png"
+open-graph: 
+    image: "con_lab_swing.png"
+
+format:
+  html:
+    shift-heading-level-by: 1
+---
+
+```{=html}
+<meta http-equiv="refresh" content="0; url=https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election">
+<script>
+  window.location.replace("https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election");
+</script>
+<p>Redirecting to the RGS page. If you are not redirected, <a href="https://www.rgs.org/about-us/what-is-geography/geovisualisation/voting-patterns-in-the-2019-general-election">click here</a>.</p>
+```

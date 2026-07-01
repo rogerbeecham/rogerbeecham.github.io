@@ -1,0 +1,24 @@
+---
+title: "Some risks and opportunities of automated data analysis"
+date: 2024-06-25
+description: "Some thoughts arising from our TMCF 2024 workshop at the Alan Turing Institute."
+title-block-banner: "#32251f"
+
+
+categories:
+  - AI
+  - automated analysis
+  - integrative modelling
+
+format:
+  html:
+    shift-heading-level-by: 1
+---
+
+```{=html}
+<meta http-equiv="refresh" content="0; url=https://theory4ida.github.io/tmcf/posts/01-models/">
+<script>
+  window.location.replace("https://theory4ida.github.io/tmcf/posts/01-models/");
+</script>
+<p>Redirecting to the TMCF post. If you are not redirected, <a href="https://theory4ida.github.io/tmcf/posts/01-models/">click here</a>.</p>
+```
