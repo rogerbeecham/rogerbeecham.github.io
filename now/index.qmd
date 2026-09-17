@@ -38,7 +38,6 @@ As of June 2026, I am focussing on:
 
 **Teaching**
 
-- [GEOG5009](https://catalogue.leeds.ac.uk/Module/TP/GEOG/5009M/202526),
-[Course 1R -- Essex Summer School](https://essexsummerschool.com/summer-school-facts/courses/ess-2025-course-list/1R/) and my upcoming UG vis module [GEOG3965](https://catalogue.leeds.ac.uk/Module/UG/GEOG/3965/202627).
+- My upcoming UG vis module [GEOG3965](https://catalogue.leeds.ac.uk/Module/UG/GEOG/3965/202627).
 
  <!-- <br> {{< fa bullhorn size=large >}} We're recruiting [2x postdocs](https://in-fuze.org.uk/research-at-infuze/) and 2x [fully-funded PhDs](https://in-fuze.org.uk/research-at-infuze/). -->

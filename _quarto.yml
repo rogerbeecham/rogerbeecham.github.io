@@ -41,8 +41,6 @@ website:
     left:
       - href: index.qmd
         text: About
-      - href: cv/index.qmd
-        text: CV
       - text: Blog
         file: blog/index.qmd
       - href: research/index.qmd
