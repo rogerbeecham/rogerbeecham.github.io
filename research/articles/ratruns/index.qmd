@@ -1,0 +1,68 @@
+---
+title: "Spotting rat-runs: A network-based method for identifying potential cut-through routes in Bogotá, Colombia"
+date: 2026-07-01
+author:
+  - name: Juan P. Fonseca-Zamora
+    affiliation: Institute for Transport Studies and School of Geography, University of Leeds
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+  - name: James Tate
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Robin Lovelace
+    url: https://www.robinlovelace.net/
+    orcid: 0000-0001-5679-6536
+    affiliation: Institute for Transport Studies, University of Leeds
+categories: 
+  - graph theory
+  - multilevel modelling
+  - transportation
+pub-info:
+  reference: >-
+    Juan P. Fonseca-Zamora, <strong>Roger Beecham</strong>, James Tate and <a href="https://www.robinlovelace.net/">Robin Lovelace</a> (2026) “Spotting rat-runs: A network-based method for identifying potential cut-through routes in Bogotá, Colombia”, <em>Computers, Environment and Urban Systems</em>, 129, 102488, doi: <a href="https://doi.org/10.1016/j.compenvurbsys.2026.102488"><code>10.1016/j.compenvurbsys.2026.102488</code></a>
+  links:
+    - name: Final version
+      url: https://www.sciencedirect.com/science/article/pii/S0198971526000906
+      icon: fa-solid fa-scroll
+    - name: Accepted manuscript
+      url: https://eprints.whiterose.ac.uk/id/eprint/242861/
+      icon: fa-solid fa-file-pdf
+    # - name: Code
+    #   url: https://github.com/<user>/<repo>
+    #   icon: fa-brands fa-github
+
+doi: 10.1016/j.compenvurbsys.2026.102488
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://doi.org/10.1016/j.compenvurbsys.2026.102488)
+- [Accepted manuscript (White Rose Research Online)](https://eprints.whiterose.ac.uk/id/eprint/242861/)
+
+
+## Abstract
+
+Traffic congestion is a growing challenge in many cities. As major corridors become congested, drivers may seek alternative routes through local roads. While this practice, commonly known as ‘rat-running’, reflects an adaptive use of the network to maintain travel efficiency, its concentration in residential areas negatively impacts local populations through reduced road safety, increased pollution, and community severance. Authorities face the complex task of managing these flows to balance overall network efficiency with neighbourhood liveability. However, efforts to assess through-traffic prevalence and target interventions are constrained by limited data, and no systematically established approach currently exists for screening residential networks at city scale. We propose a screening methodology to flag local streets susceptible to cut-through traffic using open data and network analysis. Applying the method to Bogotá, Colombia, we integrated OpenStreetMap road network data, observed speeds on major roads, and traffic offence reports as a proxy for traffic presence. By calculating changes in betweenness centrality (ΔBC) relative to uncongested baseline conditions throughout the day on a travel-time-weighted network graph, we quantified each link's susceptibility to receiving redistributed traffic during congestion. Finally, using a multilevel logistic model, we found that increased ΔBC on residential streets was positively and significantly associated with a higher probability of traffic violation reports. This relationship varied across city sectors, reflecting the influence of local network structure and traffic enforcement intensity. The methodology enables proactive screening independent of historical data. By identifying areas with a high propensity for through-traffic, it supports urban planners and authorities in targeting traffic management interventions, allocating enforcement resources, and informing transport model development.
+
+
+## Important figures
+
+![Links with increased centrality (BC) in eight areas in Bogot´ a during rush hour (PM peak), accounting for changes in average speeds on the road network. Segments above median are highlighted in red, indicating likely cut-through routes. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)](featured.png)
+
+
+
+## BibTeX citation
+
+```bibtex
+@article{fonseca-zamora_spotting_2026,
+  author = {Fonseca-Zamora, J. P. and Beecham, R. and Tate, J. and Lovelace, R.},
+  doi = {10.1016/j.compenvurbsys.2026.102488},
+  journal = {Computers, Environment and Urban Systems},
+  title = {Spotting rat-runs: A network-based method for identifying potential cut-through routes in {Bogotá}, {Colombia}},
+  volume = {129},
+  pages = {102488},
+  year = {2026}
+}
+```
+

@@ -1,0 +1,69 @@
+---
+title: "Producing neighbourhood estimates of food insecurity for England and Wales"
+date: 2026-09-10
+author:
+  - name: Stephen Clark
+    url: https://environment.leeds.ac.uk/geography/staff/1016/dr-stephen-clark
+    orcid: 0000-0003-4090-6002
+    affiliation: School of Geography, University of Leeds
+  - name: Rachel Oldroyd
+    orcid: 0000-0003-3422-7396
+    affiliation: School of Geography, University of Leeds
+  - name: Roger Beecham
+    url: http://www.roger-beecham.com/
+    orcid: 0000-0001-8563-7251
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - small-area estimation
+  - food insecurity
+  - deprivation
+  - health geography
+pub-info:
+  reference: >-
+    Stephen Clark, Rachel Oldroyd and <strong>Roger Beecham</strong> (2026) “Producing neighbourhood estimates of food insecurity for England and Wales”, <em>Food Policy</em>, 144, 103191, doi: <a href="https://doi.org/10.1016/j.foodpol.2026.103191"><code>10.1016/j.foodpol.2026.103191</code></a>
+  links:
+    - name: Final version
+      url: https://www.sciencedirect.com/science/article/pii/S0306919226001600
+      icon: fa-solid fa-scroll
+    - name: Accepted manuscript
+      url: https://eprints.whiterose.ac.uk/id/eprint/245779/
+      icon: fa-solid fa-file-pdf
+    # - name: Code
+    #   url: https://github.com/rogerbeecham/<repo>
+    #   icon: fa-brands fa-github
+
+doi: 10.1016/j.foodpol.2026.103191
+haiku:
+---
+## Important links
+
+- [Paper (OpenAccess)](https://doi.org/10.1016/j.foodpol.2026.103191)
+- [Accepted manuscript (White Rose Research Online)](https://eprints.whiterose.ac.uk/id/eprint/245779/)
+
+
+## Abstract
+
+Rising prices associated with numerous societal shocks in the 2020s have placed a financial burden on many households. One consequence has been the reduced ability for households to afford staples such as food, with growing evidence that food insecurity is increasing. Addressing such insecurity requires effective policy responses, including both targeted support for vulnerable individuals and place-based interventions aimed at struggling neighbourhoods. If the latter approach is adopted, robust measures of neighbourhood food insecurity are required to efficiently target local policy interventions and assess the effectiveness of national policies. This study reports the results of the application of a small area estimation technique, spatial microsimulation, to provide neighbourhood scale estimates of the percentage of adults that self-report as food insecure. The technique combines data that provides a detailed picture of the generic nature of a neighbourhood and survey data that is specifically concerned with food and dietary experiences to produce these estimates. A comparison of these direct estimates of food insecure adults with both proxy food security and general-purpose indicators of deprivation shows good agreement. The study concludes that if an area-based approach to tackling food insecurity is preferred to a more complex individually targeted approach, general-purpose indicators provide a robust basis for identifying neighbourhoods where policy interventions should be prioritised.
+
+
+## Important figures
+
+![Percentage of food insecure adults in each MSOA for 2020 left, and 2023 right.](featured.png)
+
+
+
+## BibTeX citation
+
+```bibtex
+@article{clark_producing_2026,
+  author = {Clark, S. and Oldroyd, R. and Beecham, R.},
+  doi = {10.1016/j.foodpol.2026.103191},
+  journal = {Food Policy},
+  title = {Producing neighbourhood estimates of food insecurity for England and Wales},
+  volume = {144},
+  pages = {103191},
+  year = {2026}
+}
+```
+
+

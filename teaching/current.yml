@@ -1,10 +1,10 @@
-- title: Visualization for Geographic Data Science
-  description: "Visual techniques for data processing, exploratory analysis, model building and communication"
+- title: Visualization for Social and Environmental Science
+  description: "Data processing, exploratory analysis, model building and communication"
   university: University of Leeds
-  number: GEOG 5099
-  url: https://www.roger-beecham.com/vis-for-gds/
-  logo: logos/vis4gds.png
+  number: GEOG 3965
+  url: https://www.roger-beecham.com/
+  logo: 
   semester:
-  - name: Summer 2025
-    url: https://www.roger-beecham.com/vis-for-gds/
+  - name: Spring 2027
+    url: https://www.roger-beecham.com/
 
